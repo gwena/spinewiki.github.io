@@ -7,13 +7,5 @@ order : 4
 ---
 {% include JB/setup %}
 
-<p>
-These are the concrete activities we use to get the work done. 
-</p>
-
-<p>
-Answers the question: <i>We do _____ to create or increase value...</i>
-</p>
-
 {% assign posts_collate = (site.posts | where: "category" , "Practice") %}
 {% include JB/posts_collate %}

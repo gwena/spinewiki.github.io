@@ -3,9 +3,7 @@
   href: "/"
   subcategories:
     - subtitle: "What is it?"
-      subhref: "/explanation/introduction/"
-    - subtitle: "Archetypes"
-      subhref: "/archetypes.html"
+      subhref: "http://spinemodel.info"
     - subtitle: "FAQs"
       subhref: "/faq.html"
     - subtitle: "Tags"
@@ -24,4 +22,5 @@
       subhref: "/practices.html"
     - subtitle: "Tools"
       subhref: "/tools.html"
-
+    - subtitle: "Archetypes"
+      subhref: "/archetypes.html"

@@ -6,23 +6,16 @@ tagline: a free Spine Model catalog to which anyone can contribute
 {% include JB/setup %}
 
 ## New to the Spine Model?
-If you're not familiar with the Spine Model, we recommend you [learn the basic ideas behind the model first](/explanation/introduction/), before diving into the catalog.
+If you're not familiar with the Spine Model, we recommend you [learn the basic ideas behind the model first](http://spinemodel.info), before diving into this catalog.
 
 ## What is the purpose of this wiki?
 The Spine Model can be applied to any human system and the individuals in it.
 
 This wiki catalogs each level of the model and its various implementations in a way that creates an encyclopedia that anyone can draw from and [contribute to](https://github.com/SpineModel/spinemodel.github.io).
 
-## Using the Spine Model 
-
-* [Have effective conversations](/explanation/effectiveconversations)
-* [Provide enabling constraints](/explanation/enablingconstraints)
-* [Map and compare work systems](/explanation/mapworksystems)
-* [Have somewhere to start](/explanation/somewheretostart)
-
 ## Most recent contributions...
 <ul class="posts">
-  {% for post in site.posts limit:8 %}
+  {% for post in site.posts limit:10 %}
     
     <!-- Add a dash if there is a tagline -->
     {% assign spacer = "-" %}
