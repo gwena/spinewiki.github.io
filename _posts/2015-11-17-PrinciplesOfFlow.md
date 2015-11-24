@@ -4,7 +4,7 @@ title: Principles of Flow
 category : Principle
 tagline: ""
 author: Kevin Trethewey
-tags: [flow]
+tags: [Flow]
 ---
 {% include JB/setup %}
 

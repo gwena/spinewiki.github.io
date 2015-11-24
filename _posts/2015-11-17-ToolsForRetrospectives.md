@@ -4,7 +4,7 @@ title: Tools for Retrospectives
 category : Tool
 tagline: ""
 author: Kevin Trethewey
-tags: []
+tags: [Agile]
 ---
 {% include JB/setup %}
 

@@ -4,7 +4,7 @@ title: Tools for Visualising Work In Progress
 category : Tool
 tagline: ""
 author: Kevin Trethewey
-tags: []
+tags: [Tool]
 ---
 {% include JB/setup %}
 

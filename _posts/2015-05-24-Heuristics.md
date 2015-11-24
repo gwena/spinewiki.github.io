@@ -4,7 +4,7 @@ title: Heuristics
 category : Explanation
 tagline: ""
 author: Kevin Trethewey
-tags: [meta]
+tags: [Explanation]
 ---
 {% include JB/setup %}
 
