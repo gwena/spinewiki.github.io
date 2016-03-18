@@ -1,28 +1,2151 @@
----
-layout: null
-title : RSS Feed
----
-
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-        <title>{{ site.title }}</title>
-        <description>{{ site.title }} - {{ site.author.name }}</description>
-        <link>{{ site.production_url }}{{ site.rss_path }}</link>
-        <link>{{ site.production_url }}</link>
-        <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
-        <pubDate>{{ site.time | date_to_xmlschema }}</pubDate>
+        <title>Spine Wiki</title>
+        <description>Spine Wiki - Kevin Trethewey, Danie Roux, Joanne Perold and Collaborators</description>
+        <link>http://spinemodel.github.io</link>
+        <link>http://spinemodel.github.io</link>
+        <lastBuildDate>2016-03-18T09:06:42+02:00</lastBuildDate>
+        <pubDate>2016-03-18T09:06:42+02:00</pubDate>
         <ttl>1800</ttl>
 
-{% for post in site.posts %}
+
         <item>
-                <title>{{ post.title }}</title>
-                <description>{{ post.content | xml_escape }}</description>
-                <link>{{ site.production_url }}{{ post.url }}</link>
-                <guid>{{ site.production_url }}{{ post.id }}</guid>
-                <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+                <title>Generic List of Values</title>
+                <description>
+&lt;ul&gt;
+  &lt;li&gt;Abundance&lt;/li&gt;
+  &lt;li&gt;Acceptance&lt;/li&gt;
+  &lt;li&gt;Accessibility&lt;/li&gt;
+  &lt;li&gt;Accomplishment&lt;/li&gt;
+  &lt;li&gt;Accountability&lt;/li&gt;
+  &lt;li&gt;Accuracy&lt;/li&gt;
+  &lt;li&gt;Achievement&lt;/li&gt;
+  &lt;li&gt;Acknowledgement&lt;/li&gt;
+  &lt;li&gt;Activeness&lt;/li&gt;
+  &lt;li&gt;Activism&lt;/li&gt;
+  &lt;li&gt;Adaptability&lt;/li&gt;
+  &lt;li&gt;Adoration&lt;/li&gt;
+  &lt;li&gt;Adroitness&lt;/li&gt;
+  &lt;li&gt;Advancement&lt;/li&gt;
+  &lt;li&gt;Adventure&lt;/li&gt;
+  &lt;li&gt;Affection&lt;/li&gt;
+  &lt;li&gt;Affluence&lt;/li&gt;
+  &lt;li&gt;Aggressiveness&lt;/li&gt;
+  &lt;li&gt;Agility&lt;/li&gt;
+  &lt;li&gt;Alertness&lt;/li&gt;
+  &lt;li&gt;Altruism&lt;/li&gt;
+  &lt;li&gt;Amazement&lt;/li&gt;
+  &lt;li&gt;Ambition&lt;/li&gt;
+  &lt;li&gt;Amusement&lt;/li&gt;
+  &lt;li&gt;Anticipation&lt;/li&gt;
+  &lt;li&gt;Appreciation&lt;/li&gt;
+  &lt;li&gt;Approachability&lt;/li&gt;
+  &lt;li&gt;Approval&lt;/li&gt;
+  &lt;li&gt;Art&lt;/li&gt;
+  &lt;li&gt;Articulacy&lt;/li&gt;
+  &lt;li&gt;Artistry&lt;/li&gt;
+  &lt;li&gt;Assertiveness&lt;/li&gt;
+  &lt;li&gt;Assurance&lt;/li&gt;
+  &lt;li&gt;Attainment&lt;/li&gt;
+  &lt;li&gt;Attention&lt;/li&gt;
+  &lt;li&gt;Attentiveness&lt;/li&gt;
+  &lt;li&gt;Attractiveness&lt;/li&gt;
+  &lt;li&gt;Audacity&lt;/li&gt;
+  &lt;li&gt;Availability&lt;/li&gt;
+  &lt;li&gt;Awareness&lt;/li&gt;
+  &lt;li&gt;Awe&lt;/li&gt;
+  &lt;li&gt;Balance&lt;/li&gt;
+  &lt;li&gt;Beauty&lt;/li&gt;
+  &lt;li&gt;Being present&lt;/li&gt;
+  &lt;li&gt;Belonging&lt;/li&gt;
+  &lt;li&gt;Benevolence&lt;/li&gt;
+  &lt;li&gt;Bliss&lt;/li&gt;
+  &lt;li&gt;Boldness&lt;/li&gt;
+  &lt;li&gt;Bravery&lt;/li&gt;
+  &lt;li&gt;Brilliance&lt;/li&gt;
+  &lt;li&gt;Buoyancy&lt;/li&gt;
+  &lt;li&gt;Calmness&lt;/li&gt;
+  &lt;li&gt;Camaraderie&lt;/li&gt;
+  &lt;li&gt;Candor&lt;/li&gt;
+  &lt;li&gt;Capability&lt;/li&gt;
+  &lt;li&gt;Caring&lt;/li&gt;
+  &lt;li&gt;Caution&lt;/li&gt;
+  &lt;li&gt;Certainty&lt;/li&gt;
+  &lt;li&gt;Challenge&lt;/li&gt;
+  &lt;li&gt;Change&lt;/li&gt;
+  &lt;li&gt;Charity&lt;/li&gt;
+  &lt;li&gt;Charm&lt;/li&gt;
+  &lt;li&gt;Chastity&lt;/li&gt;
+  &lt;li&gt;Cheerfulness&lt;/li&gt;
+  &lt;li&gt;Clarity&lt;/li&gt;
+  &lt;li&gt;Cleanliness&lt;/li&gt;
+  &lt;li&gt;Cleverness&lt;/li&gt;
+  &lt;li&gt;Closeness&lt;/li&gt;
+  &lt;li&gt;Comfort&lt;/li&gt;
+  &lt;li&gt;Commitment&lt;/li&gt;
+  &lt;li&gt;Communication&lt;/li&gt;
+  &lt;li&gt;Community&lt;/li&gt;
+  &lt;li&gt;Compassion&lt;/li&gt;
+  &lt;li&gt;Competence&lt;/li&gt;
+  &lt;li&gt;Competition&lt;/li&gt;
+  &lt;li&gt;Completion&lt;/li&gt;
+  &lt;li&gt;Composure&lt;/li&gt;
+  &lt;li&gt;Concentration&lt;/li&gt;
+  &lt;li&gt;Conciseness&lt;/li&gt;
+  &lt;li&gt;Confidence&lt;/li&gt;
+  &lt;li&gt;Conformity&lt;/li&gt;
+  &lt;li&gt;Congruency&lt;/li&gt;
+  &lt;li&gt;Connection&lt;/li&gt;
+  &lt;li&gt;Consciousness&lt;/li&gt;
+  &lt;li&gt;Conservation&lt;/li&gt;
+  &lt;li&gt;Consistency&lt;/li&gt;
+  &lt;li&gt;Contentment&lt;/li&gt;
+  &lt;li&gt;Continuity&lt;/li&gt;
+  &lt;li&gt;Contribution&lt;/li&gt;
+  &lt;li&gt;Control&lt;/li&gt;
+  &lt;li&gt;Conviction&lt;/li&gt;
+  &lt;li&gt;Coolness&lt;/li&gt;
+  &lt;li&gt;Cooperation&lt;/li&gt;
+  &lt;li&gt;Cordiality&lt;/li&gt;
+  &lt;li&gt;Correctness&lt;/li&gt;
+  &lt;li&gt;Courage&lt;/li&gt;
+  &lt;li&gt;Courtesy&lt;/li&gt;
+  &lt;li&gt;Craftiness&lt;/li&gt;
+  &lt;li&gt;Creativity&lt;/li&gt;
+  &lt;li&gt;Credibility&lt;/li&gt;
+  &lt;li&gt;Cunning&lt;/li&gt;
+  &lt;li&gt;Curiosity&lt;/li&gt;
+  &lt;li&gt;Daring&lt;/li&gt;
+  &lt;li&gt;Decisiveness&lt;/li&gt;
+  &lt;li&gt;Deference&lt;/li&gt;
+  &lt;li&gt;Delight&lt;/li&gt;
+  &lt;li&gt;Dependability&lt;/li&gt;
+  &lt;li&gt;Depth&lt;/li&gt;
+  &lt;li&gt;Desire&lt;/li&gt;
+  &lt;li&gt;Detail&lt;/li&gt;
+  &lt;li&gt;Determination&lt;/li&gt;
+  &lt;li&gt;Devotion&lt;/li&gt;
+  &lt;li&gt;Devoutness&lt;/li&gt;
+  &lt;li&gt;Dignity&lt;/li&gt;
+  &lt;li&gt;Diligence&lt;/li&gt;
+  &lt;li&gt;Direction&lt;/li&gt;
+  &lt;li&gt;Directness&lt;/li&gt;
+  &lt;li&gt;Discipline&lt;/li&gt;
+  &lt;li&gt;Discovery&lt;/li&gt;
+  &lt;li&gt;Discretion&lt;/li&gt;
+  &lt;li&gt;Diversity&lt;/li&gt;
+  &lt;li&gt;Dominance&lt;/li&gt;
+  &lt;li&gt;Dreaming&lt;/li&gt;
+  &lt;li&gt;Drive&lt;/li&gt;
+  &lt;li&gt;Duty&lt;/li&gt;
+  &lt;li&gt;Eagerness&lt;/li&gt;
+  &lt;li&gt;Ease&lt;/li&gt;
+  &lt;li&gt;Economy&lt;/li&gt;
+  &lt;li&gt;Ecstasy&lt;/li&gt;
+  &lt;li&gt;Education&lt;/li&gt;
+  &lt;li&gt;Effectiveness&lt;/li&gt;
+  &lt;li&gt;Efficiency&lt;/li&gt;
+  &lt;li&gt;Elation&lt;/li&gt;
+  &lt;li&gt;Elegance&lt;/li&gt;
+  &lt;li&gt;Empathy&lt;/li&gt;
+  &lt;li&gt;Encouragement&lt;/li&gt;
+  &lt;li&gt;Endurance&lt;/li&gt;
+  &lt;li&gt;Energy&lt;/li&gt;
+  &lt;li&gt;Enjoyment&lt;/li&gt;
+  &lt;li&gt;Enlightenment&lt;/li&gt;
+  &lt;li&gt;Entertainment&lt;/li&gt;
+  &lt;li&gt;Enthusiasm&lt;/li&gt;
+  &lt;li&gt;Environment&lt;/li&gt;
+  &lt;li&gt;Equanimity&lt;/li&gt;
+  &lt;li&gt;Ethics&lt;/li&gt;
+  &lt;li&gt;Excellence&lt;/li&gt;
+  &lt;li&gt;Excitement&lt;/li&gt;
+  &lt;li&gt;Exhilaration&lt;/li&gt;
+  &lt;li&gt;Expediency&lt;/li&gt;
+  &lt;li&gt;Experience&lt;/li&gt;
+  &lt;li&gt;Expertise&lt;/li&gt;
+  &lt;li&gt;Exploration&lt;/li&gt;
+  &lt;li&gt;Expressiveness&lt;/li&gt;
+  &lt;li&gt;Extravagance&lt;/li&gt;
+  &lt;li&gt;Extroversion&lt;/li&gt;
+  &lt;li&gt;Exuberance&lt;/li&gt;
+  &lt;li&gt;Fairness&lt;/li&gt;
+  &lt;li&gt;Faith&lt;/li&gt;
+  &lt;li&gt;Fame&lt;/li&gt;
+  &lt;li&gt;Family&lt;/li&gt;
+  &lt;li&gt;Fascination&lt;/li&gt;
+  &lt;li&gt;Fearlessness&lt;/li&gt;
+  &lt;li&gt;Ferocity&lt;/li&gt;
+  &lt;li&gt;Fidelity&lt;/li&gt;
+  &lt;li&gt;Fierceness&lt;/li&gt;
+  &lt;li&gt;Firmness&lt;/li&gt;
+  &lt;li&gt;Fitness&lt;/li&gt;
+  &lt;li&gt;Flexibility&lt;/li&gt;
+  &lt;li&gt;Flow&lt;/li&gt;
+  &lt;li&gt;Fluency&lt;/li&gt;
+  &lt;li&gt;Focus&lt;/li&gt;
+  &lt;li&gt;Fortitude&lt;/li&gt;
+  &lt;li&gt;Frankness&lt;/li&gt;
+  &lt;li&gt;Freedom&lt;/li&gt;
+  &lt;li&gt;Friendliness&lt;/li&gt;
+  &lt;li&gt;Friendship&lt;/li&gt;
+  &lt;li&gt;Frugality&lt;/li&gt;
+  &lt;li&gt;Fun&lt;/li&gt;
+  &lt;li&gt;Gallantry  Generosity&lt;/li&gt;
+  &lt;li&gt;Gentility&lt;/li&gt;
+  &lt;li&gt;Giving&lt;/li&gt;
+  &lt;li&gt;Grace&lt;/li&gt;
+  &lt;li&gt;Gratitude&lt;/li&gt;
+  &lt;li&gt;Gregariousness&lt;/li&gt;
+  &lt;li&gt;Growth&lt;/li&gt;
+  &lt;li&gt;Guidance&lt;/li&gt;
+  &lt;li&gt;Happiness&lt;/li&gt;
+  &lt;li&gt;Harmony&lt;/li&gt;
+  &lt;li&gt;Health&lt;/li&gt;
+  &lt;li&gt;Heart&lt;/li&gt;
+  &lt;li&gt;Helpfulness&lt;/li&gt;
+  &lt;li&gt;Heroism&lt;/li&gt;
+  &lt;li&gt;Holism&lt;/li&gt;
+  &lt;li&gt;Honesty&lt;/li&gt;
+  &lt;li&gt;Honor&lt;/li&gt;
+  &lt;li&gt;Hopefulness&lt;/li&gt;
+  &lt;li&gt;Hospitality&lt;/li&gt;
+  &lt;li&gt;Humanity&lt;/li&gt;
+  &lt;li&gt;Humility&lt;/li&gt;
+  &lt;li&gt;Humor&lt;/li&gt;
+  &lt;li&gt;Hygiene&lt;/li&gt;
+  &lt;li&gt;Imagination&lt;/li&gt;
+  &lt;li&gt;Impact&lt;/li&gt;
+  &lt;li&gt;Impartiality&lt;/li&gt;
+  &lt;li&gt;Independence&lt;/li&gt;
+  &lt;li&gt;Individuality&lt;/li&gt;
+  &lt;li&gt;Industry&lt;/li&gt;
+  &lt;li&gt;Influence&lt;/li&gt;
+  &lt;li&gt;Ingenuity&lt;/li&gt;
+  &lt;li&gt;Inquisitiveness&lt;/li&gt;
+  &lt;li&gt;Insightfulness&lt;/li&gt;
+  &lt;li&gt;Inspiration&lt;/li&gt;
+  &lt;li&gt;Integrity&lt;/li&gt;
+  &lt;li&gt;Intellect&lt;/li&gt;
+  &lt;li&gt;Intelligence&lt;/li&gt;
+  &lt;li&gt;Intimacy&lt;/li&gt;
+  &lt;li&gt;Intrepidness&lt;/li&gt;
+  &lt;li&gt;Intrigue&lt;/li&gt;
+  &lt;li&gt;Introspection&lt;/li&gt;
+  &lt;li&gt;Introversion&lt;/li&gt;
+  &lt;li&gt;Intuition&lt;/li&gt;
+  &lt;li&gt;Intuitiveness&lt;/li&gt;
+  &lt;li&gt;Inventiveness&lt;/li&gt;
+  &lt;li&gt;Involvement&lt;/li&gt;
+  &lt;li&gt;Joy&lt;/li&gt;
+  &lt;li&gt;Judiciousness&lt;/li&gt;
+  &lt;li&gt;Justice&lt;/li&gt;
+  &lt;li&gt;Keenness&lt;/li&gt;
+  &lt;li&gt;Kindness&lt;/li&gt;
+  &lt;li&gt;Knowledge&lt;/li&gt;
+  &lt;li&gt;Laid back-ness&lt;/li&gt;
+  &lt;li&gt;Leadership&lt;/li&gt;
+  &lt;li&gt;Learning&lt;/li&gt;
+  &lt;li&gt;Legacy&lt;/li&gt;
+  &lt;li&gt;Liberation&lt;/li&gt;
+  &lt;li&gt;Liberty&lt;/li&gt;
+  &lt;li&gt;Lightness&lt;/li&gt;
+  &lt;li&gt;Liveliness&lt;/li&gt;
+  &lt;li&gt;Logic&lt;/li&gt;
+  &lt;li&gt;Longevity&lt;/li&gt;
+  &lt;li&gt;Love&lt;/li&gt;
+  &lt;li&gt;Loyalty&lt;/li&gt;
+  &lt;li&gt;Majesty&lt;/li&gt;
+  &lt;li&gt;Manners&lt;/li&gt;
+  &lt;li&gt;Marriage&lt;/li&gt;
+  &lt;li&gt;Mastery&lt;/li&gt;
+  &lt;li&gt;Maturity&lt;/li&gt;
+  &lt;li&gt;Meaning&lt;/li&gt;
+  &lt;li&gt;Meekness&lt;/li&gt;
+  &lt;li&gt;Mellowness&lt;/li&gt;
+  &lt;li&gt;Mindfulness&lt;/li&gt;
+  &lt;li&gt;Modesty&lt;/li&gt;
+  &lt;li&gt;Motivation&lt;/li&gt;
+  &lt;li&gt;Mystery&lt;/li&gt;
+  &lt;li&gt;Nature&lt;/li&gt;
+  &lt;li&gt;Neatness&lt;/li&gt;
+  &lt;li&gt;Nerve&lt;/li&gt;
+  &lt;li&gt;Non-conformity&lt;/li&gt;
+  &lt;li&gt;Obedience&lt;/li&gt;
+  &lt;li&gt;Open mindedness&lt;/li&gt;
+  &lt;li&gt;Openness&lt;/li&gt;
+  &lt;li&gt;Optimism&lt;/li&gt;
+  &lt;li&gt;Order&lt;/li&gt;
+  &lt;li&gt;Organization&lt;/li&gt;
+  &lt;li&gt;Originality&lt;/li&gt;
+  &lt;li&gt;Outdoors&lt;/li&gt;
+  &lt;li&gt;Outlandishness&lt;/li&gt;
+  &lt;li&gt;Outrageousness&lt;/li&gt;
+  &lt;li&gt;Partnership&lt;/li&gt;
+  &lt;li&gt;Passion&lt;/li&gt;
+  &lt;li&gt;Patience&lt;/li&gt;
+  &lt;li&gt;Patriotism&lt;/li&gt;
+  &lt;li&gt;Peace&lt;/li&gt;
+  &lt;li&gt;Perceptiveness&lt;/li&gt;
+  &lt;li&gt;Perkiness&lt;/li&gt;
+  &lt;li&gt;Perseverance&lt;/li&gt;
+  &lt;li&gt;Persistence&lt;/li&gt;
+  &lt;li&gt;Persuasiveness&lt;/li&gt;
+  &lt;li&gt;Philanthropy&lt;/li&gt;
+  &lt;li&gt;Piety&lt;/li&gt;
+  &lt;li&gt;Playfulness&lt;/li&gt;
+  &lt;li&gt;Pleasantness&lt;/li&gt;
+  &lt;li&gt;Pleasure&lt;/li&gt;
+  &lt;li&gt;Poise&lt;/li&gt;
+  &lt;li&gt;Polish&lt;/li&gt;
+  &lt;li&gt;Popularity&lt;/li&gt;
+  &lt;li&gt;Power&lt;/li&gt;
+  &lt;li&gt;Practicality&lt;/li&gt;
+  &lt;li&gt;Pragmatism&lt;/li&gt;
+  &lt;li&gt;Precision&lt;/li&gt;
+  &lt;li&gt;Preparedness&lt;/li&gt;
+  &lt;li&gt;Presence&lt;/li&gt;
+  &lt;li&gt;Pride&lt;/li&gt;
+  &lt;li&gt;Privacy&lt;/li&gt;
+  &lt;li&gt;Professionalism&lt;/li&gt;
+  &lt;li&gt;Prosperity&lt;/li&gt;
+  &lt;li&gt;Prudence&lt;/li&gt;
+  &lt;li&gt;Punctuality&lt;/li&gt;
+  &lt;li&gt;Purity&lt;/li&gt;
+  &lt;li&gt;Quiet&lt;/li&gt;
+  &lt;li&gt;Quirkiness&lt;/li&gt;
+  &lt;li&gt;Rationality&lt;/li&gt;
+  &lt;li&gt;Realism&lt;/li&gt;
+  &lt;li&gt;Reason&lt;/li&gt;
+  &lt;li&gt;Recognition&lt;/li&gt;
+  &lt;li&gt;Recreation&lt;/li&gt;
+  &lt;li&gt;Refinement&lt;/li&gt;
+  &lt;li&gt;Reflection&lt;/li&gt;
+  &lt;li&gt;Relaxation&lt;/li&gt;
+  &lt;li&gt;Reliability&lt;/li&gt;
+  &lt;li&gt;Relief&lt;/li&gt;
+  &lt;li&gt;Religiousness&lt;/li&gt;
+  &lt;li&gt;Reputation&lt;/li&gt;
+  &lt;li&gt;Resilience&lt;/li&gt;
+  &lt;li&gt;Resolution&lt;/li&gt;
+  &lt;li&gt;Resoluteness&lt;/li&gt;
+  &lt;li&gt;Resolve&lt;/li&gt;
+  &lt;li&gt;Resourcefulness&lt;/li&gt;
+  &lt;li&gt;Respect&lt;/li&gt;
+  &lt;li&gt;Responsibility&lt;/li&gt;
+  &lt;li&gt;Restraint&lt;/li&gt;
+  &lt;li&gt;Reverence&lt;/li&gt;
+  &lt;li&gt;Richness&lt;/li&gt;
+  &lt;li&gt;Rigor&lt;/li&gt;
+  &lt;li&gt;Sacredness&lt;/li&gt;
+  &lt;li&gt;Sacrifice&lt;/li&gt;
+  &lt;li&gt;Satisfaction&lt;/li&gt;
+  &lt;li&gt;Security&lt;/li&gt;
+  &lt;li&gt;Self-control&lt;/li&gt;
+  &lt;li&gt;Self-growth&lt;/li&gt;
+  &lt;li&gt;Selflessness&lt;/li&gt;
+  &lt;li&gt;Self-reliance&lt;/li&gt;
+  &lt;li&gt;Self-respect&lt;/li&gt;
+  &lt;li&gt;Self-sustainability&lt;/li&gt;
+  &lt;li&gt;Sensitivity&lt;/li&gt;
+  &lt;li&gt;Sensuality&lt;/li&gt;
+  &lt;li&gt;Serenity&lt;/li&gt;
+  &lt;li&gt;Service&lt;/li&gt;
+  &lt;li&gt;Sexiness&lt;/li&gt;
+  &lt;li&gt;Sexuality&lt;/li&gt;
+  &lt;li&gt;Sharing&lt;/li&gt;
+  &lt;li&gt;Shrewdness&lt;/li&gt;
+  &lt;li&gt;Silence&lt;/li&gt;
+  &lt;li&gt;Silliness&lt;/li&gt;
+  &lt;li&gt;Simplicity&lt;/li&gt;
+  &lt;li&gt;Sincerity&lt;/li&gt;
+  &lt;li&gt;Skillfulness&lt;/li&gt;
+  &lt;li&gt;Solidarity&lt;/li&gt;
+  &lt;li&gt;Solitude&lt;/li&gt;
+  &lt;li&gt;Solution-Focus&lt;/li&gt;
+  &lt;li&gt;Sophistication&lt;/li&gt;
+  &lt;li&gt;Speed&lt;/li&gt;
+  &lt;li&gt;Spirituality&lt;/li&gt;
+  &lt;li&gt;Spontaneity&lt;/li&gt;
+  &lt;li&gt;Stability&lt;/li&gt;
+  &lt;li&gt;Status&lt;/li&gt;
+  &lt;li&gt;Stealth&lt;/li&gt;
+  &lt;li&gt;Stillness&lt;/li&gt;
+  &lt;li&gt;Strategy&lt;/li&gt;
+  &lt;li&gt;Strength&lt;/li&gt;
+  &lt;li&gt;Structure&lt;/li&gt;
+  &lt;li&gt;Success&lt;/li&gt;
+  &lt;li&gt;Support&lt;/li&gt;
+  &lt;li&gt;Sympathy&lt;/li&gt;
+  &lt;li&gt;Synergy&lt;/li&gt;
+  &lt;li&gt;Teaching&lt;/li&gt;
+  &lt;li&gt;Teamwork&lt;/li&gt;
+  &lt;li&gt;Tenacity&lt;/li&gt;
+  &lt;li&gt;Thankfulness&lt;/li&gt;
+  &lt;li&gt;Thoroughness&lt;/li&gt;
+  &lt;li&gt;Thoughtfulness&lt;/li&gt;
+  &lt;li&gt;Thrift&lt;/li&gt;
+  &lt;li&gt;Tidiness&lt;/li&gt;
+  &lt;li&gt;Timeliness&lt;/li&gt;
+  &lt;li&gt;Traditionalism&lt;/li&gt;
+  &lt;li&gt;Tranquility&lt;/li&gt;
+  &lt;li&gt;Transcendence&lt;/li&gt;
+  &lt;li&gt;Trust&lt;/li&gt;
+  &lt;li&gt;Trustworthiness&lt;/li&gt;
+  &lt;li&gt;Truth&lt;/li&gt;
+  &lt;li&gt;Understanding&lt;/li&gt;
+  &lt;li&gt;Uniqueness&lt;/li&gt;
+  &lt;li&gt;Unity&lt;/li&gt;
+  &lt;li&gt;Usefulness&lt;/li&gt;
+  &lt;li&gt;Utility&lt;/li&gt;
+  &lt;li&gt;Valor&lt;/li&gt;
+  &lt;li&gt;Variety&lt;/li&gt;
+  &lt;li&gt;Victory&lt;/li&gt;
+  &lt;li&gt;Vigor&lt;/li&gt;
+  &lt;li&gt;Virtue&lt;/li&gt;
+  &lt;li&gt;Vision&lt;/li&gt;
+  &lt;li&gt;Vitality&lt;/li&gt;
+  &lt;li&gt;Vivacity&lt;/li&gt;
+  &lt;li&gt;Volunteerism&lt;/li&gt;
+  &lt;li&gt;Warmth&lt;/li&gt;
+  &lt;li&gt;Wealth&lt;/li&gt;
+  &lt;li&gt;Wellness&lt;/li&gt;
+  &lt;li&gt;Willfulness&lt;/li&gt;
+  &lt;li&gt;Willingness&lt;/li&gt;
+  &lt;li&gt;Wisdom&lt;/li&gt;
+  &lt;li&gt;Wit&lt;/li&gt;
+  &lt;li&gt;Wonder&lt;/li&gt;
+  &lt;li&gt;Worthiness&lt;/li&gt;
+  &lt;li&gt;Youthfulness&lt;/li&gt;
+  &lt;li&gt;Zeal&lt;/li&gt;
+  &lt;li&gt;Zest&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <link>http://spinemodel.github.io/value/GenericValues</link>
+                <guid>http://spinemodel.github.io/value/GenericValues</guid>
+                <pubDate>2016-01-25T00:00:00+02:00</pubDate>
         </item>
-{% endfor %}
+
+        <item>
+                <title>Whole Team</title>
+                <description>
+&lt;p&gt;All the contributors to an XP project sit together, members of one team. &lt;/p&gt;
+
+&lt;p&gt;This team must include a business representative – the “Customer” – who provides the requirements, sets the priorities, and steers the project. It’s best if the Customer or one of her aides is a real end user who knows the domain and what is needed. The team will of course have programmers. The team may include testers, who help the Customer define the customer acceptance tests. Analysts may serve as helpers to the Customer, helping to define the requirements. There is commonly a coach, who helps the team keep on track, and facilitates the process. There may be a manager, providing resources, handling external communication, coordinating activities. &lt;/p&gt;
+
+&lt;p&gt;None of these roles is necessarily the exclusive property of just one individual: Everyone on an XP team contributes in any way that they can. The best teams have no specialists, only general contributors with special skills.&lt;/p&gt;
+
+&lt;p&gt;For more information, review the &lt;a href=&quot;/archetype/XP/&quot;&gt;XP archetype&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Source: &lt;a href=&quot;http://ronjeffries.com/xprog/what-is-extreme-programming&quot;&gt;Ron Jeffries&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/practice/WholeTeam</link>
+                <guid>http://spinemodel.github.io/practice/WholeTeam</guid>
+                <pubDate>2015-11-22T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Test Driven Development</title>
+                <description>
+&lt;p&gt;Extreme Programming is obsessed with feedback, and in software development, good feedback requires good testing. Top XP teams practice “test-driven development”, working in very short cycles of adding a test, then making it work. Almost effortlessly, teams produce code with nearly 100 percent test coverage, which is a great step forward in most shops. (If your programmers are already doing even more sophisticated testing, more power to you. Keep it up, it can only help!)&lt;/p&gt;
+
+&lt;p&gt;It isn’t enough to write tests: you have to run them. Here, too, Extreme Programming is extreme. These “programmer tests”, or “unit tests” are all collected together, and every time any programmer releases any code to the repository (and pairs typically release twice a day or more), every single one of the programmer tests must run correctly. One hundred percent, all the time! This means that programmers get immediate feedback on how they’re doing. Additionally, these tests provide invaluable support as the software design is improved.&lt;/p&gt;
+
+&lt;p&gt;For more information, review the &lt;a href=&quot;/archetype/XP/&quot;&gt;XP archetype&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Source: &lt;a href=&quot;http://ronjeffries.com/xprog/what-is-extreme-programming&quot;&gt;Ron Jeffries&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/practice/TDD</link>
+                <guid>http://spinemodel.github.io/practice/TDD</guid>
+                <pubDate>2015-11-22T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Sustainable Pace</title>
+                <description>
+&lt;p&gt;Extreme Programming teams are in it for the long term. They work hard, and at a pace that can be sustained indefinitely. This means that they work overtime when it is effective, and that they normally work in such a way as to maximize productivity week in and week out. It’s pretty well understood these days that death march projects are neither productive nor produce quality software. XP teams are in it to win, not to die.&lt;/p&gt;
+
+&lt;p&gt;For more information, review the &lt;a href=&quot;/archetype/XP/&quot;&gt;XP archetype&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Source: &lt;a href=&quot;http://ronjeffries.com/xprog/what-is-extreme-programming&quot;&gt;Ron Jeffries&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/practice/SustainablePace</link>
+                <guid>http://spinemodel.github.io/practice/SustainablePace</guid>
+                <pubDate>2015-11-22T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Small Releases</title>
+                <description>
+&lt;p&gt;XP teams practice small releases in two important ways:&lt;/p&gt;
+
+&lt;p&gt;First, the team releases running, tested software, delivering business value chosen by the Customer, every iteration. The Customer can use this software for any purpose, whether evaluation or even release to end users (highly recommended). The most important aspect is that the software is visible, and given to the customer, at the end of every iteration. This keeps everything open and tangible.&lt;/p&gt;
+
+&lt;p&gt;Second, XP teams release to their end users frequently as well. XP Web projects release as often as daily, in house projects monthly or more frequently. Even shrink-wrapped products are shipped as often as quarterly.&lt;/p&gt;
+
+&lt;p&gt;It may seem impossible to create good versions this often, but XP teams all over are doing it all the time. See &lt;a href=&quot;/practice/ContinuousIntegration&quot;&gt;Continuous Integration&lt;/a&gt; for more on this, and note that these frequent releases are kept reliable by XP’s obsession with testing, as described here in &lt;a href=&quot;/practice/CustomerTests&quot;&gt;Customer Tests&lt;/a&gt; and &lt;a href=&quot;/practice/TDD&quot;&gt;Test-Driven Development&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For more information, review the &lt;a href=&quot;/archetype/XP/&quot;&gt;XP archetype&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Source: &lt;a href=&quot;http://ronjeffries.com/xprog/what-is-extreme-programming&quot;&gt;Ron Jeffries&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/practice/SmallReleases</link>
+                <guid>http://spinemodel.github.io/practice/SmallReleases</guid>
+                <pubDate>2015-11-22T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Simple Design</title>
+                <description>
+&lt;p&gt;XP teams build software to a simple but always adequate design. They start simple, and through &lt;a href=&quot;/practice/TDD&quot;&gt;programmer testing&lt;/a&gt; and &lt;a href=&quot;/practice/Refactoring&quot;&gt;design improvement&lt;/a&gt;, they keep it that way. An XP team keeps the design exactly suited for the current functionality of the system. There is no wasted motion, and the software is always ready for what’s next.&lt;/p&gt;
+
+&lt;p&gt;Design in XP is not a one-time thing, or an up-front thing, it is an all-the-time thing. There are design steps in release planning and iteration planning, plus teams engage in quick design sessions and design revisions through refactoring, through the course of the entire project. In an incremental, iterative process like Extreme Programming, good design is essential. That’s why there is so much focus on design throughout the course of the entire development.&lt;/p&gt;
+
+&lt;p&gt;For more information, review the &lt;a href=&quot;/archetype/XP/&quot;&gt;XP archetype&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Source: &lt;a href=&quot;http://ronjeffries.com/xprog/what-is-extreme-programming&quot;&gt;Ron Jeffries&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/practice/SimpleDesign</link>
+                <guid>http://spinemodel.github.io/practice/SimpleDesign</guid>
+                <pubDate>2015-11-22T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Design Improvement (Refactoring)</title>
+                <description>
+&lt;p&gt;Extreme Programming focuses on delivering business value in every iteration. To accomplish this over the course of the whole project, the software must be well-designed. The alternative would be to slow down and ultimately get stuck. So XP uses a process of continuous design improvement called &lt;em&gt;Refactoring&lt;/em&gt;, from the title of Martin Fowler’s book, “&lt;a href=&quot;http://www.amazon.com/exec/obidos/ASIN/0201485672/armaties&quot;&gt;Refactoring: Improving the Design of Existing Code&lt;/a&gt;”.&lt;/p&gt;
+
+&lt;p&gt;The refactoring process focuses on removal of duplication (a sure sign of poor design), and on increasing the “cohesion” of the code, while lowering the “coupling”. High cohesion and low coupling have been recognized as the hallmarks of well-designed code for at least thirty years. The result is that XP teams start with a good, simple design, and always have a good, simple design for the software. This lets them sustain their development speed, and in fact generally increase speed as the project goes forward.&lt;/p&gt;
+
+&lt;p&gt;Refactoring is, of course, strongly supported by comprehensive testing to be sure that as the design evolves, nothing is broken. Thus the &lt;a href=&quot;/practice/CustomerTests&quot;&gt;customer tests&lt;/a&gt; and &lt;a href=&quot;/practice/TDD&quot;&gt;programmer tests&lt;/a&gt; are a critical enabling factor. The XP practices support each other: they are stronger together than separately.&lt;/p&gt;
+
+&lt;p&gt;For more information, review the &lt;a href=&quot;/archetype/XP/&quot;&gt;XP archetype&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Source: &lt;a href=&quot;http://ronjeffries.com/xprog/what-is-extreme-programming&quot;&gt;Ron Jeffries&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/practice/Refactoring</link>
+                <guid>http://spinemodel.github.io/practice/Refactoring</guid>
+                <pubDate>2015-11-22T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Practices of Extreme Programming</title>
+                <description>
+&lt;p&gt;XP’s philosophy on &lt;a href=&quot;/practices.html&quot;&gt;Practices&lt;/a&gt; is very non-prescriptive, and advises an explorative approach, based on the &lt;a href=&quot;/principle/PrinciplesOfXP&quot;&gt;XP Principles&lt;/a&gt; and &lt;a href=&quot;/value/ValuesOfXP&quot;&gt;XP Values&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;practices-recommended-by-kent-beck&quot;&gt;Practices recommended by Kent Beck&lt;/h2&gt;
+&lt;p&gt;Practices as presented in “eXtreme Programming Explained, 2nd Edition” by &lt;a href=&quot;https://en.wikipedia.org/wiki/Kent_Beck&quot;&gt;Kent Beck&lt;/a&gt;, the second of the &lt;a href=&quot;http://c2.com/cgi/wiki?TheThreeExtremos&quot;&gt;Three Extremos&lt;/a&gt;…&lt;/p&gt;
+
+&lt;h5 id=&quot;primary-practices&quot;&gt;Primary Practices&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sit Together&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/practice/WholeTeam&quot;&gt;Whole Team&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Informative Workspace&lt;/li&gt;
+  &lt;li&gt;Energized Work&lt;/li&gt;
+  &lt;li&gt;Pair Programming&lt;/li&gt;
+  &lt;li&gt;Stories (UserStories)&lt;/li&gt;
+  &lt;li&gt;Weekly Cycle&lt;/li&gt;
+  &lt;li&gt;Quarterly Cycle&lt;/li&gt;
+  &lt;li&gt;Slack&lt;/li&gt;
+  &lt;li&gt;Ten Minute Build&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/practice/ContinuousIntegration&quot;&gt;Continuous Integration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/practice/TDD&quot;&gt;Test First Programming&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Incremental Design&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;corollary-practices&quot;&gt;Corollary Practices&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;Real Customer Involvement&lt;/li&gt;
+  &lt;li&gt;Incremental Deployment&lt;/li&gt;
+  &lt;li&gt;Team Continuity&lt;/li&gt;
+  &lt;li&gt;Shrinking Teams&lt;/li&gt;
+  &lt;li&gt;Root Cause Analysis&lt;/li&gt;
+  &lt;li&gt;Shared Code&lt;/li&gt;
+  &lt;li&gt;Code And Tests&lt;/li&gt;
+  &lt;li&gt;Single Code Base&lt;/li&gt;
+  &lt;li&gt;Daily Deployment&lt;/li&gt;
+  &lt;li&gt;Negotiated Scope Contract&lt;/li&gt;
+  &lt;li&gt;Pay Per Use&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;(Source: &lt;a href=&quot;http://c2.com/cgi/wiki?ExtremeProgrammingCorePractices&quot;&gt;c2 wiki&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;practices-recommended-by-ron-jeffries&quot;&gt;Practices recommended by Ron Jeffries&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Ron_Jeffries&quot;&gt;Ron Jeffries&lt;/a&gt; is the third of the &lt;a href=&quot;http://c2.com/cgi/wiki?TheThreeExtremos&quot;&gt;Three Extremos&lt;/a&gt;…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/practice/WholeTeam&quot;&gt;Whole Team&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/practice/PlanningGame&quot;&gt;Planning Game&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/practice/SmallReleases&quot;&gt;Small Releases&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/practice/CustomerTests&quot;&gt;Customer Tests&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/practice/SimpleDesign&quot;&gt;Simple Design&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/practice/PairProgramming&quot;&gt;Pair Programming&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/practice/TDD&quot;&gt;Test-Driven Development&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/practice/Refactoring&quot;&gt;Design Improvement&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/practice/ContinuousIntegration&quot;&gt;Continuous Integration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/practice/CollectiveCodeOwnership&quot;&gt;Collective Code Ownership&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/practice/CodingStandard&quot;&gt;Coding Standard&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/practice/Metaphor&quot;&gt;Metaphor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/practice/SustainablePace&quot;&gt;Sustainable Pace&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;For more information, review the &lt;a href=&quot;/archetype/XP/&quot;&gt;XP archetype&lt;/a&gt;.&lt;/em&gt; &lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/practice/PracticesOfXP</link>
+                <guid>http://spinemodel.github.io/practice/PracticesOfXP</guid>
+                <pubDate>2015-11-22T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Planning Game</title>
+                <description>
+&lt;p&gt;XP planning addresses two key questions in software development: predicting what will be accomplished by the due date, and determining what to do next. The emphasis is on steering the project – which is quite straightforward – rather than on exact prediction of what will be needed and how long it will take – which is quite difficult. There are two key planning steps in XP, addressing these two questions:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Release Planning&lt;/em&gt; is a practice where the Customer presents the desired features to the programmers, and the programmers estimate their difficulty. With the cost estimates in hand, and with knowledge of the importance of the features, the Customer lays out a plan for the project. Initial release plans are necessarily imprecise: neither the priorities nor the estimates are truly solid, and until the team begins to work, we won’t know just how fast they will go. Even the first release plan is accurate enough for decision making, however, and XP teams revise the release plan regularly.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Iteration Planning&lt;/em&gt; is the practice whereby the team is given direction every couple of weeks. XP teams build software in two-week “iterations”, delivering running useful software at the end of each iteration. During Iteration Planning, the Customer presents the features desired for the next two weeks. The programmers break them down into tasks, and estimate their cost (at a finer level of detail than in Release Planning). Based on the amount of work accomplished in the previous iteration, the team signs up for what will be undertaken in the current iteration.&lt;/p&gt;
+
+&lt;p&gt;These planning steps are very simple, yet they provide very good information and excellent steering control in the hands of the Customer. Every couple of weeks, the amount of progress is entirely visible. There is no “ninety percent done” in XP: a feature story was completed, or it was not. This focus on visibility results in a nice little paradox: on the one hand, with so much visibility, the Customer is in a position to cancel the project if progress is not sufficient. On the other hand, progress is so visible, and the ability to decide what will be done next is so complete, that XP projects tend to deliver more of what is needed, with less pressure and stress.&lt;/p&gt;
+
+&lt;p&gt;For more information, review the &lt;a href=&quot;/archetype/XP/&quot;&gt;XP archetype&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Source: &lt;a href=&quot;http://ronjeffries.com/xprog/what-is-extreme-programming&quot;&gt;Ron Jeffries&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/practice/PlanningGame</link>
+                <guid>http://spinemodel.github.io/practice/PlanningGame</guid>
+                <pubDate>2015-11-22T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Pair Programming</title>
+                <description>
+&lt;p&gt;All production software in XP is built by two programmers, sitting side by side, at the same machine. This practice ensures that all production code is reviewed by at least one other programmer, and results in better design, better testing, and better code.&lt;/p&gt;
+
+&lt;p&gt;It may seem inefficient to have two programmers doing “one programmer’s job”, but the reverse is true. Research into pair programming shows that pairing produces better code in about the same time as programmers working singly. That’s right: two heads really are better than one!&lt;/p&gt;
+
+&lt;p&gt;Some programmers object to pair programming without ever trying it. It does take some practice to do well, and you need to do it well for a few weeks to see the results. Ninety percent of programmers who learn pair programming prefer it, so we highly recommend it to all teams.&lt;/p&gt;
+
+&lt;p&gt;Pairing, in addition to providing better code and tests, also serves to communicate knowledge throughout the team. As pairs switch, everyone gets the benefits of everyone’s specialized knowledge. Programmers learn, their skills improve, they become more valuable to the team and to the company. Pairing, even on its own outside of XP, is a big win for everyone.&lt;/p&gt;
+
+&lt;p&gt;For more information, review the &lt;a href=&quot;/archetype/XP/&quot;&gt;XP archetype&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Source: &lt;a href=&quot;http://ronjeffries.com/xprog/what-is-extreme-programming&quot;&gt;Ron Jeffries&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/practice/PairProgramming</link>
+                <guid>http://spinemodel.github.io/practice/PairProgramming</guid>
+                <pubDate>2015-11-22T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Metaphor</title>
+                <description>
+&lt;p&gt;Extreme Programming teams develop a common vision of how the program works, which we call the “metaphor”. At its best, the metaphor is a simple evocative description of how the program works, such as “this program works like a hive of bees, going out for pollen and bringing it back to the hive” as a description for an agent-based information retrieval system.&lt;/p&gt;
+
+&lt;p&gt;Sometimes a sufficiently poetic metaphor does not arise. In any case, with or without vivid imagery, XP teams use a common system of names to be sure that everyone understands how the system works and where to look to find the functionality you’re looking for, or to find the right place to put the functionality you’re about to add.&lt;/p&gt;
+
+&lt;p&gt;For more information, review the &lt;a href=&quot;/archetype/XP/&quot;&gt;XP archetype&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Source: &lt;a href=&quot;http://ronjeffries.com/xprog/what-is-extreme-programming&quot;&gt;Ron Jeffries&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/practice/Metaphor</link>
+                <guid>http://spinemodel.github.io/practice/Metaphor</guid>
+                <pubDate>2015-11-22T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Customer Tests</title>
+                <description>
+&lt;p&gt;As part of presenting each desired feature, the XP Customer defines one or more automated acceptance tests to show that the feature is working. The team builds these tests and uses them to prove to themselves, and to the customer, that the feature is implemented correctly. Automation is important because in the press of time, manual tests are skipped. That’s like turning off your lights when the night gets darkest.&lt;/p&gt;
+
+&lt;p&gt;The best XP teams treat their customer tests the same way they do &lt;a href=&quot;/practice/TDD&quot;&gt;programmer tests&lt;/a&gt;: once the test runs, the team keeps it running correctly thereafter. This means that the system only improves, always notching forward, never backsliding.&lt;/p&gt;
+
+&lt;p&gt;For more information, review the &lt;a href=&quot;/archetype/XP/&quot;&gt;XP archetype&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Source: &lt;a href=&quot;http://ronjeffries.com/xprog/what-is-extreme-programming&quot;&gt;Ron Jeffries&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/practice/CustomerTests</link>
+                <guid>http://spinemodel.github.io/practice/CustomerTests</guid>
+                <pubDate>2015-11-22T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Continuous Integration</title>
+                <description>
+&lt;p&gt;Extreme Programming teams keep the system fully integrated at all times. We say that daily builds are for wimps: XP teams build multiple times per day. (One XP team of forty people builds at least eight or ten times per day!)&lt;/p&gt;
+
+&lt;p&gt;The benefit of this practice can be seen by thinking back on projects you may have heard about (or even been a part of) where the build process was weekly or less frequently, and usually led to “integration hell”, where everything broke and no one knew why.&lt;/p&gt;
+
+&lt;p&gt;Infrequent integration leads to serious problems on a software project. First of all, although integration is critical to shipping good working code, the team is not practiced at it, and often it is delegated to people who are not familiar with the whole system. Second, infrequently integrated code is often – I would say usually – buggy code. Problems creep in at integration time that are not detected by any of the testing that takes place on an unintegrated system. Third, weak integration process leads to long code freezes. Code freezes mean that you have long time periods when the programmers could be working on important shippable features, but that those features must be held back. This weakens your position in the market, or with your end users.&lt;/p&gt;
+
+&lt;p&gt;For more information, review the &lt;a href=&quot;/archetype/XP/&quot;&gt;XP archetype&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Source: &lt;a href=&quot;http://ronjeffries.com/xprog/what-is-extreme-programming&quot;&gt;Ron Jeffries&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/practice/ContinuousIntegration</link>
+                <guid>http://spinemodel.github.io/practice/ContinuousIntegration</guid>
+                <pubDate>2015-11-22T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Collective Code Ownership</title>
+                <description>
+&lt;p&gt;On an Extreme Programming project, any pair of programmers can improve any code at any time. This means that all code gets the benefit of many people’s attention, which increases code quality and reduces defects. There is another important benefit as well: when code is owned by individuals, required features are often put in the wrong place, as one programmer discovers that he needs a feature somewhere in code that he does not own. The owner is too busy to do it, so the programmer puts the feature in his own code, where it does not belong. This leads to ugly, hard-to-maintain code, full of duplication and with low (bad) cohesion.&lt;/p&gt;
+
+&lt;p&gt;Collective ownership could be a problem if people worked blindly on code they did not understand. XP avoids these problems through two key techniques: the &lt;a href=&quot;/practice/TDD&quot;&gt;programmer tests&lt;/a&gt; catch mistakes, and &lt;a href=&quot;/practice/PairProgramming&quot;&gt;pair programming&lt;/a&gt; means that the best way to work on unfamiliar code is to pair with the expert. In addition to ensuring good modifications when needed, this practice spreads knowledge throughout the team.&lt;/p&gt;
+
+&lt;p&gt;For more information, review the &lt;a href=&quot;/archetype/XP/&quot;&gt;XP archetype&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Source: &lt;a href=&quot;http://ronjeffries.com/xprog/what-is-extreme-programming&quot;&gt;Ron Jeffries&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/practice/CollectiveCodeOwnership</link>
+                <guid>http://spinemodel.github.io/practice/CollectiveCodeOwnership</guid>
+                <pubDate>2015-11-22T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Coding Standard</title>
+                <description>
+&lt;p&gt;XP teams follow a common coding standard, so that all the code in the system looks as if it was written by a single – very competent – individual. The specifics of the standard are not important: what is important is that all the code looks familiar, in support of collective ownership.&lt;/p&gt;
+
+&lt;p&gt;For more information, review the &lt;a href=&quot;/archetype/XP/&quot;&gt;XP archetype&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Source: &lt;a href=&quot;http://ronjeffries.com/xprog/what-is-extreme-programming&quot;&gt;Ron Jeffries&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/practice/CodingStandard</link>
+                <guid>http://spinemodel.github.io/practice/CodingStandard</guid>
+                <pubDate>2015-11-22T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Transparency</title>
+                <description>
+&lt;p&gt;This is the third &lt;a href=&quot;/values.html&quot;&gt;Value&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;(&lt;a href=&quot;http://scaledagileframework.com/safe-core-values/&quot;&gt;More info here.&lt;/a&gt;)&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/value/Transparency</link>
+                <guid>http://spinemodel.github.io/value/Transparency</guid>
+                <pubDate>2015-11-21T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Tools for Visualising Work In Progress</title>
+                <description>
+&lt;ul&gt;
+  &lt;li&gt;Physical Board&lt;/li&gt;
+  &lt;li&gt;Digital Board&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Tool/CognitiveLoadTracker&quot;&gt;Team Cognitive Load Tracker&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+                <link>http://spinemodel.github.io/tool/ToolsForVisualisingWorkInProgress</link>
+                <guid>http://spinemodel.github.io/tool/ToolsForVisualisingWorkInProgress</guid>
+                <pubDate>2015-11-21T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Program Execution</title>
+                <description>
+&lt;p&gt;This is the fourth &lt;a href=&quot;/values.html&quot;&gt;Value&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;(&lt;a href=&quot;http://scaledagileframework.com/safe-core-values/&quot;&gt;More info here.&lt;/a&gt;)&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/value/ProgramExecution</link>
+                <guid>http://spinemodel.github.io/value/ProgramExecution</guid>
+                <pubDate>2015-11-21T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Next Retro Topics List</title>
+                <description>
+&lt;h2 id=&quot;what-is-it&quot;&gt;What is it?&lt;/h2&gt;
+&lt;p&gt;A visible list of all the things the team may want to dig deeper into during their next &lt;a href=&quot;/practice/TeamRetrospective/&quot;&gt;Retrospective&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-use-it&quot;&gt;Why use it?&lt;/h2&gt;
+&lt;p&gt;If a challenge or opportunity is uncovered around how the team gets the work done, individuals may feel they want to dig deeper into understanding it during the next Retro. There is a risk that you could forget what it was, or not spend enough time deliberating on it, so making it visible in the team space is a useful way of making sure it doesn’t slip through.&lt;/p&gt;
+
+&lt;h2 id=&quot;when-to-use-it&quot;&gt;When to use it?&lt;/h2&gt;
+&lt;p&gt;Any time a challenge or opportunity is uncovered and the team doesn’t feel it is appropriate to address it right there and then.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-could-it-look-like&quot;&gt;What could it look like?&lt;/h2&gt;
+&lt;p&gt;It could be an area or piece of paper on a team’s board. Somewhere highly visible. &lt;/p&gt;
+
+&lt;h2 id=&quot;assumptions&quot;&gt;Assumptions&lt;/h2&gt;
+&lt;p&gt;The team does not use this list as a way of avoiding difficult conversations that should be had sooner.&lt;/p&gt;
+
+</description>
+                <link>http://spinemodel.github.io/tool/NextRetroTopicsList</link>
+                <guid>http://spinemodel.github.io/tool/NextRetroTopicsList</guid>
+                <pubDate>2015-11-21T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Code Quality</title>
+                <description>
+&lt;p&gt;This is the second &lt;a href=&quot;/values.html&quot;&gt;Value&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;(&lt;a href=&quot;http://scaledagileframework.com/safe-core-values/&quot;&gt;More info here.&lt;/a&gt;)&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/value/CodeQuality</link>
+                <guid>http://spinemodel.github.io/value/CodeQuality</guid>
+                <pubDate>2015-11-21T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Alignment</title>
+                <description>
+&lt;p&gt;This is the first &lt;a href=&quot;/values.html&quot;&gt;Value&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;(&lt;a href=&quot;http://scaledagileframework.com/safe-core-values/&quot;&gt;More info here.&lt;/a&gt;)&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/value/Alignment</link>
+                <guid>http://spinemodel.github.io/value/Alignment</guid>
+                <pubDate>2015-11-21T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Values of Extreme Programming</title>
+                <description>
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Simplicity&quot;&gt;Simplicity&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Communication&quot;&gt;Communication&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Feedback&quot;&gt;Feedback&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Respect&quot;&gt;Respect&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Courage&quot;&gt;Courage&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For more information, review the &lt;a href=&quot;/archetype/XP/&quot;&gt;XP archetype&lt;/a&gt;.&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/value/ValuesOfXP</link>
+                <guid>http://spinemodel.github.io/value/ValuesOfXP</guid>
+                <pubDate>2015-11-17T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Values of Scrum</title>
+                <description>
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Focus&quot;&gt;Focus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Courage&quot;&gt;Courage&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Openness&quot;&gt;Openness&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Commitment&quot;&gt;Commitment&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Respect&quot;&gt;Respect&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For more information, review the &lt;a href=&quot;/archetype/Scrum/&quot;&gt;Scrum archetype&lt;/a&gt;.&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/value/ValuesOfScrum</link>
+                <guid>http://spinemodel.github.io/value/ValuesOfScrum</guid>
+                <pubDate>2015-11-17T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Values of SAFe</title>
+                <description>
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;/value/Alignment&quot;&gt;Alignment&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/value/CodeQuality&quot;&gt;Code Quality&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/value/Transparency&quot;&gt;Transparency&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/value/ProgramExecution&quot;&gt;Program Execution&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For more information, review the &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe archetype&lt;/a&gt;.&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/value/ValuesOfSAFe</link>
+                <guid>http://spinemodel.github.io/value/ValuesOfSAFe</guid>
+                <pubDate>2015-11-17T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Tools for Retrospectives</title>
+                <description>
+&lt;p&gt;If you aren’t sure what a retrospective is, start &lt;a href=&quot;/practice/TeamRetrospective/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;www.hr.virginia.edu/uploads/documents/media/Writing_SMART_Goals.pdf&quot;&gt;SMART Goals&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;NextRetroTopicsList&quot;&gt;Next Retro Topics list&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Improvisational_theatre&quot;&gt;Improv&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://plans-for-retrospectives.com/&quot;&gt;PlansForRetrospectives.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://TastyCupcakes.org&quot;&gt;TastyCupcakes.org&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://RetrospectiveWiki.org&quot;&gt;RetrospectiveWiki.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+                <link>http://spinemodel.github.io/tool/ToolsForRetrospectives</link>
+                <guid>http://spinemodel.github.io/tool/ToolsForRetrospectives</guid>
+                <pubDate>2015-11-17T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Principles of Extreme Programming</title>
+                <description>
+&lt;h2 id=&quot;fundamental-principles&quot;&gt;Fundamental Principles&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Rapid Feedback&lt;/li&gt;
+  &lt;li&gt;Assume Simplicity&lt;/li&gt;
+  &lt;li&gt;Incremental Change&lt;/li&gt;
+  &lt;li&gt;Embracing Change&lt;/li&gt;
+  &lt;li&gt;Quality Work&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;further-principles&quot;&gt;Further Principles&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Teach Learning&lt;/li&gt;
+  &lt;li&gt;Small Initial Investment&lt;/li&gt;
+  &lt;li&gt;Play to Win&lt;/li&gt;
+  &lt;li&gt;Concrete Experiments&lt;/li&gt;
+  &lt;li&gt;Open, honest Communication&lt;/li&gt;
+  &lt;li&gt;Work with people’s instincts - not against them&lt;/li&gt;
+  &lt;li&gt;Accepted Responsibility&lt;/li&gt;
+  &lt;li&gt;Local Adaptation&lt;/li&gt;
+  &lt;li&gt;Travel Light&lt;/li&gt;
+  &lt;li&gt;Honest Measurement&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For more information, review the &lt;a href=&quot;/archetype/XP/&quot;&gt;XP archetype&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Source: &lt;a href=&quot;http://martinfowler.com/bliki/PrinciplesOfXP.html&quot;&gt;Martin Fowler&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/principle/PrinciplesOfXP</link>
+                <guid>http://spinemodel.github.io/principle/PrinciplesOfXP</guid>
+                <pubDate>2015-11-17T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Principles of SAFe</title>
+                <description>
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/TakeAnEconomicView&quot;&gt;Take an Economic View&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/ApplySystemsThinking&quot;&gt;Apply Systems Thinking&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/AssumeVariabilityPreserveOptions&quot;&gt;Assume Variability; Preserve Options&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/BuildIncrementallyWithFastIntegratedLearningCycles&quot;&gt;Build Incrementally With Fast Integrated Learning Cycles&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/BaseMilestonesOnObjectiveEvaluationOfWorkingSystems&quot;&gt;Base Milestones On Objective Evaluation Of Working Systems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/VisualizeAndLimitWIPReduceBatchSizesAndManageQueueLengths&quot;&gt;Visualize and limit WIP, reduce batch sizes, and manage queue lengths&lt;/a&gt; &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/ApplyCadenceSynchronizeWithCrossDomainPlanning&quot;&gt;Apply cadence, synchronize with cross-domain planning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/UnlockTheIntrinsicMotivationOfKnowledgeWorkers&quot;&gt;Unlock the intrinsic motivation of knowledge workers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/DecentralizeDecisionMaking&quot;&gt;Decentralize decision-making&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For more information, review the &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe archetype&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+                <link>http://spinemodel.github.io/principle/PrinciplesOfSAFe</link>
+                <guid>http://spinemodel.github.io/principle/PrinciplesOfSAFe</guid>
+                <pubDate>2015-11-17T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Principles of Flow</title>
+                <description>
+&lt;p&gt;The &lt;a href=&quot;http://lpd2.com/&quot;&gt;Lean Product Development&lt;/a&gt; book enumerates 175 principles in 8 categories: Economic, Queueing, Variability, Batch Size, WIP Constraint, Flow Control Fast Feedback and Decentralization…&lt;/p&gt;
+
+&lt;h2 id=&quot;economic-principles&quot;&gt;Economic Principles&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;E1: The Principle of Quantified Overall Economics: Select actions based on quantified overall economic impact.&lt;/li&gt;
+  &lt;li&gt;E2: The Principle of Interconnected Variables: We can’t just change one thing.&lt;/li&gt;
+  &lt;li&gt;E3: The Principle of Quantified Cost of Delay: If you only quantify one thing, quantify the cost of delay.&lt;/li&gt;
+  &lt;li&gt;E4: The Principle of Economic Value-Added: The value added by an activity is the change in the economic value of the work product.&lt;/li&gt;
+  &lt;li&gt;E5: The Inactivity Principle: Watch the work product, not the worker.&lt;/li&gt;
+  &lt;li&gt;E6: The U-Curve Principle: Important trade-offs are likely to have U-curve optimizations.&lt;/li&gt;
+  &lt;li&gt;E7: The Imperfection Principle: Even imperfect answers improve decision making&lt;/li&gt;
+  &lt;li&gt;E8: The Principle of Small Decisions: Influence the many small decisions&lt;/li&gt;
+  &lt;li&gt;E9: The Principle of Continuous Economic Tradeoffs: Economic choices must be made continuously.&lt;/li&gt;
+  &lt;li&gt;E10: The First Perishability Principle: Many economic choices are more valuable when made quickly.&lt;/li&gt;
+  &lt;li&gt;E11: The Subdivision Principle: Inside every bad choice lies a good choice.&lt;/li&gt;
+  &lt;li&gt;E12: The Principle of Early Harvesting: Create systems to harvest the early cheap opportunities.&lt;/li&gt;
+  &lt;li&gt;E13: The Principle of Decision Rules: Use decision rules to decentralize economic control.&lt;/li&gt;
+  &lt;li&gt;E14: The First Market Principle: Ensure decision makers feel both cost and benefit.&lt;/li&gt;
+  &lt;li&gt;E15: The Principle of Optimum Decision Timing: Every decision has its optimum economic timing.&lt;/li&gt;
+  &lt;li&gt;E16: The Principle of Marginal Economics: Always compare marginal cost to marginal value.&lt;/li&gt;
+  &lt;li&gt;E17: The Sunk Cost Principle: Do not consider money already spent.&lt;/li&gt;
+  &lt;li&gt;E18: The Principle of Buying Information: The value of information is its expected economic value.&lt;/li&gt;
+  &lt;li&gt;E19: The Insurance Principle: Don’t pay more for  insurance than the expected loss.&lt;/li&gt;
+  &lt;li&gt;E20: The Newsboy Principle: High probability of failure does not equal bad economics.&lt;/li&gt;
+  &lt;li&gt;E21: The Show Me the Money Principle: To influence financial decisions, speak the language on money.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;queueing-principles&quot;&gt;Queueing Principles&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Q1: The Principle of Invisible Inventory: Product development inventory is physically and financially invisible.&lt;/li&gt;
+  &lt;li&gt;Q2: The Principle of Queueing Waste: Queues are the root cause of the majority of economic waste in product development.&lt;/li&gt;
+  &lt;li&gt;Q3: The Principle of Queueing Capacity Utilization: Capacity utilization increases queues exponentially.&lt;/li&gt;
+  &lt;li&gt;Q4: The Principle of High-Queue States: Most of the damage done by a queue is caused by high-queue states.&lt;/li&gt;
+  &lt;li&gt;Q5: The Principle of Queueing Variability: Variability increases queues linearly.&lt;/li&gt;
+  &lt;li&gt;Q6: The Principle of Variability Amplification: Operating at high levels of capacity utilization increases variability.&lt;/li&gt;
+  &lt;li&gt;Q7: The Principle of Queueing Structure: Serve pooled demand with reliable high-capacity servers.&lt;/li&gt;
+  &lt;li&gt;Q8: The Principle of Linked Queues: Adjacent queues see arrival or service time variability depending on loading.&lt;/li&gt;
+  &lt;li&gt;Q9: The Principle of Queue Size Optimization: Optimum queue size is an economic tradeoff.&lt;/li&gt;
+  &lt;li&gt;Q10: The Principle of Queueing Discipline: Queue cost is affected by the sequence in which we handle the jobs in the queue.&lt;/li&gt;
+  &lt;li&gt;Q11: The Cumulative Flow Principle: Use CFDs to monitor queues.&lt;/li&gt;
+  &lt;li&gt;Q12: Little’s Formula: Wait time = Queue Size/Processing Rate.&lt;/li&gt;
+  &lt;li&gt;Q13: The First Queue Size Control Principle:  Don’t control capacity utilization, control queue size.&lt;/li&gt;
+  &lt;li&gt;Q14: The Second Queue Size Control Principle: Don’t control cycle time, control queue size.&lt;/li&gt;
+  &lt;li&gt;Q15: The Diffusion Principle: Over time, queues will randomly spin seriously out of control and will remain in this state for long periods.&lt;/li&gt;
+  &lt;li&gt;Q16: The Intervention Principle: We cannot rely on randomness to correct a random queue.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;variability-principles&quot;&gt;Variability Principles&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;V1: The Principle of Beneficial Variability: Variability can create economic value.&lt;/li&gt;
+  &lt;li&gt;V2: The Principle of Asymmetric Payoffs: Payoff asymmetries enable variability to create economic value.&lt;/li&gt;
+  &lt;li&gt;V3: The Principle of Optimum Variability: Variability should neither be minimized nor maximized.&lt;/li&gt;
+  &lt;li&gt;V4: The Principle of Optimum Failure Rate: Fifty percent failure rate is usually optimum for generating information.&lt;/li&gt;
+  &lt;li&gt;V5: The Principle of Variability Pooling: Overall variation decreases when uncorrelated random tasks are combined.&lt;/li&gt;
+  &lt;li&gt;V6: The Principle of Short-Term Forecasting: Forecasting becomes exponentially easier at short time-horizons.&lt;/li&gt;
+  &lt;li&gt;V7: The Principle of Small Experiments: Many small experiments produce less variation than one big one.&lt;/li&gt;
+  &lt;li&gt;V8: The Repetition Principle: Repetition reduces variation.&lt;/li&gt;
+  &lt;li&gt;V9: The Reuse Principle: Reuse reduces variability. &lt;/li&gt;
+  &lt;li&gt;V10: The Principle of Negative Covariance: We can reduce variance by applying a counterbalancing effect. &lt;/li&gt;
+  &lt;li&gt;V11: The Buffer Principle:Buffers trade money for variability reduction. &lt;/li&gt;
+  &lt;li&gt;V12: The Principle of Variability Consequence: Reducing consequences is usually the best way to reduce the cost of variability. &lt;/li&gt;
+  &lt;li&gt;V13: The Non-linearity Principle: Operate in the linear range of system performance. &lt;/li&gt;
+  &lt;li&gt;V14: The Principle of Variability Substitution: Substitute cheap variability for expensive variability. &lt;/li&gt;
+  &lt;li&gt;V15: The Principle of Iteration Speed: It is usually better to improve iteration speed than defect rate. &lt;/li&gt;
+  &lt;li&gt;V16: The Principle of Variability Displacement: Move variability to the process stage where its cost is lowest. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;batch-size-principles&quot;&gt;Batch Size Principles&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;B1: Batch Size Queueing Principle: Reducing batch size reduces cycle time. &lt;/li&gt;
+  &lt;li&gt;B2: The Batch Size Variability Principle: Reducing batch size reduces variability in flow. &lt;/li&gt;
+  &lt;li&gt;B3: The Batch Size Feedback Principle: Reducing batch size accelerates feedback. &lt;/li&gt;
+  &lt;li&gt;B4: The Batch Size Risk Principle: Reducing batch size reduces risk. &lt;/li&gt;
+  &lt;li&gt;B5: The Batch Size Overhead Principle: Reducing batch size reduces overhead. &lt;/li&gt;
+  &lt;li&gt;B6: The Batch Size Efficiency Principle: Large batches reduce efficiency. (&lt;/li&gt;
+  &lt;li&gt;B7: The Psychology Principle of Batch Size: Large batches inherently lower motivation and urgency. &lt;/li&gt;
+  &lt;li&gt;B8: The Batch Size Slippage Principle: Large batches cause exponential cost and schedule growth. (&lt;/li&gt;
+  &lt;li&gt;B9: The Batch Size Death Spiral Principle: Large batches lead to even larger batches. &lt;/li&gt;
+  &lt;li&gt;B10: The Least Common Denominator Principle of Batch Size: The entire batch is limited by its worst element. &lt;/li&gt;
+  &lt;li&gt;B11: The Principle of Batch Size Economics: Economic batch size is a U-curve optimization. &lt;/li&gt;
+  &lt;li&gt;B12: The Principle of Low Transaction Cost: Reducing transaction cost per batch lowers overall costs. &lt;/li&gt;
+  &lt;li&gt;B13: The Principle of Batch Size Diseconomies: Batch size reduction saves much more than you think. &lt;/li&gt;
+  &lt;li&gt;B14: The Batch Size Packing Principle: Small batches allow finer tuning of capacity utilization &lt;/li&gt;
+  &lt;li&gt;B15: The Fluidity Principle: Loose coupling between product subsystems enables small batches. &lt;/li&gt;
+  &lt;li&gt;B16: The Principle of Transport Batches: The most important batch is the transport batch. &lt;/li&gt;
+  &lt;li&gt;B17: The Proximity Principle: Proximity enables small batch sizes. &lt;/li&gt;
+  &lt;li&gt;B18: The Run Length Principle: Short run lengths reduce queues. &lt;/li&gt;
+  &lt;li&gt;B19: The Infrastructure Principle: Good infrastructure enables small batches. &lt;/li&gt;
+  &lt;li&gt;B20: The Principle of Batch Content: Sequence first that which adds value most cheaply. &lt;/li&gt;
+  &lt;li&gt;B21: The Batch Size First Principle: Reduce batch size before you attack bottlenecks. &lt;/li&gt;
+  &lt;li&gt;B22: The Principle of Dynamic Batch Size: Adjust batch size dynamically to respond to changing economics. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;wip-constraint-principles&quot;&gt;WIP Constraint Principles&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;W1: The Principle of WIP Constraints: Constrain WIP to control cycle time and flow. &lt;/li&gt;
+  &lt;li&gt;W2: The Principle of Rate Matching: WIP constraints force rate-matching. &lt;/li&gt;
+  &lt;li&gt;W3: The Principle of Global Constraints: Use global WIP constraints for predictable and permanent bottlenecks. &lt;/li&gt;
+  &lt;li&gt;W4: The Principle of Local Constraints: If possible, constrain local WIP pools. &lt;/li&gt;
+  &lt;li&gt;W5: The Batch Size Decoupling Principle: Use WIP ranges to decouple the batch sizes of adjacent processes. &lt;/li&gt;
+  &lt;li&gt;W6: The Principle of Demand Blocking: Block all demand when WIP reaches its upper limit. &lt;/li&gt;
+  &lt;li&gt;W7: The Principle of WIP Purging: When WIP is high, purge low value projects. &lt;/li&gt;
+  &lt;li&gt;W8: The Principle of Flexible Requirements: Control WIP by shedding requirements. &lt;/li&gt;
+  &lt;li&gt;W9: The Principle of Resource Pulling: Quickly apply extra resources to an emerging queue. &lt;/li&gt;
+  &lt;li&gt;W10: The Principle of Part-Time Resources: Use part-time resources for high variability tasks. &lt;/li&gt;
+  &lt;li&gt;W11: The Big Gun Principle: Pull high-powered experts to emerging bottlenecks. &lt;/li&gt;
+  &lt;li&gt;W12: The Principle of T-Shaped Resources: Develop people who are deep in one area and broad in many. &lt;/li&gt;
+  &lt;li&gt;W13: The Principle of Skill Overlap: Cross train resources at adjacent processes. &lt;/li&gt;
+  &lt;li&gt;W14: The Mix Change Principle: Use upstream mix changes to regulate queue size. &lt;/li&gt;
+  &lt;li&gt;W15: The Aging Principle: Watch the outliers. &lt;/li&gt;
+  &lt;li&gt;W16: The Escalation Principle: Create a preplanned escalation process for outliers. &lt;/li&gt;
+  &lt;li&gt;W17: The Principle of Progressive Throttling: Increase throttling as you approach the queue limit. &lt;/li&gt;
+  &lt;li&gt;W18: The Principle of Differential Service: Differentiate quality of service by workstream. &lt;/li&gt;
+  &lt;li&gt;W19: The Principle of Adaptive WIP Constraints: Adjust WIP constraints as capacity changes. &lt;/li&gt;
+  &lt;li&gt;W20: The Expansion Control Principle: Prevent uncontrolled expansion of work. &lt;/li&gt;
+  &lt;li&gt;W21: The Principle of the Critical Queue: Constrain WIP in the secion of the system where the queue is most expensive. &lt;/li&gt;
+  &lt;li&gt;W22: The Cumulative Reduction Principle: Small WIP reductions accumulate. &lt;/li&gt;
+  &lt;li&gt;W23: The Principle of Visual WIP: Make WIP continuously visible. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;flow-control-principles&quot;&gt;Flow Control Principles&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;F1: The Principle of Congestion Collapse: When loading becomes too high, we will see a sudden and catastrophic drop in output. &lt;/li&gt;
+  &lt;li&gt;F2: The Peak Throughput Principle: Control occupancy to sustain high throughput in systems prone to congestion. &lt;/li&gt;
+  &lt;li&gt;F3: The Principle of Visible Congestion: Use forecasts of expected flow time to make congestion visible. &lt;/li&gt;
+  &lt;li&gt;F4: The Principle of Congestion Pricing: Use pricing to reduce demand during congested periods. &lt;/li&gt;
+  &lt;li&gt;F5: The Principle of Periodic Resynchronization: Use a regular cadence to limit the accumulation of variance. &lt;/li&gt;
+  &lt;li&gt;F6: The Cadence Capacity Margin Principle: Provide sufficient capacity margin to enable cadence. &lt;/li&gt;
+  &lt;li&gt;F7: The Cadence Reliability Principle: Use cadence to make waiting times predictable.&lt;/li&gt;
+  &lt;li&gt;F8: The Cadence Batch Size Enabling Principle: Use a regular cadence to enable small batch sizes. &lt;/li&gt;
+  &lt;li&gt;F9: The Principle of Cadenced Meetings: Schedule frequent meetings using a predictable cadence. (&lt;/li&gt;
+  &lt;li&gt;F10: The Synchronization Capacity Margin Principle: To enable synchronization, provide sufficient capacity margin. &lt;/li&gt;
+  &lt;li&gt;F11: The Principle of Multiproject Synchronization: Exploit scale economies by synchronizing work from multiple projects. &lt;/li&gt;
+  &lt;li&gt;F12: The Principle of Cross-Functional Synchronization: Use synchronized events to facilitate cross functional tradeoffs. &lt;/li&gt;
+  &lt;li&gt;F13: The Synchronization Queueing Principle: To reduce queues, synchronize the batch size and timing of adjacent processes. &lt;/li&gt;
+  &lt;li&gt;F14: The Harmonic Principle: Make nested cadences harmonic multiples. &lt;/li&gt;
+  &lt;li&gt;F15: The SJF Scheduling Principle: When delay costs are homogeneous, do the shortest job first. &lt;/li&gt;
+  &lt;li&gt;F16: The HDCF Scheduling Principle: When job durations are homogeneous, do the high cost-of-delay job first. &lt;/li&gt;
+  &lt;li&gt;F17: The WSJF Scheduling Principle: When job durations and delay costs are not homogeneous, use WSJF. &lt;/li&gt;
+  &lt;li&gt;F18: The Local Priority Principle: Priorities are inherently local. &lt;/li&gt;
+  &lt;li&gt;F19: The Round-Robin Principle: When task duration is unknown, time-share capacity. &lt;/li&gt;
+  &lt;li&gt;F20: The Preemption Principle: Only preempt when switching costs are low. &lt;/li&gt;
+  &lt;li&gt;F21: The Principle of Work Matching: Use sequence to match jobs to appropriate resources. &lt;/li&gt;
+  &lt;li&gt;F22: The Principle of Tailored Routing: Select and tailor the sequence of subprocesses to the task at hand. &lt;/li&gt;
+  &lt;li&gt;F23: The Principle of Flexible Routing: Route work based on the current most economic route. &lt;/li&gt;
+  &lt;li&gt;F24: The Principle of Alternate Routes: Develop and maintain alternate routes around points of congestion. &lt;/li&gt;
+  &lt;li&gt;F25: The Principle of Flexible Resources: Use flexible resources to absorb variation. &lt;/li&gt;
+  &lt;li&gt;F26: The Principle of Late Binding: The later we bind demand to resources, the smoother the flow. &lt;/li&gt;
+  &lt;li&gt;F27: The Principle of Local Transparency: Make tasks and resources reciprocally visible at adjacent processes. &lt;/li&gt;
+  &lt;li&gt;F28: The Principle of Preplanned Flexibility: For fast responses, preplan and invest in flexibility. &lt;/li&gt;
+  &lt;li&gt;F29: The Principle of Resource Centralization: Correctly managed, centralized resources can reduce queues. &lt;/li&gt;
+  &lt;li&gt;F30: The Principle of Flow Conditioning: Reduce variability before a bottleneck. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fast-feedback-principles&quot;&gt;Fast Feedback Principles&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;FF1: The Principle of Maximum Economic Influence: Focus control on project and process parameters with the highest economic influence. &lt;/li&gt;
+  &lt;li&gt;FF2: The Principle of Efficient Control: Control parameters that are both influential and efficient. &lt;/li&gt;
+  &lt;li&gt;FF3: The Principle of Leading Indicators: Select control variables that predict future system behavior. &lt;/li&gt;
+  &lt;li&gt;FF4: The Principle of Balanced Set Points: Set tripwires at points of equal economic impact. &lt;/li&gt;
+  &lt;li&gt;FF5: The Moving Target Principle: Know when to pursue a dynamic goal. &lt;/li&gt;
+  &lt;li&gt;FF6: The Exploitation Principle: Exploit unplanned economic opportunities.&lt;/li&gt;
+  &lt;li&gt;FF7: The Queue Reduction Principle of Feedback: Fast feedback enables smaller queues. &lt;/li&gt;
+  &lt;li&gt;FF8: The Fast Learning Principle: Use fast feedback to make learning faster and more efficient. &lt;/li&gt;
+  &lt;li&gt;FF9: The Principle of Useless Measurement: What gets measured may not get done. &lt;/li&gt;
+  &lt;li&gt;FF10: The First Agility Principle: We don’t need long planning horizons when we have a short turning radius. &lt;/li&gt;
+  &lt;li&gt;FF11: The Batch Size Principle of Feedback: Small batches yield fast feedback. &lt;/li&gt;
+  &lt;li&gt;FF12: The Signal to Noise Principle: To detect a smaller signal, reduce the noise. &lt;/li&gt;
+  &lt;li&gt;FF13: The Decision Rule Principle: Control the economic logic behind the decision, not the entire decision. &lt;/li&gt;
+  &lt;li&gt;FF14: The Locality Principal of Feedback: Whenever possible make feedback local. &lt;/li&gt;
+  &lt;li&gt;FF15: The Relief Valve Principle: Have a clear, predetermined relief valve. &lt;/li&gt;
+  &lt;li&gt;FF16: The Principle of Multiple Control Loops: Embed fast control loops inside slow loops. &lt;/li&gt;
+  &lt;li&gt;FF17: The Principle of Controlled Excursions: Keep deviations within the control range. &lt;/li&gt;
+  &lt;li&gt;FF18: The Feedforward Principle: Provide advance notice of heavy arrival rates to minimize queues. &lt;/li&gt;
+  &lt;li&gt;FF19: The Principle of Colocation: Colocation improves almost all aspects of communications. &lt;/li&gt;
+  &lt;li&gt;FF20: The Empowerment Principle of Feedback: Fast feedback gives a sense of control. &lt;/li&gt;
+  &lt;li&gt;FF21: The Hurry-Up-and-Wait Principle: Large queues make it hard to create urgency. &lt;/li&gt;
+  &lt;li&gt;FF22: The Amplification Principle: The human element tends to amplify large excursions. &lt;/li&gt;
+  &lt;li&gt;FF23: The Principle of Overlapping Measurement: To align behaviors, reward people for the work of others. &lt;/li&gt;
+  &lt;li&gt;FF24: The Attention Principle: Time counts more than money. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;decentralization-principles&quot;&gt;Decentralization Principles&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;D1: The Second Perishability Principle: Decentralize control for problems and opportunities that age poorly. &lt;/li&gt;
+  &lt;li&gt;D2: The Scale Principle: Centralize control for problems that are infrequent, large, or that have significant economies of scale. &lt;/li&gt;
+  &lt;li&gt;D3: The Principle of Layered Control: Adapt the control approach to emerging information about the problem. &lt;/li&gt;
+  &lt;li&gt;D4: The Opportunistic Principle: Adjust the plan for unplanned obstacles and opportunities. &lt;/li&gt;
+  &lt;li&gt;D5: The Principle of Virtual Centralization: Be able to quickly reorganize decentralized resources to create centralized power. &lt;/li&gt;
+  &lt;li&gt;D6: The Inefficiency Principle: The inefficiency of decentralization can cost less than the value of faster response time. &lt;/li&gt;
+  &lt;li&gt;D7: The Principle of Alignment: There is more value created with overall alignment than local excellence. &lt;/li&gt;
+  &lt;li&gt;D8: The Principle of Mission: Specify the end state, its purpose, and the minimal possible constraints. &lt;/li&gt;
+  &lt;li&gt;D9: The Principle of Boundaries: Establish clear roles and boundaries. &lt;/li&gt;
+  &lt;li&gt;D10: The Main Effort Principle: Designate a main effort and subordinate other activities. &lt;/li&gt;
+  &lt;li&gt;D11: The Principle of Dynamic Alignment: The main effort may shift quickly when conditions change. &lt;/li&gt;
+  &lt;li&gt;D12 The Second Agility Principle: Develop the ability to quickly shift focus. &lt;/li&gt;
+  &lt;li&gt;D13: The Principle of Peer-Level Coordination: Tactical coordination should be local. &lt;/li&gt;
+  &lt;li&gt;D14: The Principle of Flexible Plans: Use simple modular plans. &lt;/li&gt;
+  &lt;li&gt;D15: The Principle of Tactical Reserves: Decentralize a portion of reserves. &lt;/li&gt;
+  &lt;li&gt;D16: The Principle of Early Contact: Make early and meaningful contact with the problem. &lt;/li&gt;
+  &lt;li&gt;D17: The Principle of Decentralized Information: For decentralized decisions, disseminate key information widely. &lt;/li&gt;
+  &lt;li&gt;D18: The Frequency Response Principle: We can’t respond faster than our frequency response. &lt;/li&gt;
+  &lt;li&gt;D19: The Quality of Service Principle: When response time is important, measure response time. &lt;/li&gt;
+  &lt;li&gt;D20: The Second Market Principle: Use internal and external markets to decentralize control. &lt;/li&gt;
+  &lt;li&gt;D21: The Principle of Regenerative Initiative: Cultivating initiative enables us to use initiative. &lt;/li&gt;
+  &lt;li&gt;D22: The Principle of Face-to-Face Communication: Exploit the speed and bandwidth of face-to-face communications. &lt;/li&gt;
+  &lt;li&gt;D23: The Trust Principle: Trust is built through experience. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(&lt;a href=&quot;http://lpd2.com/the-principles-of-flow/&quot;&gt;Source:&lt;/a&gt;)&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/principle/PrinciplesOfFlow</link>
+                <guid>http://spinemodel.github.io/principle/PrinciplesOfFlow</guid>
+                <pubDate>2015-11-17T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Principles of Agile</title>
+                <description>
+&lt;h2 id=&quot;primary-principles&quot;&gt;Primary Principles&lt;/h2&gt;
+&lt;p&gt;We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/Principle/IndividualsAndInteractionsOverProcessesAndTools&quot;&gt;Individuals and interactions over processes and tools&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Principle/WorkingSoftwareOverComprehensiveDocumentation&quot;&gt;Working software over comprehensive documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Principle/CustomerCollaborationOverContractNegotiation&quot;&gt;Customer collaboration over contract negotiation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Principle/RespondingToChangeOverFollowingAPlan&quot;&gt;Responding to change over following a plan&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That is, while there is value in the items on the right, we value the items on the left more.&lt;/p&gt;
+
+&lt;h2 id=&quot;additional-12-principles&quot;&gt;Additional 12 Principles&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.&lt;/li&gt;
+  &lt;li&gt;Welcome changing requirements, even late in development. Agile processes harness change for the customer’s competitive advantage.&lt;/li&gt;
+  &lt;li&gt;Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.&lt;/li&gt;
+  &lt;li&gt;Business people and developers must work together daily throughout the project.&lt;/li&gt;
+  &lt;li&gt;Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.&lt;/li&gt;
+  &lt;li&gt;The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.&lt;/li&gt;
+  &lt;li&gt;Working software is the primary measure of progress.&lt;/li&gt;
+  &lt;li&gt;Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.&lt;/li&gt;
+  &lt;li&gt;Continuous attention to technical excellence and good design enhances agility.&lt;/li&gt;
+  &lt;li&gt;Simplicity–the art of maximizing the amount of work not done–is essential.&lt;/li&gt;
+  &lt;li&gt;The best architectures, requirements, and designs emerge from self-organizing teams.&lt;/li&gt;
+  &lt;li&gt;At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For more information, review the &lt;a href=&quot;/archetype/AgileManifesto/&quot;&gt;Agile archetype&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Source: &lt;a href=&quot;http://agilemanifesto.org/&quot;&gt;agilemanifesto.org&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/principle/PrinciplesOfAgile</link>
+                <guid>http://spinemodel.github.io/principle/PrinciplesOfAgile</guid>
+                <pubDate>2015-11-17T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Spine Model - A systemic approach to effective leadership</title>
+                <description>
+&lt;p&gt;&lt;a href=&quot;http://spinemodel.info/news/agile2015talk&quot;&gt;This page has moved.&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/news/agile2015talk</link>
+                <guid>http://spinemodel.github.io/news/agile2015talk</guid>
+                <pubDate>2015-10-14T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Responding to change over following a plan</title>
+                <description>
+&lt;p&gt;This is the fourth &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of the &lt;a href=&quot;/archetype/AgileManifesto/&quot;&gt;Agile Manifesto&lt;/a&gt;.&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/principle/RespondingToChangeOverFollowingAPlan</link>
+                <guid>http://spinemodel.github.io/principle/RespondingToChangeOverFollowingAPlan</guid>
+                <pubDate>2015-07-19T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Customer collaboration over contract negotiation</title>
+                <description>
+&lt;p&gt;This is the thirs &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of the &lt;a href=&quot;/archetype/AgileManifesto/&quot;&gt;Agile Manifesto&lt;/a&gt;.&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/principle/CustomerCollaborationOverContractNegotiation</link>
+                <guid>http://spinemodel.github.io/principle/CustomerCollaborationOverContractNegotiation</guid>
+                <pubDate>2015-07-19T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Working software over comprehensive documentation</title>
+                <description>
+&lt;p&gt;This is the second &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of the &lt;a href=&quot;/archetype/AgileManifesto/&quot;&gt;Agile Manifesto&lt;/a&gt;.&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/principle/WorkingSoftwareOverComprehensiveDocumentation</link>
+                <guid>http://spinemodel.github.io/principle/WorkingSoftwareOverComprehensiveDocumentation</guid>
+                <pubDate>2015-07-18T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Individuals and interactions over processes and tools</title>
+                <description>
+&lt;p&gt;This is the first &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of the &lt;a href=&quot;/prototype/AgileManifesto/&quot;&gt;Agile Manifesto&lt;/a&gt;.&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/principle/IndividualsAndInteractionsOverProcessesAndTools</link>
+                <guid>http://spinemodel.github.io/principle/IndividualsAndInteractionsOverProcessesAndTools</guid>
+                <pubDate>2015-07-18T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Agile Software Development, Manifesto for</title>
+                <description>
+&lt;h2 id=&quot;origin&quot;&gt;Origin&lt;/h2&gt;
+&lt;p&gt;On February 11-13, 2001, at The Lodge at Snowbird ski resort in the Wasatch mountains of Utah, seventeen people met to talk, ski, relax, and try to find common ground and of course, to eat. What emerged was the Agile Software Development Manifesto. Representatives from &lt;a href=&quot;/archetype/XP/&quot;&gt;Extreme Programming&lt;/a&gt;, &lt;a href=&quot;/archetype/SCRUM/&quot;&gt;SCRUM&lt;/a&gt;, &lt;a href=&quot;/archetype/DSDM/&quot;&gt;DSDM&lt;/a&gt;, Adaptive Software Development, &lt;a href=&quot;/archetype/Crystal/&quot;&gt;Crystal&lt;/a&gt;, &lt;a href=&quot;/archetype/FDD/&quot;&gt;Feature-Driven Development&lt;/a&gt;, Pragmatic Programming, and others sympathetic to the need for an alternative to documentation driven, heavyweight software development processes convened.&lt;/p&gt;
+
+&lt;p&gt;(&lt;a href=&quot;http://agilemanifesto.org/history.html&quot;&gt;Read the rest here: “History: The Agile Manifesto”&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h2 id=&quot;needs&quot;&gt;Needs&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://agilemanifesto.org/history.html&quot;&gt;From Jim Highsmith, in “History: The Agile Manifesto”&lt;/a&gt;…&lt;/p&gt;
+
+&lt;p&gt;In order to succeed in the new economy, to move aggressively into the era of e-business, e-commerce, and the web, companies have to rid themselves of their Dilbert manifestations of make-work and arcane policies. &lt;/p&gt;
+
+&lt;p&gt;While the Manifesto provides some specific ideas, there is a deeper theme that drives many, but not all, to be sure, members of the alliance. At the close of the two-day meeting, Bob Martin joked that he was about to make a “mushy” statement. But while tinged with humor, few disagreed with Bob’s [Robert Martin’s] sentiments that we all felt privileged to work with a group of people who held a set of compatible values, a set of values based on trust and respect for each other and promoting organizational models based on people, collaboration, and building the types of organizational communities in which we [the manifesto authors] would want to work. At the core, I [Jim Highsmith] believe Agile Methodologists are really about “mushy” stuff, about delivering good products to customers by operating in an environment that does more than talk about “people as our most important asset” but actually “acts” as if people were the most important, and lose the word “asset”. So in the final analysis, the meteoric rise of interest in and sometimes tremendous criticism of Agile Methodologies is about the mushy stuff of values and culture.&lt;/p&gt;
+
+&lt;p&gt;The Agile movement is not anti-methodology, in fact, many of us want to restore credibility to the word methodology. We want to restore a balance. We embrace modeling, but not in order to file some diagram in a dusty corporate repository. We embrace documentation, but not hundreds of pages of never-maintained and rarely-used tomes. We plan, but recognize the limits of planning in a turbulent environment. Those who would brand proponents of XP or &lt;a href=&quot;/archetype/SCRUM/&quot;&gt;SCRUM&lt;/a&gt; or any of the other Agile Methodologies as “hackers” are ignorant of both the methodologies and the original definition of the term hacker.&lt;/p&gt;
+
+&lt;p&gt;(&lt;a href=&quot;http://agilemanifesto.org/history.html&quot;&gt;Read the rest here: History: The Agile Manifesto&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h2 id=&quot;values&quot;&gt;Values&lt;/h2&gt;
+
+&lt;h5 id=&quot;systemic-values&quot;&gt;Systemic Values&lt;/h5&gt;
+&lt;p&gt;The Manifesto for Agile Software Development does not explicitly state any &lt;a href=&quot;/values.html&quot;&gt;Values&lt;/a&gt; (by the Spine Model definition). &lt;/p&gt;
+
+&lt;p&gt;You can infer them though. For example the first Principle below could be interpreted as valuing People higher than Process, or perhaps Effectiveness higher than Efficiency. The second Principle could be abstracted to valuing &lt;a href=&quot;/Value/Feedback/&quot;&gt;Feedback&lt;/a&gt; higher than Compliance. &lt;/p&gt;
+
+&lt;h5 id=&quot;personal-values&quot;&gt;Personal Values&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&quot;http://agilemanifesto.org/history.html&quot;&gt;Robert Martin, from “History: The Agile Manifesto”&lt;/a&gt;…&lt;/p&gt;
+
+&lt;p&gt;We all felt privileged to work with a group of people who held a set of compatible values, a set of values based on trust and respect for each other and promoting organizational models based on people, collaboration, and building the types of organizational communities in which we would want to work.&lt;/p&gt;
+
+&lt;h2 id=&quot;principles&quot;&gt;Principles&lt;/h2&gt;
+
+&lt;h5 id=&quot;primary-principles&quot;&gt;Primary Principles&lt;/h5&gt;
+&lt;p&gt;We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/Principle/IndividualsAndInteractionsOverProcessesAndTools&quot;&gt;Individuals and interactions over processes and tools&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Principle/WorkingSoftwareOverComprehensiveDocumentation&quot;&gt;Working software over comprehensive documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Principle/CustomerCollaborationOverContractNegotiation&quot;&gt;Customer collaboration over contract negotiation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Principle/RespondingToChangeOverFollowingAPlan&quot;&gt;Responding to change over following a plan&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That is, while there is value in the items on the right, we value the items on the left more.&lt;/p&gt;
+
+&lt;h5 id=&quot;additional-12-principles&quot;&gt;Additional 12 Principles&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.&lt;/li&gt;
+  &lt;li&gt;Welcome changing requirements, even late in development. Agile processes harness change for the customer’s competitive advantage.&lt;/li&gt;
+  &lt;li&gt;Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.&lt;/li&gt;
+  &lt;li&gt;Business people and developers must work together daily throughout the project.&lt;/li&gt;
+  &lt;li&gt;Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.&lt;/li&gt;
+  &lt;li&gt;The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.&lt;/li&gt;
+  &lt;li&gt;Working software is the primary measure of progress.&lt;/li&gt;
+  &lt;li&gt;Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.&lt;/li&gt;
+  &lt;li&gt;Continuous attention to technical excellence and good design enhances agility.&lt;/li&gt;
+  &lt;li&gt;Simplicity–the art of maximizing the amount of work not done–is essential.&lt;/li&gt;
+  &lt;li&gt;The best architectures, requirements, and designs emerge from self-organizing teams.&lt;/li&gt;
+  &lt;li&gt;At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;(Source: &lt;a href=&quot;http://agilemanifesto.org/&quot;&gt;agilemanifesto.org&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;practices&quot;&gt;Practices&lt;/h2&gt;
+&lt;p&gt;The manifesto does not prescribe or give opinions on any specific &lt;a href=&quot;/practices.html&quot;&gt;Practices&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;tools&quot;&gt;Tools&lt;/h2&gt;
+&lt;p&gt;The manifesto does not prescribe or give opinions on any specific &lt;a href=&quot;/tools.html&quot;&gt;Tools&lt;/a&gt;.&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/archetype/AgileManifesto</link>
+                <guid>http://spinemodel.github.io/archetype/AgileManifesto</guid>
+                <pubDate>2015-07-18T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Visualize and limit WIP, reduce batch sizes, and manage queue lengths</title>
+                <description>
+&lt;p&gt;This is the sixth &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://scaledagileframework.com/visualize-and-limit-wip-reduce-batch-sizes-and-manage-queue-lengths/&quot;&gt;More info here.&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/principle/VisualizeAndLimitWIPReduceBatchSizesAndManageQueueLengths</link>
+                <guid>http://spinemodel.github.io/principle/VisualizeAndLimitWIPReduceBatchSizesAndManageQueueLengths</guid>
+                <pubDate>2015-06-09T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Unlock the intrinsic motivation of knowledge workers</title>
+                <description>
+&lt;p&gt;This is the eighth &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://scaledagileframework.com/unlock-the-intrinsic-motivation-of-knowledge-workers/&quot;&gt;More info here.&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/principle/UnlockTheIntrinsicMotivationOfKnowledgeWorkers</link>
+                <guid>http://spinemodel.github.io/principle/UnlockTheIntrinsicMotivationOfKnowledgeWorkers</guid>
+                <pubDate>2015-06-09T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Take an Economic View</title>
+                <description>
+&lt;p&gt;This is the first &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://scaledagileframework.com/take-an-economic-view/&quot;&gt;More info here.&lt;/a&gt;&lt;/p&gt;
+
+</description>
+                <link>http://spinemodel.github.io/principle/TakeAnEconomicView</link>
+                <guid>http://spinemodel.github.io/principle/TakeAnEconomicView</guid>
+                <pubDate>2015-06-09T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Decentralize decision-making</title>
+                <description>
+&lt;p&gt;This is the ninth &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://scaledagileframework.com/decentralize-decision-making/&quot;&gt;More info here.&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/principle/DecentralizeDecisionMaking</link>
+                <guid>http://spinemodel.github.io/principle/DecentralizeDecisionMaking</guid>
+                <pubDate>2015-06-09T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Build Incrementally With Fast Integrated Learning Cycles</title>
+                <description>
+&lt;p&gt;This is the fourth &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://scaledagileframework.com/build-incrementally-with-fast-integrated-learning-cycles/&quot;&gt;More info here.&lt;/a&gt;&lt;/p&gt;
+
+</description>
+                <link>http://spinemodel.github.io/principle/BuildIncrementallyWithFastIntegratedLearningCycles</link>
+                <guid>http://spinemodel.github.io/principle/BuildIncrementallyWithFastIntegratedLearningCycles</guid>
+                <pubDate>2015-06-09T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Base Milestones On Objective Evaluation Of Working Systems</title>
+                <description>
+&lt;p&gt;This is the fifth &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://scaledagileframework.com/base-milestones-on-objective-evaluation-of-working-systems/&quot;&gt;More info here.&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/principle/BaseMilestonesOnObjectiveEvaluationOfWorkingSystems</link>
+                <guid>http://spinemodel.github.io/principle/BaseMilestonesOnObjectiveEvaluationOfWorkingSystems</guid>
+                <pubDate>2015-06-09T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Assume Variability; Preserve Options</title>
+                <description>
+&lt;p&gt;This is the third &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://scaledagileframework.com/assume-variability-preserve-options/&quot;&gt;More info here.&lt;/a&gt;&lt;/p&gt;
+
+</description>
+                <link>http://spinemodel.github.io/principle/AssumeVariabilityPreserveOptions</link>
+                <guid>http://spinemodel.github.io/principle/AssumeVariabilityPreserveOptions</guid>
+                <pubDate>2015-06-09T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Apply Systems Thinking</title>
+                <description>
+&lt;p&gt;This is the second &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://scaledagileframework.com/apply-systems-thinking/&quot;&gt;More info here.&lt;/a&gt;&lt;/p&gt;
+
+</description>
+                <link>http://spinemodel.github.io/principle/ApplySystemsThinking</link>
+                <guid>http://spinemodel.github.io/principle/ApplySystemsThinking</guid>
+                <pubDate>2015-06-09T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Apply cadence, synchronize with cross-domain planning</title>
+                <description>
+&lt;p&gt;This is the seventh &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://scaledagileframework.com/apply-cadence-synchronize-with-cross-domain-planning/&quot;&gt;More info here.&lt;/a&gt;&lt;/p&gt;
+
+</description>
+                <link>http://spinemodel.github.io/principle/ApplyCadenceSynchronizeWithCrossDomainPlanning</link>
+                <guid>http://spinemodel.github.io/principle/ApplyCadenceSynchronizeWithCrossDomainPlanning</guid>
+                <pubDate>2015-06-09T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>eXtreme Programming (XP)</title>
+                <description>
+&lt;h2 id=&quot;origin&quot;&gt;Origin&lt;/h2&gt;
+&lt;p&gt;The term XP predates the term Agile by several years. XP stands for Extreme Programming, and is a suite of Practices, Principles, and Values invented by &lt;a href=&quot;http://en.wikipedia.org/wiki/Kent_Beck&quot;&gt;Kent Beck&lt;/a&gt; in the late ‘90s.&lt;/p&gt;
+
+&lt;h2 id=&quot;needs&quot;&gt;Needs&lt;/h2&gt;
+&lt;p&gt;Extreme programming is a software development methodology which is intended to improve software quality and responsiveness to changing customer requirements. As a type of agile software development, it advocates frequent “releases” in short development cycles, which is intended to improve productivity and introduce checkpoints at which new customer requirements can be adopted.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Extreme_programming&quot;&gt;Source: Wikipedia&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;values&quot;&gt;Values&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;/Value/Simplicity&quot;&gt;Simplicity&lt;/a&gt;, &lt;a href=&quot;/Value/Communication&quot;&gt;Communication&lt;/a&gt;, &lt;a href=&quot;/Value/Feedback&quot;&gt;Feedback&lt;/a&gt;, &lt;a href=&quot;/Value/Respect&quot;&gt;Respect&lt;/a&gt;, &lt;a href=&quot;/Value/Courage&quot;&gt;Courage&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;principles&quot;&gt;Principles&lt;/h2&gt;
+
+&lt;p&gt;See &lt;a href=&quot;/principle/PrinciplesOfXP&quot;&gt;XP Principles&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;practices&quot;&gt;Practices&lt;/h2&gt;
+
+&lt;p&gt;XP’s philosophy on &lt;a href=&quot;/practices.html&quot;&gt;Practices&lt;/a&gt; is very non-prescriptive, and advises an explorative approach, based on its &lt;a href=&quot;/principle/PrinciplesOfXP&quot;&gt;Principles&lt;/a&gt; and &lt;a href=&quot;/value/ValuesOfXP&quot;&gt;Values&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For a broad list see &lt;a href=&quot;/practice/PracticesOfXP&quot;&gt;XP Practices&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;tools&quot;&gt;Tools&lt;/h2&gt;
+&lt;p&gt;In general, XP does not explicitly recommend any &lt;a href=&quot;/tools.html&quot;&gt;Tools&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/archetype/XP</link>
+                <guid>http://spinemodel.github.io/archetype/XP</guid>
+                <pubDate>2015-06-01T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Scrum</title>
+                <description>
+&lt;h2 id=&quot;origin&quot;&gt;Origin&lt;/h2&gt;
+&lt;p&gt;Jeff Sutherland and Ken Schwaber conceived the Scrum process in the early 90’s. They codified Scrum in 1995 in order to present it at the Oopsla conference in Austin, Texas (US) and published the paper “SCRUM Software Development Process”.&lt;/p&gt;
+
+&lt;p&gt;Ken and Jeff inherited the name ‘Scrum’ from the 1986 groundbreaking paper ‘The New New Product Development Game’ by Takeuchi and Nonaka, two acknowledged management thinkers. With the term ‘Scrum’ Nonaka and Takeuchi referred to the game of rugby to stress the importance of teams and some analogies between a team sport like rugby and being successful in the game of new product development. The research described in their paper showed that outstanding performance in the development of new, complex products is achieved when teams, as small and self-organizing units of people, are fed with objectives, not with tasks. The best teams are those that are given direction within which they have room to devise their own tactics on how to best head towards their joint objective. Teams require autonomy to achieve excellence.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.scrumguides.org/history.html&quot;&gt;Source: The History of Scrum&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;needs&quot;&gt;Needs&lt;/h2&gt;
+&lt;p&gt;Scrum describes itself as:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-us.pdf&quot;&gt;Source: The Official Scrum Guide&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;values&quot;&gt;Values&lt;/h2&gt;
+&lt;p&gt;Though not in mentioned in the Official Scrum Guide, there are official sources that mention five values:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Focus&quot;&gt;Focus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Courage&quot;&gt;Courage&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Openness&quot;&gt;Openness&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Commitment&quot;&gt;Commitment&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Respect&quot;&gt;Respect&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;principles&quot;&gt;Principles&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;practices&quot;&gt;Practices&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/Practice/ScrumMaster&quot;&gt;Scrum Master&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Practice/ScrumProductOwner&quot;&gt;Product Owner&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Practice/TeamRetrospective&quot;&gt;Sprint Retrospective&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tools&quot;&gt;Tools&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/archetype/Scrum</link>
+                <guid>http://spinemodel.github.io/archetype/Scrum</guid>
+                <pubDate>2015-06-01T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Can I contribute to Spine Wiki?</title>
+                <description>
+&lt;p&gt;We welcome contributions to the Spine Wiki. &lt;/p&gt;
+
+&lt;p&gt;If you would like to submit something, please contact Kevin at kevint@drivenalliance.com.&lt;/p&gt;
+
+&lt;p&gt;If you are comforable with git and markdown, you can go directly &lt;a href=&quot;https://github.com/SpineModel/spinemodel.github.io&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/faq/Contribute</link>
+                <guid>http://spinemodel.github.io/faq/Contribute</guid>
+                <pubDate>2015-06-01T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Team Retrospective</title>
+                <description>
+&lt;h2 id=&quot;what-is-it&quot;&gt;What is it?&lt;/h2&gt;
+&lt;p&gt;One of the most important practices for teams that are applying the Principle of “Inspect and Adapt”.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-use-it&quot;&gt;Why use it?&lt;/h2&gt;
+
+&lt;h2 id=&quot;when-to-use-it&quot;&gt;When to use it?&lt;/h2&gt;
+
+&lt;h2 id=&quot;what-could-it-look-like&quot;&gt;What could it look like?&lt;/h2&gt;
+
+&lt;h2 id=&quot;assumptions&quot;&gt;Assumptions&lt;/h2&gt;
+
+&lt;h2 id=&quot;sprint-retrospectives-in-scrumarchetypescrum&quot;&gt;Sprint Retrospectives in &lt;a href=&quot;/archetype/SCRUM/&quot;&gt;SCRUM&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Scrum prescribes the use of Retrospectives, and describes them in the official Scrum Guide as follows:&lt;/p&gt;
+
+&lt;p&gt;The Sprint Retrospective is an opportunity for the Scrum Team to inspect itself and create a plan for improvements to be enacted during the next Sprint.&lt;/p&gt;
+
+&lt;p&gt;The Sprint Retrospective occurs after the Sprint Review and prior to the next Sprint Planning. This is a three-hour time-boxed meeting for one-month Sprints. For shorter Sprints, the event is usually shorter. The Scrum Master ensures that the event takes place and that attendants understand its purpose. The Scrum Master teaches all to keep it within the time-box. The Scrum Master participates as a peer team member in the meeting from the accountability over the Scrum process.&lt;/p&gt;
+
+&lt;p&gt;The purpose of the Sprint Retrospective is to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Inspect how the last Sprint went with regards to people, relationships, process, and tools;&lt;/li&gt;
+  &lt;li&gt;Identify and order the major items that went well and potential improvements; and,&lt;/li&gt;
+  &lt;li&gt;Create a plan for implementing improvements to the way the Scrum Team does its work.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Scrum Master encourages the Scrum Team to improve, within the Scrum process framework, its development process and practices to make it more effective and enjoyable for the next Sprint. During each Sprint Retrospective, the Scrum Team plans ways to increase product quality by adapting the definition of “Done” as appropriate.&lt;/p&gt;
+
+&lt;p&gt;By the end of the Sprint Retrospective, the Scrum Team should have identified improvements that it will implement in the next Sprint. Implementing these improvements in the next Sprint is the adaptation to the inspection of the Scrum Team itself. Although improvements may be implemented at any time, the Sprint Retrospective provides a formal opportunity to focus on inspection and adaptation.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-us.pdf&quot;&gt;Source: The Official Scrum Guide&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/practice/TeamRetrospective</link>
+                <guid>http://spinemodel.github.io/practice/TeamRetrospective</guid>
+                <pubDate>2015-05-30T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Team Cognitive Load Tracker</title>
+                <description>
+&lt;h2 id=&quot;what-is-it&quot;&gt;What is it?&lt;/h2&gt;
+&lt;p&gt;A way of gathering data on what work is interrupting people on a team and consuming their time and attention.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-use-it&quot;&gt;Why use it?&lt;/h2&gt;
+&lt;p&gt;Cognitive capacity is finite. If a team is experiencing many unscheduled interruptions then their ability to do their scheduled work will be restricted.&lt;/p&gt;
+
+&lt;h2 id=&quot;when-to-use-it&quot;&gt;When to use it?&lt;/h2&gt;
+&lt;p&gt;When the team feels that they are unable to focus on the work they have committed to because of many unpredictable and unsheduled interruptions.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-could-it-look-like&quot;&gt;What could it look like?&lt;/h2&gt;
+&lt;p&gt;A physical board in the team area with named swim lanes for each individual on the team. Two columns, “Interruption” and “Done” to show what the person has been interrupted for and whether or not they have done it. &lt;/p&gt;
+
+&lt;p&gt;Each team member keeps a pad of postits on their desk and writes one out and sticks it on the board as they get interrupted by unscheduled work. We’ve found the board can get quite full in a two week period, so the little micro-postits work best to save space.&lt;/p&gt;
+
+&lt;p&gt;After two weeks, probably in the teams Retrospective if they have one, the team then uses the items on the board to try and uncover root causes for interruptions, patterns or other insights. They then try and use this data to pick actions to address the situation.&lt;/p&gt;
+
+&lt;p&gt;For example if many interruptions are for user support they might decide to build a particular feature to enable users to help themselves with a certain type of recurring issue. Or, they might decide to have a weekly support rotation where one team member absorbs all the interruptions and allows the rest of the team to focus.&lt;/p&gt;
+
+&lt;h2 id=&quot;assumptions&quot;&gt;Assumptions&lt;/h2&gt;
+&lt;p&gt;Use of this tool assumes that the team is attempting to manage their flow of work to be more effective and accurately forecast their capacity to complete work.&lt;/p&gt;
+
+&lt;p&gt;You could of course apply the tool to yourself, to uncover your own interruptions.&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/tool/CognitiveLoadTracker</link>
+                <guid>http://spinemodel.github.io/tool/CognitiveLoadTracker</guid>
+                <pubDate>2015-05-30T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Human needs according to NVC</title>
+                <description>
+&lt;p&gt;According to NVC, humans all have the following needs…&lt;/p&gt;
+
+&lt;h2 id=&quot;connection&quot;&gt;Connection&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;acceptance&lt;/li&gt;
+  &lt;li&gt;affection&lt;/li&gt;
+  &lt;li&gt;appreciation&lt;/li&gt;
+  &lt;li&gt;belonging&lt;/li&gt;
+  &lt;li&gt;cooperation&lt;/li&gt;
+  &lt;li&gt;communication&lt;/li&gt;
+  &lt;li&gt;closeness&lt;/li&gt;
+  &lt;li&gt;community&lt;/li&gt;
+  &lt;li&gt;companionship&lt;/li&gt;
+  &lt;li&gt;compassion&lt;/li&gt;
+  &lt;li&gt;consideration&lt;/li&gt;
+  &lt;li&gt;consistency&lt;/li&gt;
+  &lt;li&gt;empathy&lt;/li&gt;
+  &lt;li&gt;inclusion&lt;/li&gt;
+  &lt;li&gt;intimacy&lt;/li&gt;
+  &lt;li&gt;love&lt;/li&gt;
+  &lt;li&gt;mutuality&lt;/li&gt;
+  &lt;li&gt;nurturing&lt;/li&gt;
+  &lt;li&gt;respect/self-respect&lt;/li&gt;
+  &lt;li&gt;safety&lt;/li&gt;
+  &lt;li&gt;security&lt;/li&gt;
+  &lt;li&gt;stability&lt;/li&gt;
+  &lt;li&gt;support&lt;/li&gt;
+  &lt;li&gt;to know and be known&lt;/li&gt;
+  &lt;li&gt;to see and be seen&lt;/li&gt;
+  &lt;li&gt;to understand and be understood&lt;/li&gt;
+  &lt;li&gt;trust&lt;/li&gt;
+  &lt;li&gt;warmth&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;honesty&quot;&gt;Honesty&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;authenticity&lt;/li&gt;
+  &lt;li&gt;integrity&lt;/li&gt;
+  &lt;li&gt;presence&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;play&quot;&gt;Play&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;joy&lt;/li&gt;
+  &lt;li&gt;humor&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;peace&quot;&gt;Peace&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;beauty&lt;/li&gt;
+  &lt;li&gt;communion&lt;/li&gt;
+  &lt;li&gt;ease&lt;/li&gt;
+  &lt;li&gt;equality&lt;/li&gt;
+  &lt;li&gt;harmony&lt;/li&gt;
+  &lt;li&gt;inspiration&lt;/li&gt;
+  &lt;li&gt;order&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;physical-well-being&quot;&gt;Physical Well-being&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;air&lt;/li&gt;
+  &lt;li&gt;food&lt;/li&gt;
+  &lt;li&gt;movement/exercise&lt;/li&gt;
+  &lt;li&gt;rest/sleep&lt;/li&gt;
+  &lt;li&gt;sexual expression&lt;/li&gt;
+  &lt;li&gt;safety&lt;/li&gt;
+  &lt;li&gt;shelter&lt;/li&gt;
+  &lt;li&gt;touch&lt;/li&gt;
+  &lt;li&gt;water&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;meaning&quot;&gt;Meaning&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;awareness&lt;/li&gt;
+  &lt;li&gt;celebration of life&lt;/li&gt;
+  &lt;li&gt;challenge&lt;/li&gt;
+  &lt;li&gt;clarity&lt;/li&gt;
+  &lt;li&gt;competence&lt;/li&gt;
+  &lt;li&gt;consciousness&lt;/li&gt;
+  &lt;li&gt;contribution&lt;/li&gt;
+  &lt;li&gt;creativity&lt;/li&gt;
+  &lt;li&gt;discovery&lt;/li&gt;
+  &lt;li&gt;efficacy&lt;/li&gt;
+  &lt;li&gt;effectiveness&lt;/li&gt;
+  &lt;li&gt;growth&lt;/li&gt;
+  &lt;li&gt;hope&lt;/li&gt;
+  &lt;li&gt;learning&lt;/li&gt;
+  &lt;li&gt;mourning&lt;/li&gt;
+  &lt;li&gt;participation&lt;/li&gt;
+  &lt;li&gt;purpose&lt;/li&gt;
+  &lt;li&gt;self-expression&lt;/li&gt;
+  &lt;li&gt;stimulation&lt;/li&gt;
+  &lt;li&gt;to matter&lt;/li&gt;
+  &lt;li&gt;understanding&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;autonomy&quot;&gt;Autonomy&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;choice&lt;/li&gt;
+  &lt;li&gt;freedom&lt;/li&gt;
+  &lt;li&gt;independence&lt;/li&gt;
+  &lt;li&gt;space&lt;/li&gt;
+  &lt;li&gt;spontaneity&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <link>http://spinemodel.github.io/need/NVCNeeds</link>
+                <guid>http://spinemodel.github.io/need/NVCNeeds</guid>
+                <pubDate>2015-05-28T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>To Do</title>
+                <description>
+&lt;p&gt;Many of the pages and sections on this site have yet to be fleshed out. The page structure of the site is as informative as the content. We still felt it was valuable to publish the unfinished pages because of this.&lt;/p&gt;
+
+&lt;p&gt;If you would like to contribute to any of the pages or add new ones please contact &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#115;&amp;#112;&amp;#105;&amp;#110;&amp;#101;&amp;#064;&amp;#100;&amp;#114;&amp;#105;&amp;#118;&amp;#101;&amp;#110;&amp;#046;&amp;#101;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&quot;&gt;Us&lt;/a&gt;, or use &lt;a href=&quot;https://github.com/SpineModel/spinemodel.github.io&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/explanation/TODO</link>
+                <guid>http://spinemodel.github.io/explanation/TODO</guid>
+                <pubDate>2015-05-24T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Pull Work Through the System</title>
+                <description>
+&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+
+</description>
+                <link>http://spinemodel.github.io/principle/PullWorkThroughTheSystem</link>
+                <guid>http://spinemodel.github.io/principle/PullWorkThroughTheSystem</guid>
+                <pubDate>2015-05-24T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Heuristics</title>
+                <description>
+&lt;p&gt;&lt;a href=&quot;/faq/WhatIsASystem&quot;&gt;System&lt;/a&gt; boundaries can be put in place by providing heuristic rules to govern a particular principle.&lt;/p&gt;
+
+&lt;p&gt;People tend to remember heuristic better when they come in threes. For example we often use these three for teams:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Increase&lt;/strong&gt; &lt;a href=&quot;/value/feedback&quot;&gt;feedback&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Decrease&lt;/strong&gt; &lt;a href=&quot;/principle/batchsize&quot;&gt;batch size&lt;/a&gt; &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pull&lt;/strong&gt; &lt;a href=&quot;/principle/pullworkthroughthesystem&quot;&gt;work through the system&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This does not tell teams what &lt;a href=&quot;/practices.html&quot;&gt;Practices&lt;/a&gt; to use, however they can be measured against whether or not they are applying the &lt;a href=&quot;/principles.html&quot;&gt;Principles&lt;/a&gt; in a desirable way.&lt;/p&gt;
+
+&lt;p&gt;See the &lt;a href=&quot;/faq/PathToAgileMastery&quot;&gt;Path to Agile Mastery&lt;/a&gt; FAQ article for more some more in depth exploration of when heuristics are appropriate.&lt;/p&gt;
+
+</description>
+                <link>http://spinemodel.github.io/explanation/Heuristics</link>
+                <guid>http://spinemodel.github.io/explanation/Heuristics</guid>
+                <pubDate>2015-05-24T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Batch Size</title>
+                <description>
+&lt;h2 id=&quot;optimum-batch-size&quot;&gt;Optimum batch size&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/optimum_batch_size.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;What to learn next…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;coming soon&lt;/li&gt;
+  &lt;li&gt;coming soon&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+                <link>http://spinemodel.github.io/principle/BatchSize</link>
+                <guid>http://spinemodel.github.io/principle/BatchSize</guid>
+                <pubDate>2015-05-24T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Scaled Agile Framework (SAFe)</title>
+                <description>
+&lt;h2 id=&quot;origin&quot;&gt;Origin&lt;/h2&gt;
+&lt;p&gt;Over the last few years, I’ve worked extensively with a number of other professionals (including Drew Jemilo, Colin O’Neill, Alex Yakyma, Mauricio Zamora) in the implementation of a number of large enterprise lean|agile transformations. This collaboration has resulted in many back and forth discussions around implementation of the Scaled Agile Framework™. To date, this framework has been elaborated primarily in my books Agile Software Requirements, Scaling Software Agility, and blog). &lt;/p&gt;
+
+&lt;p&gt;Recently, we decided to formalize our collaboration with the intent of making the framework public-facing and more readily available to a larger audience, and we have also committed to developing certain extensions and enhancements to the framework that have presented themselves as the marketplace, agile enterprise maturity, and our thinking and experiences have evolved. &lt;/p&gt;
+
+&lt;p&gt;To that end, we will offer the Scaled Agile Framework (SAF) as a “proven, publicly available, framework for applying Lean|Agile practices at enterprise
+ scale, presented in a structured, interactive, web format.”&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://scalingsoftwareagilityblog.com/introducing-the-scaled-agile-framework/&quot;&gt;Source: Dean Leffingwell, Introducing the Scaled Agile Framework™&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;needs&quot;&gt;Needs&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;values&quot;&gt;Values&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;/value/Alignment&quot;&gt;Alignment&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/value/CodeQuality&quot;&gt;Code Quality&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/value/Transparency&quot;&gt;Transparency&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/value/ProgramExecution&quot;&gt;Program Execution&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;principles&quot;&gt;Principles&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/TakeAnEconomicView&quot;&gt;Take an Economic View&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/ApplySystemsThinking&quot;&gt;Apply Systems Thinking&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/AssumeVariabilityPreserveOptions&quot;&gt;Assume Variability; Preserve Options&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/BuildIncrementallyWithFastIntegratedLearningCycles&quot;&gt;Build Incrementally With Fast Integrated Learning Cycles&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/BaseMilestonesOnObjectiveEvaluationOfWorkingSystems&quot;&gt;Base Milestones On Objective Evaluation Of Working Systems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/VisualizeAndLimitWIPReduceBatchSizesAndManageQueueLengths&quot;&gt;Visualize and limit WIP, reduce batch sizes, and manage queue lengths&lt;/a&gt; &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/ApplyCadenceSynchronizeWithCrossDomainPlanning&quot;&gt;Apply cadence, synchronize with cross-domain planning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/UnlockTheIntrinsicMotivationOfKnowledgeWorkers&quot;&gt;Unlock the intrinsic motivation of knowledge workers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/DecentralizeDecisionMaking&quot;&gt;Decentralize decision-making&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;practices&quot;&gt;Practices&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;tools&quot;&gt;Tools&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/archetype/SAFe</link>
+                <guid>http://spinemodel.github.io/archetype/SAFe</guid>
+                <pubDate>2015-05-23T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Large-scale scrum (LeSS)</title>
+                <description>
+&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/archetype/LeSS</link>
+                <guid>http://spinemodel.github.io/archetype/LeSS</guid>
+                <pubDate>2015-05-23T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Kanban</title>
+                <description>
+&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/archetype/Kanban</link>
+                <guid>http://spinemodel.github.io/archetype/Kanban</guid>
+                <pubDate>2015-05-23T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Feature Driven Development (FDD)</title>
+                <description>
+&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/archetype/FDD</link>
+                <guid>http://spinemodel.github.io/archetype/FDD</guid>
+                <pubDate>2015-05-23T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Dynamic Systems Development Method (DSDM)</title>
+                <description>
+&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/archetype/DSDM</link>
+                <guid>http://spinemodel.github.io/archetype/DSDM</guid>
+                <pubDate>2015-05-23T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Disciplined Agile Delivery (DAD)</title>
+                <description>
+&lt;h2 id=&quot;needs&quot;&gt;Needs&lt;/h2&gt;
+&lt;p&gt;“The Disciplined Agile Delivery (DAD) process decision framework  is a people-first, learning-oriented hybrid agile approach to IT solution delivery. It has a risk-value delivery lifecycle, is goal-driven, is enterprise aware, and is scalable.”&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.disciplinedagiledelivery.com/introduction-to-dad/&quot;&gt;Source: The Official Introduction to DAD&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/archetype/DAD</link>
+                <guid>http://spinemodel.github.io/archetype/DAD</guid>
+                <pubDate>2015-05-23T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Crystal</title>
+                <description>
+&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/archetype/Crystal</link>
+                <guid>http://spinemodel.github.io/archetype/Crystal</guid>
+                <pubDate>2015-05-23T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Core Working Hours</title>
+                <description>
+&lt;p&gt;Core working hours are the block of hours in which the members of the team agree to be working as a team every working day. It is useful to get upfront agreement on when these are to ensure that the team has productive working time together.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-core-working-hours-means-me-by-danie-roux&quot;&gt;What Core Working Hours means me (by Danie Roux)&lt;/h2&gt;
+&lt;p&gt;Core Working Hours used to &lt;em&gt;mean&lt;/em&gt; something. I realise that this makes
+me sound like an extremely old man, but let me explain:&lt;/p&gt;
+
+&lt;p&gt;During the core working hours, we were productive. We produced something of value to the team and company. Things that weren’t considered ‘adding value’ were e-mails, meetings, taking calls and fielding interruptions.&lt;/p&gt;
+
+&lt;p&gt;In order to ensure we were productive and adding value during core working hours, we closed our office doors, turned off our cell phones, unplugged the office phones and closed the instant messaging applications. Then we tackled the work in front of us with gusto.&lt;/p&gt;
+
+&lt;p&gt;That is what we mean by Core &lt;em&gt;Working&lt;/em&gt; Hours. The hours the team agree to be together, working.&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/practice/CoreWorkingHours</link>
+                <guid>http://spinemodel.github.io/practice/CoreWorkingHours</guid>
+                <pubDate>2015-05-23T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Openness</title>
+                <description>
+&lt;h2 id=&quot;as-defined-in-scrumarchetypescrum&quot;&gt;As defined in &lt;a href=&quot;/archetype/SCRUM/&quot;&gt;SCRUM&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As we work together, we express how we’re doing, what’s in our way, and our concerns so they can be addressed.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(via &lt;a href=&quot;https://www.scrumalliance.org/why-scrum/core-scrum-values-roles&quot;&gt;scrumalliance.org&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/value/Openness</link>
+                <guid>http://spinemodel.github.io/value/Openness</guid>
+                <pubDate>2015-05-14T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Focus</title>
+                <description>
+&lt;h2 id=&quot;as-defined-in-scrumarchetypescrum&quot;&gt;As defined in &lt;a href=&quot;/archetype/SCRUM/&quot;&gt;SCRUM&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Because we focus on only a few things at a time, we work well together and produce excellent work. We deliver valuable items sooner.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(via &lt;a href=&quot;https://www.scrumalliance.org/why-scrum/core-scrum-values-roles&quot;&gt;scrumalliance.org&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/value/Focus</link>
+                <guid>http://spinemodel.github.io/value/Focus</guid>
+                <pubDate>2015-05-14T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Commitment</title>
+                <description>
+&lt;h2 id=&quot;as-defined-in-scrumarchetypescrum&quot;&gt;As defined in &lt;a href=&quot;/archetype/SCRUM/&quot;&gt;SCRUM&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Because we have great control over our own destiny, we are more committed to success.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(via &lt;a href=&quot;https://www.scrumalliance.org/why-scrum/core-scrum-values-roles&quot;&gt;scrumalliance.org&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/value/Commitment</link>
+                <guid>http://spinemodel.github.io/value/Commitment</guid>
+                <pubDate>2015-05-14T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Simplicity</title>
+                <description>
+&lt;h2 id=&quot;as-defined-in-extreme-programming-xparchetypexp&quot;&gt;As defined in &lt;a href=&quot;/archetype/XP/&quot;&gt;eXtreme Programming (XP)&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We will do what is needed and asked for, but no more. This will maximize the value created for the investment made to date. We will take small simple steps to our goal and mitigate failures as they happen. We will create something we are proud of and maintain it long term for reasonable costs. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(via &lt;a href=&quot;http://www.extremeprogramming.org/values.html&quot;&gt;extremeprogramming.org/values&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/value/Simplicity</link>
+                <guid>http://spinemodel.github.io/value/Simplicity</guid>
+                <pubDate>2015-05-13T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Respect</title>
+                <description>
+&lt;h2 id=&quot;as-defined-in-extreme-programming-xparchetypexp&quot;&gt;As defined in &lt;a href=&quot;/archetype/XP/&quot;&gt;eXtreme Programming (XP)&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Everyone gives and feels the respect they deserve as a valued team member. Everyone contributes value even if it’s simply enthusiasm. Developers respect the expertise of the customers and vice versa. Management respects our right to accept responsibility and receive authority over our own work.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(via &lt;a href=&quot;http://www.extremeprogramming.org/values.html&quot;&gt;extremeprogramming.org&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;as-defined-in-scrumarchetypescrum&quot;&gt;As defined in &lt;a href=&quot;/archetype/SCRUM/&quot;&gt;SCRUM&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As we work together, sharing successes and failures, we come to respect each other and to help each other become worthy of respect.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(via &lt;a href=&quot;https://www.scrumalliance.org/why-scrum/core-scrum-values-roles&quot;&gt;scrumalliance.org&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/value/Respect</link>
+                <guid>http://spinemodel.github.io/value/Respect</guid>
+                <pubDate>2015-05-13T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Feedback</title>
+                <description>
+&lt;h2 id=&quot;as-defined-in-extreme-programming-xparchetypexp&quot;&gt;As defined in &lt;a href=&quot;/archetype/XP/&quot;&gt;eXtreme Programming (XP)&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We will take every iteration commitment seriously by delivering working software. We demonstrate our software early and often then listen carefully and make any changes needed. We will talk about the project and adapt our process to it, not the other way around.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(via &lt;a href=&quot;http://www.extremeprogramming.org/values.html&quot;&gt;extremeprogramming.org/values&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/value/Feedback</link>
+                <guid>http://spinemodel.github.io/value/Feedback</guid>
+                <pubDate>2015-05-13T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Courage</title>
+                <description>
+&lt;h2 id=&quot;as-defined-in-extreme-programming-xparchetypexp&quot;&gt;As defined in &lt;a href=&quot;/archetype/XP/&quot;&gt;eXtreme Programming (XP)&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;We will tell the truth about progress and estimates. We don’t document excuses for failure because we plan to succeed. We don’t fear anything because no one ever works alone. We will adapt to changes when ever they happen.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(via &lt;a href=&quot;http://www.extremeprogramming.org/values.html&quot;&gt;extremeprogramming.org/values&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;as-defined-in-scrumarchetypescrum&quot;&gt;As defined in &lt;a href=&quot;/archetype/SCRUM/&quot;&gt;SCRUM&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Because we work as a team, we feel supported and have more resources at our disposal. This gives us the courage to undertake greater challenges.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(via &lt;a href=&quot;https://www.scrumalliance.org/why-scrum/core-scrum-values-roles&quot;&gt;scrumalliance.org&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/value/Courage</link>
+                <guid>http://spinemodel.github.io/value/Courage</guid>
+                <pubDate>2015-05-13T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Capacity of a work system</title>
+                <description>
+&lt;p&gt;Counterintuitively, the way for more work to be completed in a &lt;a href=&quot;/faq/WhatIsASystem&quot;&gt;work system&lt;/a&gt; is not for everyone to work harder. You first need to understand the capacity of the system to move the work from start to finished…&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zEzKsEzuZYM&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;What to learn next…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;coming soon&lt;/li&gt;
+  &lt;li&gt;coming soon&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/principle/CapacityOfAWorkSystem</link>
+                <guid>http://spinemodel.github.io/principle/CapacityOfAWorkSystem</guid>
+                <pubDate>2015-05-13T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Communication</title>
+                <description>
+&lt;h2 id=&quot;as-defined-in-extreme-programming-xparchetypexp&quot;&gt;As defined in &lt;a href=&quot;/archetype/XP/&quot;&gt;eXtreme Programming (XP)&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Everyone is part of the team and we communicate face to face daily. We will work together on everything from requirements to code. We will create the best solution to our problem that we can together.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(via &lt;a href=&quot;http://www.extremeprogramming.org/values.html&quot;&gt;extremeprogramming.org/values&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/value/communication</link>
+                <guid>http://spinemodel.github.io/value/communication</guid>
+                <pubDate>2015-05-12T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Scrum Product Owner</title>
+                <description>
+&lt;p&gt;The Product Owner is responsible for maximizing the value of the product and the work of the Development Team. How this is done may vary widely across organizations, &lt;a href=&quot;/archetype/SCRUM/&quot;&gt;SCRUM&lt;/a&gt; Teams, and individuals.&lt;/p&gt;
+
+&lt;p&gt;The Product Owner is the sole person responsible for managing the Product Backlog. Product Backlog management includes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Clearly expressing Product Backlog items;&lt;/li&gt;
+  &lt;li&gt;Ordering the items in the Product Backlog to best achieve goals and missions;&lt;/li&gt;
+  &lt;li&gt;Optimizing the value of the work the Development Team performs;&lt;/li&gt;
+  &lt;li&gt;Ensuring that the Product Backlog is visible, transparent, and clear to all, and shows what the Scrum Team will work on next; and,&lt;/li&gt;
+  &lt;li&gt;Ensuring the Development Team understands items in the Product Backlog to the level needed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Product Owner may do the above work, or have the Development Team do it. However, the Product Owner remains accountable.&lt;/p&gt;
+
+&lt;p&gt;The Product Owner is one person, not a committee. The Product Owner may represent the desires of a committee in the Product Backlog, but those wanting to change a Product Backlog item’s priority must address the Product Owner.&lt;/p&gt;
+
+&lt;p&gt;For the Product Owner to succeed, the entire organization must respect his or her decisions. The Product Owner’s decisions are visible in the content and ordering of the Product Backlog. No one is allowed to tell the Development Team to work from a different set of requirements, and the Development Team isn’t allowed to act on what anyone else says.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-us.pdf&quot;&gt;Source: The Official Scrum Guide&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/practice/ScrumProductOwner</link>
+                <guid>http://spinemodel.github.io/practice/ScrumProductOwner</guid>
+                <pubDate>2015-05-12T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Scrum Master</title>
+                <description>
+&lt;p&gt;The Scrum Master is responsible for ensuring &lt;a href=&quot;/archetype/SCRUM/&quot;&gt;SCRUM&lt;/a&gt; is understood and enacted. Scrum Masters do this by ensuring that the Scrum Team adheres to Scrum theory, practices, and rules.&lt;/p&gt;
+
+&lt;p&gt;The Scrum Master is a servant-leader for the Scrum Team. The Scrum Master helps those outside the Scrum Team understand which of their interactions with the Scrum Team are helpful and which aren’t. The Scrum Master helps everyone change these interactions to maximize the value created by the Scrum Team.&lt;/p&gt;
+
+&lt;h2 id=&quot;scrum-master-service-to-the-product-owner&quot;&gt;Scrum Master Service to the Product Owner&lt;/h2&gt;
+&lt;p&gt;The Scrum Master serves the Product Owner in several ways, including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Finding techniques for effective Product Backlog management;&lt;/li&gt;
+  &lt;li&gt;Helping the Scrum Team understand the need for clear and concise Product Backlog items;&lt;/li&gt;
+  &lt;li&gt;Understanding product planning in an empirical environment;&lt;/li&gt;
+  &lt;li&gt;Ensuring the Product Owner knows how to arrange the Product Backlog to maximize value;&lt;/li&gt;
+  &lt;li&gt;Understanding and practicing agility; and,&lt;/li&gt;
+  &lt;li&gt;Facilitating Scrum events as requested or needed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;scrum-master-service-to-the-development-team&quot;&gt;Scrum Master Service to the Development Team&lt;/h2&gt;
+&lt;p&gt;The Scrum Master serves the Development Team in several ways, including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Coaching the Development Team in self-organization and cross-functionality;&lt;/li&gt;
+  &lt;li&gt;Helping the Development Team to create high-value products;&lt;/li&gt;
+  &lt;li&gt;Removing impediments to the Development Team’s progress;&lt;/li&gt;
+  &lt;li&gt;Facilitating Scrum events as requested or needed; and,&lt;/li&gt;
+  &lt;li&gt;Coaching the Development Team in organizational environments in which Scrum is not yet fully adopted and understood.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;scrum-master-service-to-the-organization&quot;&gt;Scrum Master Service to the Organization&lt;/h2&gt;
+&lt;p&gt;The Scrum Master serves the organization in several ways, including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Leading and coaching the organization in its Scrum adoption;&lt;/li&gt;
+  &lt;li&gt;Planning Scrum implementations within the organization;&lt;/li&gt;
+  &lt;li&gt;Helping employees and stakeholders understand and enact Scrum and empirical product development;&lt;/li&gt;
+  &lt;li&gt;Causing change that increases the productivity of the Scrum Team; and,&lt;/li&gt;
+  &lt;li&gt;Working with other Scrum Masters to increase the effectiveness of the application of Scrum in the organization.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-us.pdf&quot;&gt;Source: The Official Scrum Guide&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/practice/ScrumMaster</link>
+                <guid>http://spinemodel.github.io/practice/ScrumMaster</guid>
+                <pubDate>2015-05-12T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Resource vs Flow Optimisation</title>
+                <description>
+&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+</description>
+                <link>http://spinemodel.github.io/principle/ResourceVsFlowOptimisation</link>
+                <guid>http://spinemodel.github.io/principle/ResourceVsFlowOptimisation</guid>
+                <pubDate>2015-05-12T00:00:00+02:00</pubDate>
+        </item>
+
 
 </channel>
 </rss>

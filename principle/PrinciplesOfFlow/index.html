@@ -1,0 +1,861 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Principles of Flow</title>
+    
+    <meta name="author" content="Kevin Trethewey, Danie Roux, Joanne Perold and Collaborators">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap styles -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optional theme -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Sticky Footer -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
+
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/commponents.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link href="/assets/themes/bootstrap-3/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <script src="../../../assets/scripts/jQuery/jquery-2.1.0.min.js"></script>
+    <script src="../../../assets/scripts/jQuery/modernizr.custom.js"></script>
+    <script src="../../../assets/scripts/jQuery/toucheffects.js"></script>
+
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+      <link rel="shortcut icon" href="./../../assets/images/favicon.ico">
+    <!-- Update these with your own images
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+
+    <!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+</head>
+
+<div class="col-md-12" id="wrap">
+          <nav class="navbar navbar-default mobile-only" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="/"><img src="../../../assets/images/SL.png" style="max-width: 100%;"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="jb-navbar-collapse">
+         
+           
+            <ul class="nav menu_items navbar-nav">
+
+    
+
+    <!-- check to see if the data file has a submenu, and if so display it -->
+    
+    <li>
+    <a href="" >Spine Model</i></a>
+    <ul class="nav nav-items">
+    
+    <li><a href="http://spinemodel.info" >What is it?</a></li>
+    
+    <li><a href="/faq.html" >FAQs</a></li>
+    
+    <li><a href="/tags.html" >Tags</a></li>
+    
+    </ul>
+    </li>
+    
+    </li>
+    
+
+    <!-- check to see if the data file has a submenu, and if so display it -->
+    
+    <li>
+    <a href="" >Catalog</i></a>
+    <ul class="nav nav-items">
+    
+    <li><a href="/needs.html" >Needs</a></li>
+    
+    <li><a href="/values.html" >Values</a></li>
+    
+    <li><a href="/principles.html" >Principles</a></li>
+    
+    <li><a href="/practices.html" >Practices</a></li>
+    
+    <li><a href="/tools.html" >Tools</a></li>
+    
+    <li><a href="/archetypes.html" >Archetypes</a></li>
+    
+    </ul>
+    </li>
+    
+    </li>
+    
+    </ul>
+
+          
+          <!-- TODO: Fix search -->
+         
+          
+        </div><!-- /.navbar-collapse -->
+
+      </nav>
+
+    <div class="col-md-2 light-grey">
+        <div class="sidebar-nav top-buffer">
+            <div id="the_big_nav" class="navbar desktop-only " role="navigation">
+                <div class="navbar-collapse collapse sidebar-navbar-collapse">
+                    <div class="logo">
+                        <a href="/"><img src="../../../assets/images/SL.png"></a>
+                    </div >
+                    <div class="logo-subtext">
+                        <h5>a free Spine Model catalog to which anyone can contribute</h5>
+                        <hr/>
+                    </div>
+                    <div class="col-md-12 row">
+                
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+  
+    <ul class="nav menu_items pull-right">
+
+    
+
+    <!-- check to see if the data file has a submenu, and if so display it -->
+    
+    <li>
+    <a href="" >Spine Model</i></a>
+    <ul class="nav nav-items">
+    
+    <li><a href="http://spinemodel.info" >What is it?</a></li>
+    
+    <li><a href="/faq.html" >FAQs</a></li>
+    
+    <li><a href="/tags.html" >Tags</a></li>
+    
+    </ul>
+    </li>
+    
+    </li>
+    
+
+    <!-- check to see if the data file has a submenu, and if so display it -->
+    
+    <li>
+    <a href="" >Catalog</i></a>
+    <ul class="nav nav-items">
+    
+    <li><a href="/needs.html" >Needs</a></li>
+    
+    <li><a href="/values.html" >Values</a></li>
+    
+    <li><a href="/principles.html" >Principles</a></li>
+    
+    <li><a href="/practices.html" >Practices</a></li>
+    
+    <li><a href="/tools.html" >Tools</a></li>
+    
+    <li><a href="/archetypes.html" >Archetypes</a></li>
+    
+    </ul>
+    </li>
+    
+    </li>
+    
+    </ul>
+    
+
+
+                    </div>
+
+                   
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="col-md-10 top-buffer desktop-only" >
+
+        <div>
+            <ul class="nav nav-tabs col-md-12 pull-left" role="tablist">
+                <li role="presentation" class="active">
+                    <a href="#Articles" role="tab" data-toggle="tab">Article</a>
+                </li>
+                <li role="presentation">
+                    <a href="#Discussions" role="tab" data-toggle="tab">Discussions</a>
+                </li>
+
+               
+            </ul>
+        </div>
+
+
+
+        <div role="tabpanel" class="desktop-only">
+
+
+            <div class="tab-content">
+                               
+                <div role="tabpanel" class="tab-pane fade in active" id="Articles">
+                    <div class="col-md-12 row">                        
+                            
+<div class="page-header">
+  <h1>Principles of Flow <small></small></h1>
+</div>
+
+<div class="row post-full">
+  <div class="col-xs-12">
+    <div class="date">
+      <span>last updated 17 November 2015 by Kevin Trethewey</span>
+    </div>
+    <div class="content">
+      
+<p>The <a href="http://lpd2.com/">Lean Product Development</a> book enumerates 175 principles in 8 categories: Economic, Queueing, Variability, Batch Size, WIP Constraint, Flow Control Fast Feedback and Decentralization…</p>
+
+<h2 id="economic-principles">Economic Principles</h2>
+
+<ul>
+  <li>E1: The Principle of Quantified Overall Economics: Select actions based on quantified overall economic impact.</li>
+  <li>E2: The Principle of Interconnected Variables: We can’t just change one thing.</li>
+  <li>E3: The Principle of Quantified Cost of Delay: If you only quantify one thing, quantify the cost of delay.</li>
+  <li>E4: The Principle of Economic Value-Added: The value added by an activity is the change in the economic value of the work product.</li>
+  <li>E5: The Inactivity Principle: Watch the work product, not the worker.</li>
+  <li>E6: The U-Curve Principle: Important trade-offs are likely to have U-curve optimizations.</li>
+  <li>E7: The Imperfection Principle: Even imperfect answers improve decision making</li>
+  <li>E8: The Principle of Small Decisions: Influence the many small decisions</li>
+  <li>E9: The Principle of Continuous Economic Tradeoffs: Economic choices must be made continuously.</li>
+  <li>E10: The First Perishability Principle: Many economic choices are more valuable when made quickly.</li>
+  <li>E11: The Subdivision Principle: Inside every bad choice lies a good choice.</li>
+  <li>E12: The Principle of Early Harvesting: Create systems to harvest the early cheap opportunities.</li>
+  <li>E13: The Principle of Decision Rules: Use decision rules to decentralize economic control.</li>
+  <li>E14: The First Market Principle: Ensure decision makers feel both cost and benefit.</li>
+  <li>E15: The Principle of Optimum Decision Timing: Every decision has its optimum economic timing.</li>
+  <li>E16: The Principle of Marginal Economics: Always compare marginal cost to marginal value.</li>
+  <li>E17: The Sunk Cost Principle: Do not consider money already spent.</li>
+  <li>E18: The Principle of Buying Information: The value of information is its expected economic value.</li>
+  <li>E19: The Insurance Principle: Don’t pay more for  insurance than the expected loss.</li>
+  <li>E20: The Newsboy Principle: High probability of failure does not equal bad economics.</li>
+  <li>E21: The Show Me the Money Principle: To influence financial decisions, speak the language on money.</li>
+</ul>
+
+<h2 id="queueing-principles">Queueing Principles</h2>
+
+<ul>
+  <li>Q1: The Principle of Invisible Inventory: Product development inventory is physically and financially invisible.</li>
+  <li>Q2: The Principle of Queueing Waste: Queues are the root cause of the majority of economic waste in product development.</li>
+  <li>Q3: The Principle of Queueing Capacity Utilization: Capacity utilization increases queues exponentially.</li>
+  <li>Q4: The Principle of High-Queue States: Most of the damage done by a queue is caused by high-queue states.</li>
+  <li>Q5: The Principle of Queueing Variability: Variability increases queues linearly.</li>
+  <li>Q6: The Principle of Variability Amplification: Operating at high levels of capacity utilization increases variability.</li>
+  <li>Q7: The Principle of Queueing Structure: Serve pooled demand with reliable high-capacity servers.</li>
+  <li>Q8: The Principle of Linked Queues: Adjacent queues see arrival or service time variability depending on loading.</li>
+  <li>Q9: The Principle of Queue Size Optimization: Optimum queue size is an economic tradeoff.</li>
+  <li>Q10: The Principle of Queueing Discipline: Queue cost is affected by the sequence in which we handle the jobs in the queue.</li>
+  <li>Q11: The Cumulative Flow Principle: Use CFDs to monitor queues.</li>
+  <li>Q12: Little’s Formula: Wait time = Queue Size/Processing Rate.</li>
+  <li>Q13: The First Queue Size Control Principle:  Don’t control capacity utilization, control queue size.</li>
+  <li>Q14: The Second Queue Size Control Principle: Don’t control cycle time, control queue size.</li>
+  <li>Q15: The Diffusion Principle: Over time, queues will randomly spin seriously out of control and will remain in this state for long periods.</li>
+  <li>Q16: The Intervention Principle: We cannot rely on randomness to correct a random queue.</li>
+</ul>
+
+<h2 id="variability-principles">Variability Principles</h2>
+
+<ul>
+  <li>V1: The Principle of Beneficial Variability: Variability can create economic value.</li>
+  <li>V2: The Principle of Asymmetric Payoffs: Payoff asymmetries enable variability to create economic value.</li>
+  <li>V3: The Principle of Optimum Variability: Variability should neither be minimized nor maximized.</li>
+  <li>V4: The Principle of Optimum Failure Rate: Fifty percent failure rate is usually optimum for generating information.</li>
+  <li>V5: The Principle of Variability Pooling: Overall variation decreases when uncorrelated random tasks are combined.</li>
+  <li>V6: The Principle of Short-Term Forecasting: Forecasting becomes exponentially easier at short time-horizons.</li>
+  <li>V7: The Principle of Small Experiments: Many small experiments produce less variation than one big one.</li>
+  <li>V8: The Repetition Principle: Repetition reduces variation.</li>
+  <li>V9: The Reuse Principle: Reuse reduces variability. </li>
+  <li>V10: The Principle of Negative Covariance: We can reduce variance by applying a counterbalancing effect. </li>
+  <li>V11: The Buffer Principle:Buffers trade money for variability reduction. </li>
+  <li>V12: The Principle of Variability Consequence: Reducing consequences is usually the best way to reduce the cost of variability. </li>
+  <li>V13: The Non-linearity Principle: Operate in the linear range of system performance. </li>
+  <li>V14: The Principle of Variability Substitution: Substitute cheap variability for expensive variability. </li>
+  <li>V15: The Principle of Iteration Speed: It is usually better to improve iteration speed than defect rate. </li>
+  <li>V16: The Principle of Variability Displacement: Move variability to the process stage where its cost is lowest. </li>
+</ul>
+
+<h2 id="batch-size-principles">Batch Size Principles</h2>
+
+<ul>
+  <li>B1: Batch Size Queueing Principle: Reducing batch size reduces cycle time. </li>
+  <li>B2: The Batch Size Variability Principle: Reducing batch size reduces variability in flow. </li>
+  <li>B3: The Batch Size Feedback Principle: Reducing batch size accelerates feedback. </li>
+  <li>B4: The Batch Size Risk Principle: Reducing batch size reduces risk. </li>
+  <li>B5: The Batch Size Overhead Principle: Reducing batch size reduces overhead. </li>
+  <li>B6: The Batch Size Efficiency Principle: Large batches reduce efficiency. (</li>
+  <li>B7: The Psychology Principle of Batch Size: Large batches inherently lower motivation and urgency. </li>
+  <li>B8: The Batch Size Slippage Principle: Large batches cause exponential cost and schedule growth. (</li>
+  <li>B9: The Batch Size Death Spiral Principle: Large batches lead to even larger batches. </li>
+  <li>B10: The Least Common Denominator Principle of Batch Size: The entire batch is limited by its worst element. </li>
+  <li>B11: The Principle of Batch Size Economics: Economic batch size is a U-curve optimization. </li>
+  <li>B12: The Principle of Low Transaction Cost: Reducing transaction cost per batch lowers overall costs. </li>
+  <li>B13: The Principle of Batch Size Diseconomies: Batch size reduction saves much more than you think. </li>
+  <li>B14: The Batch Size Packing Principle: Small batches allow finer tuning of capacity utilization </li>
+  <li>B15: The Fluidity Principle: Loose coupling between product subsystems enables small batches. </li>
+  <li>B16: The Principle of Transport Batches: The most important batch is the transport batch. </li>
+  <li>B17: The Proximity Principle: Proximity enables small batch sizes. </li>
+  <li>B18: The Run Length Principle: Short run lengths reduce queues. </li>
+  <li>B19: The Infrastructure Principle: Good infrastructure enables small batches. </li>
+  <li>B20: The Principle of Batch Content: Sequence first that which adds value most cheaply. </li>
+  <li>B21: The Batch Size First Principle: Reduce batch size before you attack bottlenecks. </li>
+  <li>B22: The Principle of Dynamic Batch Size: Adjust batch size dynamically to respond to changing economics. </li>
+</ul>
+
+<h2 id="wip-constraint-principles">WIP Constraint Principles</h2>
+
+<ul>
+  <li>W1: The Principle of WIP Constraints: Constrain WIP to control cycle time and flow. </li>
+  <li>W2: The Principle of Rate Matching: WIP constraints force rate-matching. </li>
+  <li>W3: The Principle of Global Constraints: Use global WIP constraints for predictable and permanent bottlenecks. </li>
+  <li>W4: The Principle of Local Constraints: If possible, constrain local WIP pools. </li>
+  <li>W5: The Batch Size Decoupling Principle: Use WIP ranges to decouple the batch sizes of adjacent processes. </li>
+  <li>W6: The Principle of Demand Blocking: Block all demand when WIP reaches its upper limit. </li>
+  <li>W7: The Principle of WIP Purging: When WIP is high, purge low value projects. </li>
+  <li>W8: The Principle of Flexible Requirements: Control WIP by shedding requirements. </li>
+  <li>W9: The Principle of Resource Pulling: Quickly apply extra resources to an emerging queue. </li>
+  <li>W10: The Principle of Part-Time Resources: Use part-time resources for high variability tasks. </li>
+  <li>W11: The Big Gun Principle: Pull high-powered experts to emerging bottlenecks. </li>
+  <li>W12: The Principle of T-Shaped Resources: Develop people who are deep in one area and broad in many. </li>
+  <li>W13: The Principle of Skill Overlap: Cross train resources at adjacent processes. </li>
+  <li>W14: The Mix Change Principle: Use upstream mix changes to regulate queue size. </li>
+  <li>W15: The Aging Principle: Watch the outliers. </li>
+  <li>W16: The Escalation Principle: Create a preplanned escalation process for outliers. </li>
+  <li>W17: The Principle of Progressive Throttling: Increase throttling as you approach the queue limit. </li>
+  <li>W18: The Principle of Differential Service: Differentiate quality of service by workstream. </li>
+  <li>W19: The Principle of Adaptive WIP Constraints: Adjust WIP constraints as capacity changes. </li>
+  <li>W20: The Expansion Control Principle: Prevent uncontrolled expansion of work. </li>
+  <li>W21: The Principle of the Critical Queue: Constrain WIP in the secion of the system where the queue is most expensive. </li>
+  <li>W22: The Cumulative Reduction Principle: Small WIP reductions accumulate. </li>
+  <li>W23: The Principle of Visual WIP: Make WIP continuously visible. </li>
+</ul>
+
+<h2 id="flow-control-principles">Flow Control Principles</h2>
+
+<ul>
+  <li>F1: The Principle of Congestion Collapse: When loading becomes too high, we will see a sudden and catastrophic drop in output. </li>
+  <li>F2: The Peak Throughput Principle: Control occupancy to sustain high throughput in systems prone to congestion. </li>
+  <li>F3: The Principle of Visible Congestion: Use forecasts of expected flow time to make congestion visible. </li>
+  <li>F4: The Principle of Congestion Pricing: Use pricing to reduce demand during congested periods. </li>
+  <li>F5: The Principle of Periodic Resynchronization: Use a regular cadence to limit the accumulation of variance. </li>
+  <li>F6: The Cadence Capacity Margin Principle: Provide sufficient capacity margin to enable cadence. </li>
+  <li>F7: The Cadence Reliability Principle: Use cadence to make waiting times predictable.</li>
+  <li>F8: The Cadence Batch Size Enabling Principle: Use a regular cadence to enable small batch sizes. </li>
+  <li>F9: The Principle of Cadenced Meetings: Schedule frequent meetings using a predictable cadence. (</li>
+  <li>F10: The Synchronization Capacity Margin Principle: To enable synchronization, provide sufficient capacity margin. </li>
+  <li>F11: The Principle of Multiproject Synchronization: Exploit scale economies by synchronizing work from multiple projects. </li>
+  <li>F12: The Principle of Cross-Functional Synchronization: Use synchronized events to facilitate cross functional tradeoffs. </li>
+  <li>F13: The Synchronization Queueing Principle: To reduce queues, synchronize the batch size and timing of adjacent processes. </li>
+  <li>F14: The Harmonic Principle: Make nested cadences harmonic multiples. </li>
+  <li>F15: The SJF Scheduling Principle: When delay costs are homogeneous, do the shortest job first. </li>
+  <li>F16: The HDCF Scheduling Principle: When job durations are homogeneous, do the high cost-of-delay job first. </li>
+  <li>F17: The WSJF Scheduling Principle: When job durations and delay costs are not homogeneous, use WSJF. </li>
+  <li>F18: The Local Priority Principle: Priorities are inherently local. </li>
+  <li>F19: The Round-Robin Principle: When task duration is unknown, time-share capacity. </li>
+  <li>F20: The Preemption Principle: Only preempt when switching costs are low. </li>
+  <li>F21: The Principle of Work Matching: Use sequence to match jobs to appropriate resources. </li>
+  <li>F22: The Principle of Tailored Routing: Select and tailor the sequence of subprocesses to the task at hand. </li>
+  <li>F23: The Principle of Flexible Routing: Route work based on the current most economic route. </li>
+  <li>F24: The Principle of Alternate Routes: Develop and maintain alternate routes around points of congestion. </li>
+  <li>F25: The Principle of Flexible Resources: Use flexible resources to absorb variation. </li>
+  <li>F26: The Principle of Late Binding: The later we bind demand to resources, the smoother the flow. </li>
+  <li>F27: The Principle of Local Transparency: Make tasks and resources reciprocally visible at adjacent processes. </li>
+  <li>F28: The Principle of Preplanned Flexibility: For fast responses, preplan and invest in flexibility. </li>
+  <li>F29: The Principle of Resource Centralization: Correctly managed, centralized resources can reduce queues. </li>
+  <li>F30: The Principle of Flow Conditioning: Reduce variability before a bottleneck. </li>
+</ul>
+
+<h2 id="fast-feedback-principles">Fast Feedback Principles</h2>
+
+<ul>
+  <li>FF1: The Principle of Maximum Economic Influence: Focus control on project and process parameters with the highest economic influence. </li>
+  <li>FF2: The Principle of Efficient Control: Control parameters that are both influential and efficient. </li>
+  <li>FF3: The Principle of Leading Indicators: Select control variables that predict future system behavior. </li>
+  <li>FF4: The Principle of Balanced Set Points: Set tripwires at points of equal economic impact. </li>
+  <li>FF5: The Moving Target Principle: Know when to pursue a dynamic goal. </li>
+  <li>FF6: The Exploitation Principle: Exploit unplanned economic opportunities.</li>
+  <li>FF7: The Queue Reduction Principle of Feedback: Fast feedback enables smaller queues. </li>
+  <li>FF8: The Fast Learning Principle: Use fast feedback to make learning faster and more efficient. </li>
+  <li>FF9: The Principle of Useless Measurement: What gets measured may not get done. </li>
+  <li>FF10: The First Agility Principle: We don’t need long planning horizons when we have a short turning radius. </li>
+  <li>FF11: The Batch Size Principle of Feedback: Small batches yield fast feedback. </li>
+  <li>FF12: The Signal to Noise Principle: To detect a smaller signal, reduce the noise. </li>
+  <li>FF13: The Decision Rule Principle: Control the economic logic behind the decision, not the entire decision. </li>
+  <li>FF14: The Locality Principal of Feedback: Whenever possible make feedback local. </li>
+  <li>FF15: The Relief Valve Principle: Have a clear, predetermined relief valve. </li>
+  <li>FF16: The Principle of Multiple Control Loops: Embed fast control loops inside slow loops. </li>
+  <li>FF17: The Principle of Controlled Excursions: Keep deviations within the control range. </li>
+  <li>FF18: The Feedforward Principle: Provide advance notice of heavy arrival rates to minimize queues. </li>
+  <li>FF19: The Principle of Colocation: Colocation improves almost all aspects of communications. </li>
+  <li>FF20: The Empowerment Principle of Feedback: Fast feedback gives a sense of control. </li>
+  <li>FF21: The Hurry-Up-and-Wait Principle: Large queues make it hard to create urgency. </li>
+  <li>FF22: The Amplification Principle: The human element tends to amplify large excursions. </li>
+  <li>FF23: The Principle of Overlapping Measurement: To align behaviors, reward people for the work of others. </li>
+  <li>FF24: The Attention Principle: Time counts more than money. </li>
+</ul>
+
+<h2 id="decentralization-principles">Decentralization Principles</h2>
+
+<ul>
+  <li>D1: The Second Perishability Principle: Decentralize control for problems and opportunities that age poorly. </li>
+  <li>D2: The Scale Principle: Centralize control for problems that are infrequent, large, or that have significant economies of scale. </li>
+  <li>D3: The Principle of Layered Control: Adapt the control approach to emerging information about the problem. </li>
+  <li>D4: The Opportunistic Principle: Adjust the plan for unplanned obstacles and opportunities. </li>
+  <li>D5: The Principle of Virtual Centralization: Be able to quickly reorganize decentralized resources to create centralized power. </li>
+  <li>D6: The Inefficiency Principle: The inefficiency of decentralization can cost less than the value of faster response time. </li>
+  <li>D7: The Principle of Alignment: There is more value created with overall alignment than local excellence. </li>
+  <li>D8: The Principle of Mission: Specify the end state, its purpose, and the minimal possible constraints. </li>
+  <li>D9: The Principle of Boundaries: Establish clear roles and boundaries. </li>
+  <li>D10: The Main Effort Principle: Designate a main effort and subordinate other activities. </li>
+  <li>D11: The Principle of Dynamic Alignment: The main effort may shift quickly when conditions change. </li>
+  <li>D12 The Second Agility Principle: Develop the ability to quickly shift focus. </li>
+  <li>D13: The Principle of Peer-Level Coordination: Tactical coordination should be local. </li>
+  <li>D14: The Principle of Flexible Plans: Use simple modular plans. </li>
+  <li>D15: The Principle of Tactical Reserves: Decentralize a portion of reserves. </li>
+  <li>D16: The Principle of Early Contact: Make early and meaningful contact with the problem. </li>
+  <li>D17: The Principle of Decentralized Information: For decentralized decisions, disseminate key information widely. </li>
+  <li>D18: The Frequency Response Principle: We can’t respond faster than our frequency response. </li>
+  <li>D19: The Quality of Service Principle: When response time is important, measure response time. </li>
+  <li>D20: The Second Market Principle: Use internal and external markets to decentralize control. </li>
+  <li>D21: The Principle of Regenerative Initiative: Cultivating initiative enables us to use initiative. </li>
+  <li>D22: The Principle of Face-to-Face Communication: Exploit the speed and bandwidth of face-to-face communications. </li>
+  <li>D23: The Trust Principle: Trust is built through experience. </li>
+</ul>
+
+<p>(<a href="http://lpd2.com/the-principles-of-flow/">Source:</a>)</p>
+
+    </div>
+
+<!--
+  
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-open"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/categories.html#principle-ref">
+    		principle <span>21</span>
+    	</a></li>
+    
+  
+
+
+    </ul>
+    
+-->
+
+  
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-tags"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/tags.html#Flow-ref">Flow <span>10</span></a></li>
+    
+  
+
+
+
+    </ul>
+    
+  
+  <!--
+    <hr>
+    <ul class="pagination">
+    
+      <li class="prev"><a href="/principle/PrinciplesOfAgile" title="Principles of Agile">&laquo; Previous</a></li>
+    
+      <li><a href="/archive.html">Archive</a></li>
+    
+      <li class="next"><a href="/principle/PrinciplesOfSAFe" title="Principles of SAFe">Next &raquo;</a></li>
+    
+    </ul>
+    -->
+    <hr>
+    
+  </div>
+</div>
+
+
+                    </div>
+                </div>
+
+                <div role="tabpanel" class="tab-pane fade in" id="Discussions">
+                    <div class="col-md-12 row">
+                        
+                        <p>
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'spinemodel'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+      <div class="container mobile-only">
+        
+<div class="page-header">
+  <h1>Principles of Flow <small></small></h1>
+</div>
+
+<div class="row post-full">
+  <div class="col-xs-12">
+    <div class="date">
+      <span>last updated 17 November 2015 by Kevin Trethewey</span>
+    </div>
+    <div class="content">
+      
+<p>The <a href="http://lpd2.com/">Lean Product Development</a> book enumerates 175 principles in 8 categories: Economic, Queueing, Variability, Batch Size, WIP Constraint, Flow Control Fast Feedback and Decentralization…</p>
+
+<h2 id="economic-principles">Economic Principles</h2>
+
+<ul>
+  <li>E1: The Principle of Quantified Overall Economics: Select actions based on quantified overall economic impact.</li>
+  <li>E2: The Principle of Interconnected Variables: We can’t just change one thing.</li>
+  <li>E3: The Principle of Quantified Cost of Delay: If you only quantify one thing, quantify the cost of delay.</li>
+  <li>E4: The Principle of Economic Value-Added: The value added by an activity is the change in the economic value of the work product.</li>
+  <li>E5: The Inactivity Principle: Watch the work product, not the worker.</li>
+  <li>E6: The U-Curve Principle: Important trade-offs are likely to have U-curve optimizations.</li>
+  <li>E7: The Imperfection Principle: Even imperfect answers improve decision making</li>
+  <li>E8: The Principle of Small Decisions: Influence the many small decisions</li>
+  <li>E9: The Principle of Continuous Economic Tradeoffs: Economic choices must be made continuously.</li>
+  <li>E10: The First Perishability Principle: Many economic choices are more valuable when made quickly.</li>
+  <li>E11: The Subdivision Principle: Inside every bad choice lies a good choice.</li>
+  <li>E12: The Principle of Early Harvesting: Create systems to harvest the early cheap opportunities.</li>
+  <li>E13: The Principle of Decision Rules: Use decision rules to decentralize economic control.</li>
+  <li>E14: The First Market Principle: Ensure decision makers feel both cost and benefit.</li>
+  <li>E15: The Principle of Optimum Decision Timing: Every decision has its optimum economic timing.</li>
+  <li>E16: The Principle of Marginal Economics: Always compare marginal cost to marginal value.</li>
+  <li>E17: The Sunk Cost Principle: Do not consider money already spent.</li>
+  <li>E18: The Principle of Buying Information: The value of information is its expected economic value.</li>
+  <li>E19: The Insurance Principle: Don’t pay more for  insurance than the expected loss.</li>
+  <li>E20: The Newsboy Principle: High probability of failure does not equal bad economics.</li>
+  <li>E21: The Show Me the Money Principle: To influence financial decisions, speak the language on money.</li>
+</ul>
+
+<h2 id="queueing-principles">Queueing Principles</h2>
+
+<ul>
+  <li>Q1: The Principle of Invisible Inventory: Product development inventory is physically and financially invisible.</li>
+  <li>Q2: The Principle of Queueing Waste: Queues are the root cause of the majority of economic waste in product development.</li>
+  <li>Q3: The Principle of Queueing Capacity Utilization: Capacity utilization increases queues exponentially.</li>
+  <li>Q4: The Principle of High-Queue States: Most of the damage done by a queue is caused by high-queue states.</li>
+  <li>Q5: The Principle of Queueing Variability: Variability increases queues linearly.</li>
+  <li>Q6: The Principle of Variability Amplification: Operating at high levels of capacity utilization increases variability.</li>
+  <li>Q7: The Principle of Queueing Structure: Serve pooled demand with reliable high-capacity servers.</li>
+  <li>Q8: The Principle of Linked Queues: Adjacent queues see arrival or service time variability depending on loading.</li>
+  <li>Q9: The Principle of Queue Size Optimization: Optimum queue size is an economic tradeoff.</li>
+  <li>Q10: The Principle of Queueing Discipline: Queue cost is affected by the sequence in which we handle the jobs in the queue.</li>
+  <li>Q11: The Cumulative Flow Principle: Use CFDs to monitor queues.</li>
+  <li>Q12: Little’s Formula: Wait time = Queue Size/Processing Rate.</li>
+  <li>Q13: The First Queue Size Control Principle:  Don’t control capacity utilization, control queue size.</li>
+  <li>Q14: The Second Queue Size Control Principle: Don’t control cycle time, control queue size.</li>
+  <li>Q15: The Diffusion Principle: Over time, queues will randomly spin seriously out of control and will remain in this state for long periods.</li>
+  <li>Q16: The Intervention Principle: We cannot rely on randomness to correct a random queue.</li>
+</ul>
+
+<h2 id="variability-principles">Variability Principles</h2>
+
+<ul>
+  <li>V1: The Principle of Beneficial Variability: Variability can create economic value.</li>
+  <li>V2: The Principle of Asymmetric Payoffs: Payoff asymmetries enable variability to create economic value.</li>
+  <li>V3: The Principle of Optimum Variability: Variability should neither be minimized nor maximized.</li>
+  <li>V4: The Principle of Optimum Failure Rate: Fifty percent failure rate is usually optimum for generating information.</li>
+  <li>V5: The Principle of Variability Pooling: Overall variation decreases when uncorrelated random tasks are combined.</li>
+  <li>V6: The Principle of Short-Term Forecasting: Forecasting becomes exponentially easier at short time-horizons.</li>
+  <li>V7: The Principle of Small Experiments: Many small experiments produce less variation than one big one.</li>
+  <li>V8: The Repetition Principle: Repetition reduces variation.</li>
+  <li>V9: The Reuse Principle: Reuse reduces variability. </li>
+  <li>V10: The Principle of Negative Covariance: We can reduce variance by applying a counterbalancing effect. </li>
+  <li>V11: The Buffer Principle:Buffers trade money for variability reduction. </li>
+  <li>V12: The Principle of Variability Consequence: Reducing consequences is usually the best way to reduce the cost of variability. </li>
+  <li>V13: The Non-linearity Principle: Operate in the linear range of system performance. </li>
+  <li>V14: The Principle of Variability Substitution: Substitute cheap variability for expensive variability. </li>
+  <li>V15: The Principle of Iteration Speed: It is usually better to improve iteration speed than defect rate. </li>
+  <li>V16: The Principle of Variability Displacement: Move variability to the process stage where its cost is lowest. </li>
+</ul>
+
+<h2 id="batch-size-principles">Batch Size Principles</h2>
+
+<ul>
+  <li>B1: Batch Size Queueing Principle: Reducing batch size reduces cycle time. </li>
+  <li>B2: The Batch Size Variability Principle: Reducing batch size reduces variability in flow. </li>
+  <li>B3: The Batch Size Feedback Principle: Reducing batch size accelerates feedback. </li>
+  <li>B4: The Batch Size Risk Principle: Reducing batch size reduces risk. </li>
+  <li>B5: The Batch Size Overhead Principle: Reducing batch size reduces overhead. </li>
+  <li>B6: The Batch Size Efficiency Principle: Large batches reduce efficiency. (</li>
+  <li>B7: The Psychology Principle of Batch Size: Large batches inherently lower motivation and urgency. </li>
+  <li>B8: The Batch Size Slippage Principle: Large batches cause exponential cost and schedule growth. (</li>
+  <li>B9: The Batch Size Death Spiral Principle: Large batches lead to even larger batches. </li>
+  <li>B10: The Least Common Denominator Principle of Batch Size: The entire batch is limited by its worst element. </li>
+  <li>B11: The Principle of Batch Size Economics: Economic batch size is a U-curve optimization. </li>
+  <li>B12: The Principle of Low Transaction Cost: Reducing transaction cost per batch lowers overall costs. </li>
+  <li>B13: The Principle of Batch Size Diseconomies: Batch size reduction saves much more than you think. </li>
+  <li>B14: The Batch Size Packing Principle: Small batches allow finer tuning of capacity utilization </li>
+  <li>B15: The Fluidity Principle: Loose coupling between product subsystems enables small batches. </li>
+  <li>B16: The Principle of Transport Batches: The most important batch is the transport batch. </li>
+  <li>B17: The Proximity Principle: Proximity enables small batch sizes. </li>
+  <li>B18: The Run Length Principle: Short run lengths reduce queues. </li>
+  <li>B19: The Infrastructure Principle: Good infrastructure enables small batches. </li>
+  <li>B20: The Principle of Batch Content: Sequence first that which adds value most cheaply. </li>
+  <li>B21: The Batch Size First Principle: Reduce batch size before you attack bottlenecks. </li>
+  <li>B22: The Principle of Dynamic Batch Size: Adjust batch size dynamically to respond to changing economics. </li>
+</ul>
+
+<h2 id="wip-constraint-principles">WIP Constraint Principles</h2>
+
+<ul>
+  <li>W1: The Principle of WIP Constraints: Constrain WIP to control cycle time and flow. </li>
+  <li>W2: The Principle of Rate Matching: WIP constraints force rate-matching. </li>
+  <li>W3: The Principle of Global Constraints: Use global WIP constraints for predictable and permanent bottlenecks. </li>
+  <li>W4: The Principle of Local Constraints: If possible, constrain local WIP pools. </li>
+  <li>W5: The Batch Size Decoupling Principle: Use WIP ranges to decouple the batch sizes of adjacent processes. </li>
+  <li>W6: The Principle of Demand Blocking: Block all demand when WIP reaches its upper limit. </li>
+  <li>W7: The Principle of WIP Purging: When WIP is high, purge low value projects. </li>
+  <li>W8: The Principle of Flexible Requirements: Control WIP by shedding requirements. </li>
+  <li>W9: The Principle of Resource Pulling: Quickly apply extra resources to an emerging queue. </li>
+  <li>W10: The Principle of Part-Time Resources: Use part-time resources for high variability tasks. </li>
+  <li>W11: The Big Gun Principle: Pull high-powered experts to emerging bottlenecks. </li>
+  <li>W12: The Principle of T-Shaped Resources: Develop people who are deep in one area and broad in many. </li>
+  <li>W13: The Principle of Skill Overlap: Cross train resources at adjacent processes. </li>
+  <li>W14: The Mix Change Principle: Use upstream mix changes to regulate queue size. </li>
+  <li>W15: The Aging Principle: Watch the outliers. </li>
+  <li>W16: The Escalation Principle: Create a preplanned escalation process for outliers. </li>
+  <li>W17: The Principle of Progressive Throttling: Increase throttling as you approach the queue limit. </li>
+  <li>W18: The Principle of Differential Service: Differentiate quality of service by workstream. </li>
+  <li>W19: The Principle of Adaptive WIP Constraints: Adjust WIP constraints as capacity changes. </li>
+  <li>W20: The Expansion Control Principle: Prevent uncontrolled expansion of work. </li>
+  <li>W21: The Principle of the Critical Queue: Constrain WIP in the secion of the system where the queue is most expensive. </li>
+  <li>W22: The Cumulative Reduction Principle: Small WIP reductions accumulate. </li>
+  <li>W23: The Principle of Visual WIP: Make WIP continuously visible. </li>
+</ul>
+
+<h2 id="flow-control-principles">Flow Control Principles</h2>
+
+<ul>
+  <li>F1: The Principle of Congestion Collapse: When loading becomes too high, we will see a sudden and catastrophic drop in output. </li>
+  <li>F2: The Peak Throughput Principle: Control occupancy to sustain high throughput in systems prone to congestion. </li>
+  <li>F3: The Principle of Visible Congestion: Use forecasts of expected flow time to make congestion visible. </li>
+  <li>F4: The Principle of Congestion Pricing: Use pricing to reduce demand during congested periods. </li>
+  <li>F5: The Principle of Periodic Resynchronization: Use a regular cadence to limit the accumulation of variance. </li>
+  <li>F6: The Cadence Capacity Margin Principle: Provide sufficient capacity margin to enable cadence. </li>
+  <li>F7: The Cadence Reliability Principle: Use cadence to make waiting times predictable.</li>
+  <li>F8: The Cadence Batch Size Enabling Principle: Use a regular cadence to enable small batch sizes. </li>
+  <li>F9: The Principle of Cadenced Meetings: Schedule frequent meetings using a predictable cadence. (</li>
+  <li>F10: The Synchronization Capacity Margin Principle: To enable synchronization, provide sufficient capacity margin. </li>
+  <li>F11: The Principle of Multiproject Synchronization: Exploit scale economies by synchronizing work from multiple projects. </li>
+  <li>F12: The Principle of Cross-Functional Synchronization: Use synchronized events to facilitate cross functional tradeoffs. </li>
+  <li>F13: The Synchronization Queueing Principle: To reduce queues, synchronize the batch size and timing of adjacent processes. </li>
+  <li>F14: The Harmonic Principle: Make nested cadences harmonic multiples. </li>
+  <li>F15: The SJF Scheduling Principle: When delay costs are homogeneous, do the shortest job first. </li>
+  <li>F16: The HDCF Scheduling Principle: When job durations are homogeneous, do the high cost-of-delay job first. </li>
+  <li>F17: The WSJF Scheduling Principle: When job durations and delay costs are not homogeneous, use WSJF. </li>
+  <li>F18: The Local Priority Principle: Priorities are inherently local. </li>
+  <li>F19: The Round-Robin Principle: When task duration is unknown, time-share capacity. </li>
+  <li>F20: The Preemption Principle: Only preempt when switching costs are low. </li>
+  <li>F21: The Principle of Work Matching: Use sequence to match jobs to appropriate resources. </li>
+  <li>F22: The Principle of Tailored Routing: Select and tailor the sequence of subprocesses to the task at hand. </li>
+  <li>F23: The Principle of Flexible Routing: Route work based on the current most economic route. </li>
+  <li>F24: The Principle of Alternate Routes: Develop and maintain alternate routes around points of congestion. </li>
+  <li>F25: The Principle of Flexible Resources: Use flexible resources to absorb variation. </li>
+  <li>F26: The Principle of Late Binding: The later we bind demand to resources, the smoother the flow. </li>
+  <li>F27: The Principle of Local Transparency: Make tasks and resources reciprocally visible at adjacent processes. </li>
+  <li>F28: The Principle of Preplanned Flexibility: For fast responses, preplan and invest in flexibility. </li>
+  <li>F29: The Principle of Resource Centralization: Correctly managed, centralized resources can reduce queues. </li>
+  <li>F30: The Principle of Flow Conditioning: Reduce variability before a bottleneck. </li>
+</ul>
+
+<h2 id="fast-feedback-principles">Fast Feedback Principles</h2>
+
+<ul>
+  <li>FF1: The Principle of Maximum Economic Influence: Focus control on project and process parameters with the highest economic influence. </li>
+  <li>FF2: The Principle of Efficient Control: Control parameters that are both influential and efficient. </li>
+  <li>FF3: The Principle of Leading Indicators: Select control variables that predict future system behavior. </li>
+  <li>FF4: The Principle of Balanced Set Points: Set tripwires at points of equal economic impact. </li>
+  <li>FF5: The Moving Target Principle: Know when to pursue a dynamic goal. </li>
+  <li>FF6: The Exploitation Principle: Exploit unplanned economic opportunities.</li>
+  <li>FF7: The Queue Reduction Principle of Feedback: Fast feedback enables smaller queues. </li>
+  <li>FF8: The Fast Learning Principle: Use fast feedback to make learning faster and more efficient. </li>
+  <li>FF9: The Principle of Useless Measurement: What gets measured may not get done. </li>
+  <li>FF10: The First Agility Principle: We don’t need long planning horizons when we have a short turning radius. </li>
+  <li>FF11: The Batch Size Principle of Feedback: Small batches yield fast feedback. </li>
+  <li>FF12: The Signal to Noise Principle: To detect a smaller signal, reduce the noise. </li>
+  <li>FF13: The Decision Rule Principle: Control the economic logic behind the decision, not the entire decision. </li>
+  <li>FF14: The Locality Principal of Feedback: Whenever possible make feedback local. </li>
+  <li>FF15: The Relief Valve Principle: Have a clear, predetermined relief valve. </li>
+  <li>FF16: The Principle of Multiple Control Loops: Embed fast control loops inside slow loops. </li>
+  <li>FF17: The Principle of Controlled Excursions: Keep deviations within the control range. </li>
+  <li>FF18: The Feedforward Principle: Provide advance notice of heavy arrival rates to minimize queues. </li>
+  <li>FF19: The Principle of Colocation: Colocation improves almost all aspects of communications. </li>
+  <li>FF20: The Empowerment Principle of Feedback: Fast feedback gives a sense of control. </li>
+  <li>FF21: The Hurry-Up-and-Wait Principle: Large queues make it hard to create urgency. </li>
+  <li>FF22: The Amplification Principle: The human element tends to amplify large excursions. </li>
+  <li>FF23: The Principle of Overlapping Measurement: To align behaviors, reward people for the work of others. </li>
+  <li>FF24: The Attention Principle: Time counts more than money. </li>
+</ul>
+
+<h2 id="decentralization-principles">Decentralization Principles</h2>
+
+<ul>
+  <li>D1: The Second Perishability Principle: Decentralize control for problems and opportunities that age poorly. </li>
+  <li>D2: The Scale Principle: Centralize control for problems that are infrequent, large, or that have significant economies of scale. </li>
+  <li>D3: The Principle of Layered Control: Adapt the control approach to emerging information about the problem. </li>
+  <li>D4: The Opportunistic Principle: Adjust the plan for unplanned obstacles and opportunities. </li>
+  <li>D5: The Principle of Virtual Centralization: Be able to quickly reorganize decentralized resources to create centralized power. </li>
+  <li>D6: The Inefficiency Principle: The inefficiency of decentralization can cost less than the value of faster response time. </li>
+  <li>D7: The Principle of Alignment: There is more value created with overall alignment than local excellence. </li>
+  <li>D8: The Principle of Mission: Specify the end state, its purpose, and the minimal possible constraints. </li>
+  <li>D9: The Principle of Boundaries: Establish clear roles and boundaries. </li>
+  <li>D10: The Main Effort Principle: Designate a main effort and subordinate other activities. </li>
+  <li>D11: The Principle of Dynamic Alignment: The main effort may shift quickly when conditions change. </li>
+  <li>D12 The Second Agility Principle: Develop the ability to quickly shift focus. </li>
+  <li>D13: The Principle of Peer-Level Coordination: Tactical coordination should be local. </li>
+  <li>D14: The Principle of Flexible Plans: Use simple modular plans. </li>
+  <li>D15: The Principle of Tactical Reserves: Decentralize a portion of reserves. </li>
+  <li>D16: The Principle of Early Contact: Make early and meaningful contact with the problem. </li>
+  <li>D17: The Principle of Decentralized Information: For decentralized decisions, disseminate key information widely. </li>
+  <li>D18: The Frequency Response Principle: We can’t respond faster than our frequency response. </li>
+  <li>D19: The Quality of Service Principle: When response time is important, measure response time. </li>
+  <li>D20: The Second Market Principle: Use internal and external markets to decentralize control. </li>
+  <li>D21: The Principle of Regenerative Initiative: Cultivating initiative enables us to use initiative. </li>
+  <li>D22: The Principle of Face-to-Face Communication: Exploit the speed and bandwidth of face-to-face communications. </li>
+  <li>D23: The Trust Principle: Trust is built through experience. </li>
+</ul>
+
+<p>(<a href="http://lpd2.com/the-principles-of-flow/">Source:</a>)</p>
+
+    </div>
+
+<!--
+  
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-open"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/categories.html#principle-ref">
+    		principle <span>21</span>
+    	</a></li>
+    
+  
+
+
+    </ul>
+    
+-->
+
+  
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-tags"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/tags.html#Flow-ref">Flow <span>10</span></a></li>
+    
+  
+
+
+
+    </ul>
+    
+  
+  <!--
+    <hr>
+    <ul class="pagination">
+    
+      <li class="prev"><a href="/principle/PrinciplesOfAgile" title="Principles of Agile">&laquo; Previous</a></li>
+    
+      <li><a href="/archive.html">Archive</a></li>
+    
+      <li class="next"><a href="/principle/PrinciplesOfSAFe" title="Principles of SAFe">Next &raquo;</a></li>
+    
+    </ul>
+    -->
+    <hr>
+    
+  </div>
+</div>
+
+
+      </div>
+
+
+
+    <div class="col-md-12" id="footer">
+        <div class="container">
+                    <p>&copy; 2016 <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Spine Wiki</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+
+        </div>
+    </div>
+
+
+
+
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/assets/themes/bootstrap-3/bootstrap/js/bootstrap.min.js"></script>
+
+</html>
+
