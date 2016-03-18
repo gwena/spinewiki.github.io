@@ -4,7 +4,7 @@
  <title>Spine Wiki</title>
  <link href="http://spinemodel.github.io/" rel="self"/>
  <link href="http://spinemodel.github.io"/>
- <updated>2016-03-18T09:06:42+02:00</updated>
+ <updated>2016-03-18T09:51:19+02:00</updated>
  <id>http://spinemodel.github.io</id>
  <author>
    <name>Kevin Trethewey, Danie Roux, Joanne Perold and Collaborators</name>
@@ -814,11 +814,11 @@
    <id>http://spinemodel.github.io/value/ValuesOfXP</id>
    <content type="html">
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/Value/Simplicity&quot;&gt;Simplicity&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/Value/Communication&quot;&gt;Communication&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/Value/Feedback&quot;&gt;Feedback&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/Value/Respect&quot;&gt;Respect&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/Value/Courage&quot;&gt;Courage&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/value/Simplicity&quot;&gt;Simplicity&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/value/Communication&quot;&gt;Communication&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/value/Feedback&quot;&gt;Feedback&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/value/Respect&quot;&gt;Respect&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/value/Courage&quot;&gt;Courage&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;For more information, review the &lt;a href=&quot;/archetype/XP/&quot;&gt;XP archetype&lt;/a&gt;.&lt;/p&gt;
@@ -832,11 +832,11 @@
    <id>http://spinemodel.github.io/value/ValuesOfScrum</id>
    <content type="html">
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/Value/Focus&quot;&gt;Focus&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/Value/Courage&quot;&gt;Courage&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/Value/Openness&quot;&gt;Openness&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/Value/Commitment&quot;&gt;Commitment&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/Value/Respect&quot;&gt;Respect&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/value/Focus&quot;&gt;Focus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/value/Courage&quot;&gt;Courage&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/value/Openness&quot;&gt;Openness&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/value/Commitment&quot;&gt;Commitment&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/value/Respect&quot;&gt;Respect&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;For more information, review the &lt;a href=&quot;/archetype/Scrum/&quot;&gt;Scrum archetype&lt;/a&gt;.&lt;/p&gt;
@@ -1176,10 +1176,10 @@
 &lt;p&gt;We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/Principle/IndividualsAndInteractionsOverProcessesAndTools&quot;&gt;Individuals and interactions over processes and tools&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/Principle/WorkingSoftwareOverComprehensiveDocumentation&quot;&gt;Working software over comprehensive documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/Principle/CustomerCollaborationOverContractNegotiation&quot;&gt;Customer collaboration over contract negotiation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/Principle/RespondingToChangeOverFollowingAPlan&quot;&gt;Responding to change over following a plan&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/IndividualsAndInteractionsOverProcessesAndTools&quot;&gt;Individuals and interactions over processes and tools&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/WorkingSoftwareOverComprehensiveDocumentation&quot;&gt;Working software over comprehensive documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/CustomerCollaborationOverContractNegotiation&quot;&gt;Customer collaboration over contract negotiation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/RespondingToChangeOverFollowingAPlan&quot;&gt;Responding to change over following a plan&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;That is, while there is value in the items on the right, we value the items on the left more.&lt;/p&gt;
