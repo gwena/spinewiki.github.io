@@ -11,10 +11,10 @@ tags: [Agile]
 ## Primary Principles
 We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:
 
-* [Individuals and interactions over processes and tools](/Principle/IndividualsAndInteractionsOverProcessesAndTools)
-* [Working software over comprehensive documentation](/Principle/WorkingSoftwareOverComprehensiveDocumentation)
-* [Customer collaboration over contract negotiation](/Principle/CustomerCollaborationOverContractNegotiation)
-* [Responding to change over following a plan](/Principle/RespondingToChangeOverFollowingAPlan)
+* [Individuals and interactions over processes and tools](/principle/IndividualsAndInteractionsOverProcessesAndTools)
+* [Working software over comprehensive documentation](/principle/WorkingSoftwareOverComprehensiveDocumentation)
+* [Customer collaboration over contract negotiation](/principle/CustomerCollaborationOverContractNegotiation)
+* [Responding to change over following a plan](/principle/RespondingToChangeOverFollowingAPlan)
 
 That is, while there is value in the items on the right, we value the items on the left more.
 

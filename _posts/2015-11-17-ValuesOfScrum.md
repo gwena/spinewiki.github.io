@@ -8,10 +8,10 @@ tags: [Scrum]
 ---
 {% include JB/setup %}
 
-* [Focus](/Value/Focus)
-* [Courage](/Value/Courage)
-* [Openness](/Value/Openness)
-* [Commitment](/Value/Commitment)
-* [Respect](/Value/Respect)
+* [Focus](/value/Focus)
+* [Courage](/value/Courage)
+* [Openness](/value/Openness)
+* [Commitment](/value/Commitment)
+* [Respect](/value/Respect)
 
 For more information, review the [Scrum archetype](/archetype/Scrum/).

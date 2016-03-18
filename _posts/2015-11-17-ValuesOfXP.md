@@ -8,11 +8,11 @@ tags: [XP]
 ---
 {% include JB/setup %}
 
-* [Simplicity](/Value/Simplicity)
-* [Communication](/Value/Communication)
-* [Feedback](/Value/Feedback)
-* [Respect](/Value/Respect)
-* [Courage](/Value/Courage)
+* [Simplicity](/value/Simplicity)
+* [Communication](/value/Communication)
+* [Feedback](/value/Feedback)
+* [Respect](/value/Respect)
+* [Courage](/value/Courage)
 
 
 For more information, review the [XP archetype](/archetype/XP/).
