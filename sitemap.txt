@@ -16,6 +16,12 @@ http://spinemodel.github.io/tags.html
 http://spinemodel.github.io/tools.html
 http://spinemodel.github.io/values.html
 
+http://spinemodel.github.io/archetype/XP
+http://spinemodel.github.io/archetype/Scrum
+http://spinemodel.github.io/archetype/LeSS
+http://spinemodel.github.io/explanation/TODO
+http://spinemodel.github.io/archetype/SAFe
+http://spinemodel.github.io/principle/PrinciplesOfLeSS
 http://spinemodel.github.io/value/GenericValues
 http://spinemodel.github.io/practice/WholeTeam
 http://spinemodel.github.io/practice/TDD
@@ -60,18 +66,13 @@ http://spinemodel.github.io/principle/BaseMilestonesOnObjectiveEvaluationOfWorki
 http://spinemodel.github.io/principle/AssumeVariabilityPreserveOptions
 http://spinemodel.github.io/principle/ApplySystemsThinking
 http://spinemodel.github.io/principle/ApplyCadenceSynchronizeWithCrossDomainPlanning
-http://spinemodel.github.io/archetype/XP
-http://spinemodel.github.io/archetype/Scrum
 http://spinemodel.github.io/faq/Contribute
 http://spinemodel.github.io/practice/TeamRetrospective
 http://spinemodel.github.io/tool/CognitiveLoadTracker
 http://spinemodel.github.io/need/NVCNeeds
-http://spinemodel.github.io/explanation/TODO
 http://spinemodel.github.io/principle/PullWorkThroughTheSystem
 http://spinemodel.github.io/explanation/Heuristics
 http://spinemodel.github.io/principle/BatchSize
-http://spinemodel.github.io/archetype/SAFe
-http://spinemodel.github.io/archetype/LeSS
 http://spinemodel.github.io/archetype/Kanban
 http://spinemodel.github.io/archetype/FDD
 http://spinemodel.github.io/archetype/DSDM

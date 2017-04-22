@@ -4,13 +4,292 @@
  <title>Spine Wiki</title>
  <link href="http://spinemodel.github.io/" rel="self"/>
  <link href="http://spinemodel.github.io"/>
- <updated>2016-03-18T09:51:19+02:00</updated>
+ <updated>2017-04-22T22:07:47+02:00</updated>
  <id>http://spinemodel.github.io</id>
  <author>
    <name>Kevin Trethewey, Danie Roux, Joanne Perold and Collaborators</name>
    <email>spine@driven.email</email>
  </author>
 
+ 
+ <entry>
+   <title>eXtreme Programming (XP)</title>
+   <link href="http://spinemodel.github.io/archetype/XP"/>
+   <updated>2017-04-22T00:00:00+02:00</updated>
+   <id>http://spinemodel.github.io/archetype/XP</id>
+   <content type="html">
+&lt;h1 id=&quot;origin&quot;&gt;Origin&lt;/h1&gt;
+&lt;p&gt;The term XP predates the term Agile by several years. XP stands for Extreme Programming, and is a suite of Practices, Principles, and Values invented by &lt;a href=&quot;http://en.wikipedia.org/wiki/Kent_Beck&quot;&gt;Kent Beck&lt;/a&gt; in the late ‘90s.&lt;/p&gt;
+
+&lt;h1 id=&quot;learning-it&quot;&gt;Learning It&lt;/h1&gt;
+&lt;p&gt;Our recommended way of learning XP is through…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658&quot;&gt;[Book] Extreme Programming Explained: Embrace Change, 2nd Edition&lt;/a&gt; - Kent Beck&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ronjeffries.com/xprog/what-is-extreme-programming/&quot;&gt;What is Extreme Programming?&lt;/a&gt; - Ron Jefferies&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.extremeprogramming.org/&quot;&gt;Extreme Programming:
+A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;* the best way to get properly informed about any Archetype is to find people who are actively using it and to ask them about their experiences.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;xp-spine&quot;&gt;XP Spine&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;From the perspective of prospective users of eXtreme Programming…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;need-where-might-it-be-used&quot;&gt;Need (Where might it be used?)&lt;/h2&gt;
+&lt;p&gt;Extreme Programming is a discipline of software development based on values of simplicity, communication, feedback, courage, and respect. It works by bringing the whole team together in the presence of simple practices, with enough feedback to enable the team to see where they are and to tune the practices to their unique situation.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://ronjeffries.com/xprog/what-is-extreme-programming/&quot;&gt;Source: What is Extreme Programming?&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;values-what-does-it-optimise-for&quot;&gt;Values (What does it optimise for?)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Simplicity&quot;&gt;Simplicity&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Communication&quot;&gt;Communication&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Feedback&quot;&gt;Feedback&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Respect&quot;&gt;Respect&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Courage&quot;&gt;Courage&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;principles-what-is-it-based-on&quot;&gt;Principles (What is it based on?)&lt;/h2&gt;
+&lt;p&gt;See &lt;a href=&quot;/principle/PrinciplesOfXP&quot;&gt;XP Principles&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;practices-what-does-it-suggest-you-do&quot;&gt;Practices (What does it suggest you do?)&lt;/h2&gt;
+&lt;p&gt;XP’s philosophy on &lt;a href=&quot;/practices.html&quot;&gt;Practices&lt;/a&gt; is very non-prescriptive, and advises an explorative approach, based on its &lt;a href=&quot;/principle/PrinciplesOfXP&quot;&gt;Principles&lt;/a&gt; and &lt;a href=&quot;/value/ValuesOfXP&quot;&gt;Values&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For a broad list see &lt;a href=&quot;/practice/PracticesOfXP&quot;&gt;XP Practices&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;tools-what-does-it-suggest-you-use&quot;&gt;Tools (What does it suggest you use?)&lt;/h2&gt;
+&lt;p&gt;XP does not explicitly recommend any &lt;a href=&quot;/tools.html&quot;&gt;Tools&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Scrum</title>
+   <link href="http://spinemodel.github.io/archetype/Scrum"/>
+   <updated>2017-04-22T00:00:00+02:00</updated>
+   <id>http://spinemodel.github.io/archetype/Scrum</id>
+   <content type="html">
+&lt;h1 id=&quot;origin&quot;&gt;Origin&lt;/h1&gt;
+&lt;p&gt;Jeff Sutherland and Ken Schwaber conceived the Scrum process in the early 90’s. They codified Scrum in 1995 in order to present it at the Oopsla conference in Austin, Texas (US) and published the paper “SCRUM Software Development Process”.&lt;/p&gt;
+
+&lt;p&gt;Ken and Jeff inherited the name ‘Scrum’ from the 1986 groundbreaking paper ‘The New New Product Development Game’ by Takeuchi and Nonaka, two acknowledged management thinkers. With the term ‘Scrum’ Nonaka and Takeuchi referred to the game of rugby to stress the importance of teams and some analogies between a team sport like rugby and being successful in the game of new product development. The research described in their paper showed that outstanding performance in the development of new, complex products is achieved when teams, as small and self-organizing units of people, are fed with objectives, not with tasks. The best teams are those that are given direction within which they have room to devise their own tactics on how to best head towards their joint objective. Teams require autonomy to achieve excellence.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.scrumguides.org/history.html&quot;&gt;Source: The History of Scrum&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;learning-it&quot;&gt;Learning It&lt;/h1&gt;
+&lt;p&gt;Our recommended way of learning scrum is through…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://scrumprimer.org/&quot;&gt;Scrum Primer&lt;/a&gt; - Deemer, Benefield, Larman, Vodde&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.scrumguides.org/&quot;&gt;Scrum Guide&lt;/a&gt; - Sutherland, Schwaber&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;* the best way to get properly informed about any Archetype is to find people who are actively using it and to ask them about their experiences.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;scrum-spine&quot;&gt;Scrum Spine&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;From the perspective of prospective users of Scrum…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;need-where-might-it-be-used&quot;&gt;Need (Where might it be used?)&lt;/h2&gt;
+&lt;p&gt;Scrum describes itself as:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-us.pdf&quot;&gt;Source: The Official Scrum Guide&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;values-what-does-it-optimise-for&quot;&gt;Values (What does it optimise for?)&lt;/h2&gt;
+&lt;p&gt;Though not in mentioned in the Official Scrum Guide, there are official sources that mention five values:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Focus&quot;&gt;Focus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Courage&quot;&gt;Courage&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Openness&quot;&gt;Openness&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Commitment&quot;&gt;Commitment&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Value/Respect&quot;&gt;Respect&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;principles-what-is-it-based-on&quot;&gt;Principles (What is it based on?)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;/explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;practices-what-does-it-suggest-you-do&quot;&gt;Practices (What does it suggest you do?)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/Practice/ScrumMaster&quot;&gt;Scrum Master&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Practice/ScrumProductOwner&quot;&gt;Product Owner&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/Practice/TeamRetrospective&quot;&gt;Sprint Retrospective&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tools-what-does-it-suggest-you-use&quot;&gt;Tools (What does it suggest you use?)&lt;/h2&gt;
+&lt;p&gt;Scrum does not explicitly recommend any &lt;a href=&quot;/tools.html&quot;&gt;Tools&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Large-Scale Scrum (LeSS)</title>
+   <link href="http://spinemodel.github.io/archetype/LeSS"/>
+   <updated>2017-04-22T00:00:00+02:00</updated>
+   <id>http://spinemodel.github.io/archetype/LeSS</id>
+   <content type="html">
+&lt;h1 id=&quot;origin&quot;&gt;Origin&lt;/h1&gt;
+&lt;p&gt;LeSS emerged from the work of &lt;a href=&quot;http://www.craiglarman.com&quot;&gt;Craig Larman&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/basvodde&quot;&gt;Bas Vodde&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Since 2005, we’ve worked with clients to apply the LeSS (Large-Scale Scrum) framework for scaling Scrum, lean and agile development to big product groups. We share that experience and knowledge through LeSS so that you too can succeed when scaling.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://less.works/&quot;&gt;Source: LeSS.works&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;learning-it&quot;&gt;Learning It&lt;/h1&gt;
+&lt;p&gt;Our recommended way of learning about LeSS is through…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Large-Scale-Scrum-More-Addison-Wesley-Signature/dp/0321985710&quot;&gt;[Book] Large-Scale Scrum: More with LeSS&lt;/a&gt; - Larman, Vodde&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://less.works&quot;&gt;Less.works&lt;/a&gt; website&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;* the best way to get properly informed about any Archetype is to find people who are actively using it and to ask them about their experiences.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;less-spine&quot;&gt;LeSS Spine&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;From the perspective of prospective users of Large-Scale Scrum…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;need-where-might-it-be-used&quot;&gt;Need (Where might it be used?)&lt;/h2&gt;
+&lt;p&gt;LeSS is a set of rules combined with guides for applying &lt;a href=&quot;/archetype/Scrum/&quot;&gt;Scrum&lt;/a&gt; in a multi-team context. It is not a framework that applies Scrum at team level and then adds additional scaling processes, instead it is Scrum scaled on all the levels.&lt;/p&gt;
+
+&lt;p&gt;Rather than having Scrum as a building block for a scaled framework, LeSS looks at Scrum and for each element ask “Why is it there?” followed by “If we have more than one team, how can we achieve the same purpose on a larger scale?”&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://less.works/less/principles/large_scale_scrum_is_scrum.html&quot;&gt;Source: Large-Scale Scrum is Scrum&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;values-what-does-it-optimise-for&quot;&gt;Values (What does it optimise for?)&lt;/h2&gt;
+&lt;p&gt;Since LeSS is Scrum scaled, it builds on the &lt;a href=&quot;/value/ValuesOfScrum/&quot;&gt;Scrum Values&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Other than that, the focus for LeSS was on keeping it simple, avoiding adding additional roles, artifacts of processes that should be empirically managed by the product group.&lt;/p&gt;
+
+&lt;p&gt;The other significant optimisation was for &lt;em&gt;scaling up&lt;/em&gt; instead of &lt;em&gt;tailoring down&lt;/em&gt;. Rather than defining a universal, overarching framework and then contextually tailoring it down, LeSS is kept to a minimum and the concept of “Less Huge” is introduced for very large product groups (± more than 8 teams).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://less.works/less/framework/why-less.html&quot;&gt;Source: Why LeSS?&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;principles-what-is-it-based-on&quot;&gt;Principles (What is it based on?)&lt;/h2&gt;
+&lt;p&gt;See &lt;a href=&quot;/principle/PrinciplesOfLeSS&quot;&gt;LeSS Principles&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;practices-what-does-it-suggest-you-do&quot;&gt;Practices (What does it suggest you do?)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;/explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;tools-what-does-it-suggest-you-use&quot;&gt;Tools (What does it suggest you use?)&lt;/h2&gt;
+&lt;p&gt;LeSS does not explicitly recommend any &lt;a href=&quot;/tools.html&quot;&gt;Tools&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>To Do</title>
+   <link href="http://spinemodel.github.io/explanation/TODO"/>
+   <updated>2017-03-22T00:00:00+02:00</updated>
+   <id>http://spinemodel.github.io/explanation/TODO</id>
+   <content type="html">
+&lt;p&gt;Many of the pages and sections on this site have yet to be fleshed out. We felt that since the page structure of the site is as informative as the content, that it was valuable to publish incomplete pages.&lt;/p&gt;
+
+&lt;p&gt;If you would like to contribute to any of the pages or add new ones please contact &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#115;&amp;#112;&amp;#105;&amp;#110;&amp;#101;&amp;#064;&amp;#100;&amp;#114;&amp;#105;&amp;#118;&amp;#101;&amp;#110;&amp;#046;&amp;#101;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&quot;&gt;Us&lt;/a&gt;, or use &lt;a href=&quot;https://github.com/SpineWiki/spinewiki.github.io&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Scaled Agile Framework (SAFe)</title>
+   <link href="http://spinemodel.github.io/archetype/SAFe"/>
+   <updated>2017-03-22T00:00:00+02:00</updated>
+   <id>http://spinemodel.github.io/archetype/SAFe</id>
+   <content type="html">
+&lt;h2 id=&quot;origin&quot;&gt;Origin&lt;/h2&gt;
+&lt;p&gt;Dean Leffingwell describes the origin of SAFe as follows…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Over the last few years, I’ve worked extensively with a number of other professionals (including Drew Jemilo, Colin O’Neill, Alex Yakyma, Mauricio Zamora) in the implementation of a number of large enterprise lean|agile transformations. This collaboration has resulted in many back and forth discussions around implementation of the Scaled Agile Framework™. To date, this framework has been elaborated primarily in my books Agile Software Requirements, Scaling Software Agility, and blog).&lt;br /&gt;&lt;br /&gt;Recently, we decided to formalize our collaboration with the intent of making the framework public-facing and more readily available to a larger audience, and we have also committed to developing certain extensions and enhancements to the framework that have presented themselves as the marketplace, agile enterprise maturity, and our thinking and experiences have evolved.&lt;br /&gt;&lt;br /&gt;To that end, we will offer the Scaled Agile Framework (SAF) as a “proven, publicly available, framework for applying Lean|Agile practices at enterprise
+ scale, presented in a structured, interactive, web format.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://scalingsoftwareagilityblog.com/introducing-the-scaled-agile-framework/&quot;&gt;Source: Dean Leffingwell, Introducing the Scaled Agile Framework™&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;learning-it&quot;&gt;Learning It&lt;/h1&gt;
+&lt;p&gt;Our recommended way of learning about SAFe is through…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.scaledagile.com/reference-guide/&quot;&gt;SAFe® Reference Guide&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;SAFe has extensive &lt;a href=&quot;http://www.scaledagile.com/which-course/&quot;&gt;training and certification schemes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;* the best way to get properly informed about any Archetype is to find people who are actively using it and to ask them about their experiences.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;safe-spine&quot;&gt;SAFe Spine&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;From the perspective of prospective users of SAFe…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;need-where-might-it-be-used&quot;&gt;Need (Where might it be used?)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;/explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;values-what-does-it-optimise-for&quot;&gt;Values (What does it optimise for?)&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;/value/Alignment&quot;&gt;Alignment&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/value/CodeQuality&quot;&gt;Code Quality&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/value/Transparency&quot;&gt;Transparency&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/value/ProgramExecution&quot;&gt;Program Execution&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;principles-what-is-it-based-on&quot;&gt;Principles (What is it based on?)&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/TakeAnEconomicView&quot;&gt;Take an Economic View&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/ApplySystemsThinking&quot;&gt;Apply Systems Thinking&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/AssumeVariabilityPreserveOptions&quot;&gt;Assume Variability; Preserve Options&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/BuildIncrementallyWithFastIntegratedLearningCycles&quot;&gt;Build Incrementally With Fast Integrated Learning Cycles&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/BaseMilestonesOnObjectiveEvaluationOfWorkingSystems&quot;&gt;Base Milestones On Objective Evaluation Of Working Systems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/VisualizeAndLimitWIPReduceBatchSizesAndManageQueueLengths&quot;&gt;Visualize and limit WIP, reduce batch sizes, and manage queue lengths&lt;/a&gt; &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/ApplyCadenceSynchronizeWithCrossDomainPlanning&quot;&gt;Apply cadence, synchronize with cross-domain planning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/UnlockTheIntrinsicMotivationOfKnowledgeWorkers&quot;&gt;Unlock the intrinsic motivation of knowledge workers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/principle/DecentralizeDecisionMaking&quot;&gt;Decentralize decision-making&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;practices-what-does-it-suggest-you-do&quot;&gt;Practices (What does it suggest you do?)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;/explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;tools-what-does-it-suggest-you-use&quot;&gt;Tools (What does it suggest you use?)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;/explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Principles of LeSS</title>
+   <link href="http://spinemodel.github.io/principle/PrinciplesOfLeSS"/>
+   <updated>2017-03-22T00:00:00+02:00</updated>
+   <id>http://spinemodel.github.io/principle/PrinciplesOfLeSS</id>
+   <content type="html">
+&lt;h1 id=&quot;principles&quot;&gt;10 Principles&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://less.works/less/principles/large_scale_scrum_is_scrum.html&quot;&gt;Large-Scale Scrum is Scrum&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://less.works/less/principles/transparency.html&quot;&gt;Transparency&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://less.works/less/principles/more-with-less.html&quot;&gt;More with LeSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://less.works/less/principles/whole-product-focus.html&quot;&gt;Whole Product Focus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://less.works/less/principles/customer-centric.html&quot;&gt;Customer Centric&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://less.works/less/principles/continuous-improvement-towards-perfection.html&quot;&gt;Continuous Improvement Towards Perfection&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://less.works/less/principles/lean-thinking.html&quot;&gt;Lean Thinking&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://less.works/less/principles/systems-thinking.html&quot;&gt;Systems Thinking&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://less.works/less/principles/empirical-process-control.html&quot;&gt;Empirical Process Control&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://less.works/less/principles/queueing_theory.html&quot;&gt;Queueing Theory&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;other-principles&quot;&gt;Other Principles&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.agilemanifesto.org/&quot;&gt;Agile Manifesto&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Avoiding False Dichotomies (explored in &lt;a href=&quot;http://www.amazon.com/Scaling-Lean-Agile-Development-Organizational/dp/0321480961&quot;&gt;Scaling Agile and Lean Development&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Be Agile Rather than Do Agile (explored in &lt;a href=&quot;http://www.amazon.com/Scaling-Lean-Agile-Development-Organizational/dp/0321480961&quot;&gt;Scaling Agile and Lean Development&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Total Quality Management/Control (an early and excellent book on this is &lt;a href=&quot;http://www.amazon.com/What-Total-Quality-Control-Japanese/dp/0139524339&quot;&gt;What is Total Quality Control: The Japanese Way&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://deming.org/management-system/fourteenpoints&quot;&gt;Deming’s 14 points&lt;/a&gt; (from &lt;a href=&quot;http://www.amazon.com/Out-Crisis-W-Edwards-Deming/dp/0262541157&quot;&gt;Out of the Crisis&lt;/a&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For more information, review the &lt;a href=&quot;/archetype/LeSS/&quot;&gt;LeSS archetype&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Source: &lt;a href=&quot;http://less.works/less/principles/index.html&quot;&gt;Less.works&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Generic List of Values</title>
@@ -885,7 +1164,7 @@
    <updated>2015-11-17T00:00:00+02:00</updated>
    <id>http://spinemodel.github.io/principle/PrinciplesOfXP</id>
    <content type="html">
-&lt;h2 id=&quot;fundamental-principles&quot;&gt;Fundamental Principles&lt;/h2&gt;
+&lt;h1 id=&quot;fundamental-principles&quot;&gt;Fundamental Principles&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Rapid Feedback&lt;/li&gt;
@@ -895,7 +1174,7 @@
   &lt;li&gt;Quality Work&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;further-principles&quot;&gt;Further Principles&lt;/h2&gt;
+&lt;h1 id=&quot;further-principles&quot;&gt;Further Principles&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Teach Learning&lt;/li&gt;
@@ -947,7 +1226,7 @@
    <content type="html">
 &lt;p&gt;The &lt;a href=&quot;http://lpd2.com/&quot;&gt;Lean Product Development&lt;/a&gt; book enumerates 175 principles in 8 categories: Economic, Queueing, Variability, Batch Size, WIP Constraint, Flow Control Fast Feedback and Decentralization…&lt;/p&gt;
 
-&lt;h2 id=&quot;economic-principles&quot;&gt;Economic Principles&lt;/h2&gt;
+&lt;h1 id=&quot;economic-principles&quot;&gt;Economic Principles&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;E1: The Principle of Quantified Overall Economics: Select actions based on quantified overall economic impact.&lt;/li&gt;
@@ -973,7 +1252,7 @@
   &lt;li&gt;E21: The Show Me the Money Principle: To influence financial decisions, speak the language on money.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;queueing-principles&quot;&gt;Queueing Principles&lt;/h2&gt;
+&lt;h1 id=&quot;queueing-principles&quot;&gt;Queueing Principles&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Q1: The Principle of Invisible Inventory: Product development inventory is physically and financially invisible.&lt;/li&gt;
@@ -994,7 +1273,7 @@
   &lt;li&gt;Q16: The Intervention Principle: We cannot rely on randomness to correct a random queue.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;variability-principles&quot;&gt;Variability Principles&lt;/h2&gt;
+&lt;h1 id=&quot;variability-principles&quot;&gt;Variability Principles&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;V1: The Principle of Beneficial Variability: Variability can create economic value.&lt;/li&gt;
@@ -1015,7 +1294,7 @@
   &lt;li&gt;V16: The Principle of Variability Displacement: Move variability to the process stage where its cost is lowest. &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;batch-size-principles&quot;&gt;Batch Size Principles&lt;/h2&gt;
+&lt;h1 id=&quot;batch-size-principles&quot;&gt;Batch Size Principles&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;B1: Batch Size Queueing Principle: Reducing batch size reduces cycle time. &lt;/li&gt;
@@ -1042,7 +1321,7 @@
   &lt;li&gt;B22: The Principle of Dynamic Batch Size: Adjust batch size dynamically to respond to changing economics. &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;wip-constraint-principles&quot;&gt;WIP Constraint Principles&lt;/h2&gt;
+&lt;h1 id=&quot;wip-constraint-principles&quot;&gt;WIP Constraint Principles&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;W1: The Principle of WIP Constraints: Constrain WIP to control cycle time and flow. &lt;/li&gt;
@@ -1070,7 +1349,7 @@
   &lt;li&gt;W23: The Principle of Visual WIP: Make WIP continuously visible. &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;flow-control-principles&quot;&gt;Flow Control Principles&lt;/h2&gt;
+&lt;h1 id=&quot;flow-control-principles&quot;&gt;Flow Control Principles&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;F1: The Principle of Congestion Collapse: When loading becomes too high, we will see a sudden and catastrophic drop in output. &lt;/li&gt;
@@ -1105,7 +1384,7 @@
   &lt;li&gt;F30: The Principle of Flow Conditioning: Reduce variability before a bottleneck. &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;fast-feedback-principles&quot;&gt;Fast Feedback Principles&lt;/h2&gt;
+&lt;h1 id=&quot;fast-feedback-principles&quot;&gt;Fast Feedback Principles&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;FF1: The Principle of Maximum Economic Influence: Focus control on project and process parameters with the highest economic influence. &lt;/li&gt;
@@ -1134,7 +1413,7 @@
   &lt;li&gt;FF24: The Attention Principle: Time counts more than money. &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;decentralization-principles&quot;&gt;Decentralization Principles&lt;/h2&gt;
+&lt;h1 id=&quot;decentralization-principles&quot;&gt;Decentralization Principles&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;D1: The Second Perishability Principle: Decentralize control for problems and opportunities that age poorly. &lt;/li&gt;
@@ -1172,7 +1451,7 @@
    <updated>2015-11-17T00:00:00+02:00</updated>
    <id>http://spinemodel.github.io/principle/PrinciplesOfAgile</id>
    <content type="html">
-&lt;h2 id=&quot;primary-principles&quot;&gt;Primary Principles&lt;/h2&gt;
+&lt;h1 id=&quot;primary-principles&quot;&gt;Primary Principles&lt;/h1&gt;
 &lt;p&gt;We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -1184,7 +1463,7 @@
 
 &lt;p&gt;That is, while there is value in the items on the right, we value the items on the left more.&lt;/p&gt;
 
-&lt;h2 id=&quot;additional-12-principles&quot;&gt;Additional 12 Principles&lt;/h2&gt;
+&lt;h1 id=&quot;additional-12-principles&quot;&gt;Additional 12 Principles&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.&lt;/li&gt;
@@ -1446,86 +1725,6 @@
  </entry>
  
  <entry>
-   <title>eXtreme Programming (XP)</title>
-   <link href="http://spinemodel.github.io/archetype/XP"/>
-   <updated>2015-06-01T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/archetype/XP</id>
-   <content type="html">
-&lt;h2 id=&quot;origin&quot;&gt;Origin&lt;/h2&gt;
-&lt;p&gt;The term XP predates the term Agile by several years. XP stands for Extreme Programming, and is a suite of Practices, Principles, and Values invented by &lt;a href=&quot;http://en.wikipedia.org/wiki/Kent_Beck&quot;&gt;Kent Beck&lt;/a&gt; in the late ‘90s.&lt;/p&gt;
-
-&lt;h2 id=&quot;needs&quot;&gt;Needs&lt;/h2&gt;
-&lt;p&gt;Extreme programming is a software development methodology which is intended to improve software quality and responsiveness to changing customer requirements. As a type of agile software development, it advocates frequent “releases” in short development cycles, which is intended to improve productivity and introduce checkpoints at which new customer requirements can be adopted.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Extreme_programming&quot;&gt;Source: Wikipedia&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;values&quot;&gt;Values&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;/Value/Simplicity&quot;&gt;Simplicity&lt;/a&gt;, &lt;a href=&quot;/Value/Communication&quot;&gt;Communication&lt;/a&gt;, &lt;a href=&quot;/Value/Feedback&quot;&gt;Feedback&lt;/a&gt;, &lt;a href=&quot;/Value/Respect&quot;&gt;Respect&lt;/a&gt;, &lt;a href=&quot;/Value/Courage&quot;&gt;Courage&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;principles&quot;&gt;Principles&lt;/h2&gt;
-
-&lt;p&gt;See &lt;a href=&quot;/principle/PrinciplesOfXP&quot;&gt;XP Principles&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;practices&quot;&gt;Practices&lt;/h2&gt;
-
-&lt;p&gt;XP’s philosophy on &lt;a href=&quot;/practices.html&quot;&gt;Practices&lt;/a&gt; is very non-prescriptive, and advises an explorative approach, based on its &lt;a href=&quot;/principle/PrinciplesOfXP&quot;&gt;Principles&lt;/a&gt; and &lt;a href=&quot;/value/ValuesOfXP&quot;&gt;Values&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;For a broad list see &lt;a href=&quot;/practice/PracticesOfXP&quot;&gt;XP Practices&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;tools&quot;&gt;Tools&lt;/h2&gt;
-&lt;p&gt;In general, XP does not explicitly recommend any &lt;a href=&quot;/tools.html&quot;&gt;Tools&lt;/a&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Scrum</title>
-   <link href="http://spinemodel.github.io/archetype/Scrum"/>
-   <updated>2015-06-01T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/archetype/Scrum</id>
-   <content type="html">
-&lt;h2 id=&quot;origin&quot;&gt;Origin&lt;/h2&gt;
-&lt;p&gt;Jeff Sutherland and Ken Schwaber conceived the Scrum process in the early 90’s. They codified Scrum in 1995 in order to present it at the Oopsla conference in Austin, Texas (US) and published the paper “SCRUM Software Development Process”.&lt;/p&gt;
-
-&lt;p&gt;Ken and Jeff inherited the name ‘Scrum’ from the 1986 groundbreaking paper ‘The New New Product Development Game’ by Takeuchi and Nonaka, two acknowledged management thinkers. With the term ‘Scrum’ Nonaka and Takeuchi referred to the game of rugby to stress the importance of teams and some analogies between a team sport like rugby and being successful in the game of new product development. The research described in their paper showed that outstanding performance in the development of new, complex products is achieved when teams, as small and self-organizing units of people, are fed with objectives, not with tasks. The best teams are those that are given direction within which they have room to devise their own tactics on how to best head towards their joint objective. Teams require autonomy to achieve excellence.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.scrumguides.org/history.html&quot;&gt;Source: The History of Scrum&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;needs&quot;&gt;Needs&lt;/h2&gt;
-&lt;p&gt;Scrum describes itself as:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-us.pdf&quot;&gt;Source: The Official Scrum Guide&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;values&quot;&gt;Values&lt;/h2&gt;
-&lt;p&gt;Though not in mentioned in the Official Scrum Guide, there are official sources that mention five values:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/Value/Focus&quot;&gt;Focus&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/Value/Courage&quot;&gt;Courage&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/Value/Openness&quot;&gt;Openness&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/Value/Commitment&quot;&gt;Commitment&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/Value/Respect&quot;&gt;Respect&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;principles&quot;&gt;Principles&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;practices&quot;&gt;Practices&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/Practice/ScrumMaster&quot;&gt;Scrum Master&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/Practice/ScrumProductOwner&quot;&gt;Product Owner&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/Practice/TeamRetrospective&quot;&gt;Sprint Retrospective&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;tools&quot;&gt;Tools&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Can I contribute to Spine Wiki?</title>
    <link href="http://spinemodel.github.io/faq/Contribute"/>
    <updated>2015-06-01T00:00:00+02:00</updated>
@@ -1724,24 +1923,12 @@
  </entry>
  
  <entry>
-   <title>To Do</title>
-   <link href="http://spinemodel.github.io/explanation/TODO"/>
-   <updated>2015-05-24T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/explanation/TODO</id>
-   <content type="html">
-&lt;p&gt;Many of the pages and sections on this site have yet to be fleshed out. The page structure of the site is as informative as the content. We still felt it was valuable to publish the unfinished pages because of this.&lt;/p&gt;
-
-&lt;p&gt;If you would like to contribute to any of the pages or add new ones please contact &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#115;&amp;#112;&amp;#105;&amp;#110;&amp;#101;&amp;#064;&amp;#100;&amp;#114;&amp;#105;&amp;#118;&amp;#101;&amp;#110;&amp;#046;&amp;#101;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&quot;&gt;Us&lt;/a&gt;, or use &lt;a href=&quot;https://github.com/SpineModel/spinemodel.github.io&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Pull Work Through the System</title>
    <link href="http://spinemodel.github.io/principle/PullWorkThroughTheSystem"/>
    <updated>2015-05-24T00:00:00+02:00</updated>
    <id>http://spinemodel.github.io/principle/PullWorkThroughTheSystem</id>
    <content type="html">
-&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
 
 </content>
  </entry>
@@ -1778,7 +1965,7 @@
 &lt;h2 id=&quot;optimum-batch-size&quot;&gt;Optimum batch size&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/images/optimum_batch_size.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;What to learn next…&lt;/p&gt;
 
@@ -1791,70 +1978,12 @@
  </entry>
  
  <entry>
-   <title>Scaled Agile Framework (SAFe)</title>
-   <link href="http://spinemodel.github.io/archetype/SAFe"/>
-   <updated>2015-05-23T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/archetype/SAFe</id>
-   <content type="html">
-&lt;h2 id=&quot;origin&quot;&gt;Origin&lt;/h2&gt;
-&lt;p&gt;Over the last few years, I’ve worked extensively with a number of other professionals (including Drew Jemilo, Colin O’Neill, Alex Yakyma, Mauricio Zamora) in the implementation of a number of large enterprise lean|agile transformations. This collaboration has resulted in many back and forth discussions around implementation of the Scaled Agile Framework™. To date, this framework has been elaborated primarily in my books Agile Software Requirements, Scaling Software Agility, and blog). &lt;/p&gt;
-
-&lt;p&gt;Recently, we decided to formalize our collaboration with the intent of making the framework public-facing and more readily available to a larger audience, and we have also committed to developing certain extensions and enhancements to the framework that have presented themselves as the marketplace, agile enterprise maturity, and our thinking and experiences have evolved. &lt;/p&gt;
-
-&lt;p&gt;To that end, we will offer the Scaled Agile Framework (SAF) as a “proven, publicly available, framework for applying Lean|Agile practices at enterprise
- scale, presented in a structured, interactive, web format.”&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://scalingsoftwareagilityblog.com/introducing-the-scaled-agile-framework/&quot;&gt;Source: Dean Leffingwell, Introducing the Scaled Agile Framework™&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;needs&quot;&gt;Needs&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;values&quot;&gt;Values&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;/value/Alignment&quot;&gt;Alignment&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/value/CodeQuality&quot;&gt;Code Quality&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/value/Transparency&quot;&gt;Transparency&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/value/ProgramExecution&quot;&gt;Program Execution&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;principles&quot;&gt;Principles&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;/principle/TakeAnEconomicView&quot;&gt;Take an Economic View&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/principle/ApplySystemsThinking&quot;&gt;Apply Systems Thinking&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/principle/AssumeVariabilityPreserveOptions&quot;&gt;Assume Variability; Preserve Options&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/principle/BuildIncrementallyWithFastIntegratedLearningCycles&quot;&gt;Build Incrementally With Fast Integrated Learning Cycles&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/principle/BaseMilestonesOnObjectiveEvaluationOfWorkingSystems&quot;&gt;Base Milestones On Objective Evaluation Of Working Systems&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/principle/VisualizeAndLimitWIPReduceBatchSizesAndManageQueueLengths&quot;&gt;Visualize and limit WIP, reduce batch sizes, and manage queue lengths&lt;/a&gt; &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/principle/ApplyCadenceSynchronizeWithCrossDomainPlanning&quot;&gt;Apply cadence, synchronize with cross-domain planning&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/principle/UnlockTheIntrinsicMotivationOfKnowledgeWorkers&quot;&gt;Unlock the intrinsic motivation of knowledge workers&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/principle/DecentralizeDecisionMaking&quot;&gt;Decentralize decision-making&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;practices&quot;&gt;Practices&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;tools&quot;&gt;Tools&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Large-scale scrum (LeSS)</title>
-   <link href="http://spinemodel.github.io/archetype/LeSS"/>
-   <updated>2015-05-23T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/archetype/LeSS</id>
-   <content type="html">
-&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Kanban</title>
    <link href="http://spinemodel.github.io/archetype/Kanban"/>
    <updated>2015-05-23T00:00:00+02:00</updated>
    <id>http://spinemodel.github.io/archetype/Kanban</id>
    <content type="html">
-&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -1864,7 +1993,7 @@
    <updated>2015-05-23T00:00:00+02:00</updated>
    <id>http://spinemodel.github.io/archetype/FDD</id>
    <content type="html">
-&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -1874,7 +2003,7 @@
    <updated>2015-05-23T00:00:00+02:00</updated>
    <id>http://spinemodel.github.io/archetype/DSDM</id>
    <content type="html">
-&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -1889,7 +2018,7 @@
 
 &lt;p&gt;&lt;a href=&quot;http://www.disciplinedagiledelivery.com/introduction-to-dad/&quot;&gt;Source: The Official Introduction to DAD&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -1899,7 +2028,7 @@
    <updated>2015-05-23T00:00:00+02:00</updated>
    <id>http://spinemodel.github.io/archetype/Crystal</id>
    <content type="html">
-&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -2045,7 +2174,7 @@ me sound like an extremely old man, but let me explain:&lt;/p&gt;
   &lt;li&gt;coming soon&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -2144,7 +2273,7 @@ me sound like an extremely old man, but let me explain:&lt;/p&gt;
    <updated>2015-05-12T00:00:00+02:00</updated>
    <id>http://spinemodel.github.io/principle/ResourceVsFlowOptimisation</id>
    <content type="html">
-&lt;p&gt;&lt;a href=&quot;/Explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
