@@ -8,4 +8,4 @@ tags: [Flow, Principle]
 ---
 {% include JB/setup %}
 
-[To Do](/Explanation/TODO)
+[To Do](/explanation/TODO)

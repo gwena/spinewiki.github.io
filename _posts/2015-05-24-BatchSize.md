@@ -11,7 +11,7 @@ tags: [Flow, Principle]
 ## Optimum batch size
 ![](/assets/images/optimum_batch_size.png)
 
-[To Do](/Explanation/TODO)
+[To Do](/explanation/TODO)
 
 What to learn next...
 
