@@ -8,7 +8,7 @@ tags: [Agile]
 ---
 {% include JB/setup %}
 
-## Primary Principles
+# Primary Principles
 We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:
 
 * [Individuals and interactions over processes and tools](/principle/IndividualsAndInteractionsOverProcessesAndTools)
@@ -18,7 +18,7 @@ We are uncovering better ways of developing software by doing it and helping oth
 
 That is, while there is value in the items on the right, we value the items on the left more.
 
-## Additional 12 Principles
+# Additional 12 Principles
 
 * Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
 * Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.

@@ -8,7 +8,7 @@ tags: [XP]
 ---
 {% include JB/setup %}
 
-## Fundamental Principles
+# Fundamental Principles
 
 * Rapid Feedback
 * Assume Simplicity
@@ -16,7 +16,7 @@ tags: [XP]
 * Embracing Change
 * Quality Work
 
-## Further Principles
+# Further Principles
  
 * Teach Learning
 * Small Initial Investment

@@ -10,7 +10,7 @@ tags: [Flow]
 
 The [Lean Product Development](http://lpd2.com/) book enumerates 175 principles in 8 categories: Economic, Queueing, Variability, Batch Size, WIP Constraint, Flow Control Fast Feedback and Decentralization...
 
-## Economic Principles
+# Economic Principles
 
 * E1: The Principle of Quantified Overall Economics: Select actions based on quantified overall economic impact.
 * E2: The Principle of Interconnected Variables: We can’t just change one thing.
@@ -34,7 +34,7 @@ The [Lean Product Development](http://lpd2.com/) book enumerates 175 principles 
 * E20: The Newsboy Principle: High probability of failure does not equal bad economics.
 * E21: The Show Me the Money Principle: To influence financial decisions, speak the language on money.
 
-## Queueing Principles
+# Queueing Principles
 
 * Q1: The Principle of Invisible Inventory: Product development inventory is physically and financially invisible.
 * Q2: The Principle of Queueing Waste: Queues are the root cause of the majority of economic waste in product development.
@@ -53,7 +53,7 @@ The [Lean Product Development](http://lpd2.com/) book enumerates 175 principles 
 * Q15: The Diffusion Principle: Over time, queues will randomly spin seriously out of control and will remain in this state for long periods.
 * Q16: The Intervention Principle: We cannot rely on randomness to correct a random queue.
 
-## Variability Principles
+# Variability Principles
 
 * V1: The Principle of Beneficial Variability: Variability can create economic value.
 * V2: The Principle of Asymmetric Payoffs: Payoff asymmetries enable variability to create economic value.
@@ -72,7 +72,7 @@ The [Lean Product Development](http://lpd2.com/) book enumerates 175 principles 
 * V15: The Principle of Iteration Speed: It is usually better to improve iteration speed than defect rate. 
 * V16: The Principle of Variability Displacement: Move variability to the process stage where its cost is lowest. 
 
-## Batch Size Principles
+# Batch Size Principles
 
 * B1: Batch Size Queueing Principle: Reducing batch size reduces cycle time. 
 * B2: The Batch Size Variability Principle: Reducing batch size reduces variability in flow. 
@@ -97,7 +97,7 @@ The [Lean Product Development](http://lpd2.com/) book enumerates 175 principles 
 * B21: The Batch Size First Principle: Reduce batch size before you attack bottlenecks. 
 * B22: The Principle of Dynamic Batch Size: Adjust batch size dynamically to respond to changing economics. 
 
-## WIP Constraint Principles
+# WIP Constraint Principles
 
 * W1: The Principle of WIP Constraints: Constrain WIP to control cycle time and flow. 
 * W2: The Principle of Rate Matching: WIP constraints force rate-matching. 
@@ -123,7 +123,7 @@ The [Lean Product Development](http://lpd2.com/) book enumerates 175 principles 
 * W22: The Cumulative Reduction Principle: Small WIP reductions accumulate. 
 * W23: The Principle of Visual WIP: Make WIP continuously visible. 
 
-## Flow Control Principles
+# Flow Control Principles
 
 * F1: The Principle of Congestion Collapse: When loading becomes too high, we will see a sudden and catastrophic drop in output. 
 * F2: The Peak Throughput Principle: Control occupancy to sustain high throughput in systems prone to congestion. 
@@ -156,7 +156,7 @@ The [Lean Product Development](http://lpd2.com/) book enumerates 175 principles 
 * F29: The Principle of Resource Centralization: Correctly managed, centralized resources can reduce queues. 
 * F30: The Principle of Flow Conditioning: Reduce variability before a bottleneck. 
 
-## Fast Feedback Principles
+# Fast Feedback Principles
 
 * FF1: The Principle of Maximum Economic Influence: Focus control on project and process parameters with the highest economic influence. 
 * FF2: The Principle of Efficient Control: Control parameters that are both influential and efficient. 
@@ -183,7 +183,7 @@ The [Lean Product Development](http://lpd2.com/) book enumerates 175 principles 
 * FF23: The Principle of Overlapping Measurement: To align behaviors, reward people for the work of others. 
 * FF24: The Attention Principle: Time counts more than money. 
 
-## Decentralization Principles
+# Decentralization Principles
 
 * D1: The Second Perishability Principle: Decentralize control for problems and opportunities that age poorly. 
 * D2: The Scale Principle: Centralize control for problems that are infrequent, large, or that have significant economies of scale. 
