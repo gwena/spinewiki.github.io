@@ -6,11 +6,9 @@ tagline: a free Spine Model catalog to which anyone can contribute
 {% include JB/setup %}
 
 ## New to the Spine Model?
-If you're not familiar with the Spine Model, we recommend you [learn the basic ideas behind the model first](http://spinemodel.info), before diving into this catalog.
+The Spine Model can be applied to any human system and the individuals in it. If you're not familiar with the it, we recommend you [learn the basic ideas behind the model first](http://spinemodel.info).
 
 ## What is the purpose of this wiki?
-The Spine Model can be applied to any human system and the individuals in it.
-
 This wiki catalogs each level of the model and its various implementations in a way that creates an encyclopedia that anyone can draw from and [contribute to](https://github.com/SpineModel/spinemodel.github.io).
 
 ## Most recent contributions...
