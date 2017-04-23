@@ -12,7 +12,7 @@ tags: [Meta]
 
 # Important resources:
 
-* You can sign up to the [SpineModel slack group](https://spinemodel.slack.com/x-172600838673-172600869697/signup).
+* There is a SpineModel slack group ([spinemodel.slack.com](https://spinemodel.slack.com/)). [Send us an email to get invited](mailto:spine@driven.email?subject=Please add me to the SpineModel Slack Group&body=Thanks!).
 * You can follow [@spinemodel on twitter](http://www.twitter.com/spinemodel).
 * If you're familiar with GitHub, [the repository for this site is here](https://github.com/SpineWiki/spinewiki.github.io).
 * If you'd like to send us an email directly, use [spine@driven.email](mailto:spine@driven.email).
