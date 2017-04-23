@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Spine Wiki</title>
- <link href="http://spinemodel.github.io/" rel="self"/>
- <link href="http://spinemodel.github.io"/>
- <updated>2017-04-22T22:07:47+02:00</updated>
- <id>http://spinemodel.github.io</id>
+ <link href="http://spine.wiki/" rel="self"/>
+ <link href="http://spine.wiki"/>
+ <updated>2017-04-23T08:33:52+02:00</updated>
+ <id>http://spine.wiki</id>
  <author>
    <name>Kevin Trethewey, Danie Roux, Joanne Perold and Collaborators</name>
    <email>spine@driven.email</email>
@@ -13,10 +13,69 @@
 
  
  <entry>
+   <title>How do I learn about the Spine Model?</title>
+   <link href="http://spine.wiki/faq/Learn"/>
+   <updated>2017-04-23T00:00:00+02:00</updated>
+   <id>http://spine.wiki/faq/Learn</id>
+   <content type="html">
+&lt;p&gt;This site is a wiki catalog for the Spine Model. The model itself is described at &lt;a href=&quot;http://spinemodel.info&quot;&gt;spinemodel.info&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>How to Contribution to spine.wiki</title>
+   <link href="http://spine.wiki/explanation/Contribution"/>
+   <updated>2017-04-23T00:00:00+02:00</updated>
+   <id>http://spine.wiki/explanation/Contribution</id>
+   <content type="html">
+&lt;p&gt;👍 🎉 First off, thanks for taking the time to contribute! We’re really glad you’re reading this, because we need volunteers to help the wiki come to fruition. 👍 🎉 &lt;/p&gt;
+
+&lt;h1 id=&quot;important-resources&quot;&gt;Important resources:&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You can sign up to the &lt;a href=&quot;https://spinemodel.slack.com/x-172600838673-172600869697/signup&quot;&gt;SpineModel slack group&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;You can follow &lt;a href=&quot;http://www.twitter.com/spinemodel&quot;&gt;@spinemodel on twitter&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;If you’re familiar with GitHub, &lt;a href=&quot;https://github.com/SpineWiki/spinewiki.github.io&quot;&gt;the repository for this site is here&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;If you’d like to send us an email directly, use &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#115;&amp;#112;&amp;#105;&amp;#110;&amp;#101;&amp;#064;&amp;#100;&amp;#114;&amp;#105;&amp;#118;&amp;#101;&amp;#110;&amp;#046;&amp;#101;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&quot;&gt;&amp;#115;&amp;#112;&amp;#105;&amp;#110;&amp;#101;&amp;#064;&amp;#100;&amp;#114;&amp;#105;&amp;#118;&amp;#101;&amp;#110;&amp;#046;&amp;#101;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;did-you-find-a-bugmistakebroken-link&quot;&gt;Did you find a bug/mistake/broken link?&lt;/h1&gt;
+
+&lt;p&gt;Please report it via &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#115;&amp;#112;&amp;#105;&amp;#110;&amp;#101;&amp;#064;&amp;#100;&amp;#114;&amp;#105;&amp;#118;&amp;#101;&amp;#110;&amp;#046;&amp;#101;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&quot;&gt;&amp;#115;&amp;#112;&amp;#105;&amp;#110;&amp;#101;&amp;#064;&amp;#100;&amp;#114;&amp;#105;&amp;#118;&amp;#101;&amp;#110;&amp;#046;&amp;#101;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;do-you-intend-to-add-a-new-page-or-change-an-existing-one&quot;&gt;Do you intend to add a new page or change an existing one?&lt;/h1&gt;
+
+&lt;h2 id=&quot;easiest-way&quot;&gt;Easiest Way&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#115;&amp;#112;&amp;#105;&amp;#110;&amp;#101;&amp;#064;&amp;#100;&amp;#114;&amp;#105;&amp;#118;&amp;#101;&amp;#110;&amp;#046;&amp;#101;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&quot;&gt;Email your contribution to us&lt;/a&gt;. The preferred format is &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;markdown&lt;/a&gt;, but any text format is accepted (Word, Pdf, even plain text in your email). We’ll credit you on the page(s) you contribute to.&lt;/p&gt;
+
+&lt;h2 id=&quot;for-those-familiar-with-using-github-and-jekyll&quot;&gt;For those familiar with using GitHub and Jekyll&lt;/h2&gt;
+&lt;p&gt;Spine.wiki is a static &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;jekyll&lt;/a&gt; site.&lt;/p&gt;
+
+&lt;p&gt;You add new pages by creating a new markdown file in the _posts folder on the &lt;em&gt;develop&lt;/em&gt; branch (master branch contains the generated site, develop branch has the raw files). Starting from a copy of an existing file is easiest. &lt;/p&gt;
+
+&lt;p&gt;Fork the &lt;a href=&quot;https://github.com/SpineWiki/spinewiki.github.io&quot;&gt;spine.wiki repo from GitHub&lt;/a&gt; and send a pull request with your contribution. &lt;/p&gt;
+
+&lt;h1 id=&quot;style-conventions&quot;&gt;Style Conventions&lt;/h1&gt;
+&lt;p&gt;Spine.wiki has been developed with the following values, keep them in mind when contributing:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Precise&lt;/em&gt; - Short, concise descriptions of various parts of Spine Models.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Simple&lt;/em&gt; - Avoid jargon where plain language will do. &lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Shallow&lt;/em&gt; - Create a map, not an archive. Rather than duplicating content from other sources, add the relevant snippet and link to the source.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;welcome&quot;&gt;Welcome!&lt;/h1&gt;
+&lt;p&gt;Spine.wiki is a volunteer effort. We encourage you to pitch in and &lt;a href=&quot;https://spinemodel.slack.com/x-172600838673-172600869697/signup&quot;&gt;join the team&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Thanks! ❤️ ❤️ ❤️&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>eXtreme Programming (XP)</title>
-   <link href="http://spinemodel.github.io/archetype/XP"/>
+   <link href="http://spine.wiki/archetype/XP"/>
    <updated>2017-04-22T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/archetype/XP</id>
+   <id>http://spine.wiki/archetype/XP</id>
    <content type="html">
 &lt;h1 id=&quot;origin&quot;&gt;Origin&lt;/h1&gt;
 &lt;p&gt;The term XP predates the term Agile by several years. XP stands for Extreme Programming, and is a suite of Practices, Principles, and Values invented by &lt;a href=&quot;http://en.wikipedia.org/wiki/Kent_Beck&quot;&gt;Kent Beck&lt;/a&gt; in the late ‘90s.&lt;/p&gt;
@@ -64,10 +123,22 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  </entry>
  
  <entry>
-   <title>Scrum</title>
-   <link href="http://spinemodel.github.io/archetype/Scrum"/>
+   <title>To Do</title>
+   <link href="http://spine.wiki/explanation/TODO"/>
    <updated>2017-04-22T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/archetype/Scrum</id>
+   <id>http://spine.wiki/explanation/TODO</id>
+   <content type="html">
+&lt;p&gt;Many of the pages and sections on this site have yet to be fleshed out. We felt that since the page structure of the site is as informative as the content, that it was valuable to publish incomplete pages.&lt;/p&gt;
+
+&lt;p&gt;If you would like to contribute to any of the pages or add new ones please contact &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#115;&amp;#112;&amp;#105;&amp;#110;&amp;#101;&amp;#064;&amp;#100;&amp;#114;&amp;#105;&amp;#118;&amp;#101;&amp;#110;&amp;#046;&amp;#101;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&quot;&gt;Us&lt;/a&gt;, or use &lt;a href=&quot;https://github.com/SpineWiki/spinewiki.github.io&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Scrum</title>
+   <link href="http://spine.wiki/archetype/Scrum"/>
+   <updated>2017-04-22T00:00:00+02:00</updated>
+   <id>http://spine.wiki/archetype/Scrum</id>
    <content type="html">
 &lt;h1 id=&quot;origin&quot;&gt;Origin&lt;/h1&gt;
 &lt;p&gt;Jeff Sutherland and Ken Schwaber conceived the Scrum process in the early 90’s. They codified Scrum in 1995 in order to present it at the Oopsla conference in Austin, Texas (US) and published the paper “SCRUM Software Development Process”.&lt;/p&gt;
@@ -126,78 +197,10 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  </entry>
  
  <entry>
-   <title>Large-Scale Scrum (LeSS)</title>
-   <link href="http://spinemodel.github.io/archetype/LeSS"/>
-   <updated>2017-04-22T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/archetype/LeSS</id>
-   <content type="html">
-&lt;h1 id=&quot;origin&quot;&gt;Origin&lt;/h1&gt;
-&lt;p&gt;LeSS emerged from the work of &lt;a href=&quot;http://www.craiglarman.com&quot;&gt;Craig Larman&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/basvodde&quot;&gt;Bas Vodde&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Since 2005, we’ve worked with clients to apply the LeSS (Large-Scale Scrum) framework for scaling Scrum, lean and agile development to big product groups. We share that experience and knowledge through LeSS so that you too can succeed when scaling.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://less.works/&quot;&gt;Source: LeSS.works&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;learning-it&quot;&gt;Learning It&lt;/h1&gt;
-&lt;p&gt;Our recommended way of learning about LeSS is through…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Large-Scale-Scrum-More-Addison-Wesley-Signature/dp/0321985710&quot;&gt;[Book] Large-Scale Scrum: More with LeSS&lt;/a&gt; - Larman, Vodde&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://less.works&quot;&gt;Less.works&lt;/a&gt; website&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;* the best way to get properly informed about any Archetype is to find people who are actively using it and to ask them about their experiences.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;less-spine&quot;&gt;LeSS Spine&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;From the perspective of prospective users of Large-Scale Scrum…&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;need-where-might-it-be-used&quot;&gt;Need (Where might it be used?)&lt;/h2&gt;
-&lt;p&gt;LeSS is a set of rules combined with guides for applying &lt;a href=&quot;/archetype/Scrum/&quot;&gt;Scrum&lt;/a&gt; in a multi-team context. It is not a framework that applies Scrum at team level and then adds additional scaling processes, instead it is Scrum scaled on all the levels.&lt;/p&gt;
-
-&lt;p&gt;Rather than having Scrum as a building block for a scaled framework, LeSS looks at Scrum and for each element ask “Why is it there?” followed by “If we have more than one team, how can we achieve the same purpose on a larger scale?”&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://less.works/less/principles/large_scale_scrum_is_scrum.html&quot;&gt;Source: Large-Scale Scrum is Scrum&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;values-what-does-it-optimise-for&quot;&gt;Values (What does it optimise for?)&lt;/h2&gt;
-&lt;p&gt;Since LeSS is Scrum scaled, it builds on the &lt;a href=&quot;/value/ValuesOfScrum/&quot;&gt;Scrum Values&lt;/a&gt;. &lt;/p&gt;
-
-&lt;p&gt;Other than that, the focus for LeSS was on keeping it simple, avoiding adding additional roles, artifacts of processes that should be empirically managed by the product group.&lt;/p&gt;
-
-&lt;p&gt;The other significant optimisation was for &lt;em&gt;scaling up&lt;/em&gt; instead of &lt;em&gt;tailoring down&lt;/em&gt;. Rather than defining a universal, overarching framework and then contextually tailoring it down, LeSS is kept to a minimum and the concept of “Less Huge” is introduced for very large product groups (± more than 8 teams).&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://less.works/less/framework/why-less.html&quot;&gt;Source: Why LeSS?&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;principles-what-is-it-based-on&quot;&gt;Principles (What is it based on?)&lt;/h2&gt;
-&lt;p&gt;See &lt;a href=&quot;/principle/PrinciplesOfLeSS&quot;&gt;LeSS Principles&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;practices-what-does-it-suggest-you-do&quot;&gt;Practices (What does it suggest you do?)&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;/explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;tools-what-does-it-suggest-you-use&quot;&gt;Tools (What does it suggest you use?)&lt;/h2&gt;
-&lt;p&gt;LeSS does not explicitly recommend any &lt;a href=&quot;/tools.html&quot;&gt;Tools&lt;/a&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>To Do</title>
-   <link href="http://spinemodel.github.io/explanation/TODO"/>
-   <updated>2017-03-22T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/explanation/TODO</id>
-   <content type="html">
-&lt;p&gt;Many of the pages and sections on this site have yet to be fleshed out. We felt that since the page structure of the site is as informative as the content, that it was valuable to publish incomplete pages.&lt;/p&gt;
-
-&lt;p&gt;If you would like to contribute to any of the pages or add new ones please contact &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#115;&amp;#112;&amp;#105;&amp;#110;&amp;#101;&amp;#064;&amp;#100;&amp;#114;&amp;#105;&amp;#118;&amp;#101;&amp;#110;&amp;#046;&amp;#101;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&quot;&gt;Us&lt;/a&gt;, or use &lt;a href=&quot;https://github.com/SpineWiki/spinewiki.github.io&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Scaled Agile Framework (SAFe)</title>
-   <link href="http://spinemodel.github.io/archetype/SAFe"/>
-   <updated>2017-03-22T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/archetype/SAFe</id>
+   <link href="http://spine.wiki/archetype/SAFe"/>
+   <updated>2017-04-22T00:00:00+02:00</updated>
+   <id>http://spine.wiki/archetype/SAFe</id>
    <content type="html">
 &lt;h2 id=&quot;origin&quot;&gt;Origin&lt;/h2&gt;
 &lt;p&gt;Dean Leffingwell describes the origin of SAFe as follows…&lt;/p&gt;
@@ -256,9 +259,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Principles of LeSS</title>
-   <link href="http://spinemodel.github.io/principle/PrinciplesOfLeSS"/>
-   <updated>2017-03-22T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/principle/PrinciplesOfLeSS</id>
+   <link href="http://spine.wiki/principle/PrinciplesOfLeSS"/>
+   <updated>2017-04-22T00:00:00+02:00</updated>
+   <id>http://spine.wiki/principle/PrinciplesOfLeSS</id>
    <content type="html">
 &lt;h1 id=&quot;principles&quot;&gt;10 Principles&lt;/h1&gt;
 
@@ -292,10 +295,66 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  </entry>
  
  <entry>
+   <title>Large-Scale Scrum (LeSS)</title>
+   <link href="http://spine.wiki/archetype/LeSS"/>
+   <updated>2017-04-22T00:00:00+02:00</updated>
+   <id>http://spine.wiki/archetype/LeSS</id>
+   <content type="html">
+&lt;h1 id=&quot;origin&quot;&gt;Origin&lt;/h1&gt;
+&lt;p&gt;LeSS emerged from the work of &lt;a href=&quot;http://www.craiglarman.com&quot;&gt;Craig Larman&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/basvodde&quot;&gt;Bas Vodde&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Since 2005, we’ve worked with clients to apply the LeSS (Large-Scale Scrum) framework for scaling Scrum, lean and agile development to big product groups. We share that experience and knowledge through LeSS so that you too can succeed when scaling.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://less.works/&quot;&gt;Source: LeSS.works&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;learning-it&quot;&gt;Learning It&lt;/h1&gt;
+&lt;p&gt;Our recommended way of learning about LeSS is through…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Large-Scale-Scrum-More-Addison-Wesley-Signature/dp/0321985710&quot;&gt;[Book] Large-Scale Scrum: More with LeSS&lt;/a&gt; - Larman, Vodde&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://less.works&quot;&gt;Less.works&lt;/a&gt; website&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;* the best way to get properly informed about any Archetype is to find people who are actively using it and to ask them about their experiences.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;less-spine&quot;&gt;LeSS Spine&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;From the perspective of prospective users of Large-Scale Scrum…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;need-where-might-it-be-used&quot;&gt;Need (Where might it be used?)&lt;/h2&gt;
+&lt;p&gt;LeSS is a set of rules combined with guides for applying &lt;a href=&quot;/archetype/Scrum/&quot;&gt;Scrum&lt;/a&gt; in a multi-team context. It is not a framework that applies Scrum at team level and then adds additional scaling processes, instead it is Scrum scaled on all the levels.&lt;/p&gt;
+
+&lt;p&gt;Rather than having Scrum as a building block for a scaled framework, LeSS looks at Scrum and for each element ask “Why is it there?” followed by “If we have more than one team, how can we achieve the same purpose on a larger scale?”&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://less.works/less/principles/large_scale_scrum_is_scrum.html&quot;&gt;Source: Large-Scale Scrum is Scrum&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;values-what-does-it-optimise-for&quot;&gt;Values (What does it optimise for?)&lt;/h2&gt;
+&lt;p&gt;Since LeSS is Scrum scaled, it builds on the &lt;a href=&quot;/value/ValuesOfScrum/&quot;&gt;Scrum Values&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;Other than that, the focus for LeSS was on keeping it simple, avoiding adding additional roles, artifacts of processes that should be empirically managed by the product group.&lt;/p&gt;
+
+&lt;p&gt;The other significant optimisation was for &lt;em&gt;scaling up&lt;/em&gt; instead of &lt;em&gt;tailoring down&lt;/em&gt;. Rather than defining a universal, overarching framework and then contextually tailoring it down, LeSS is kept to a minimum and the concept of “Less Huge” is introduced for very large product groups (± more than 8 teams).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://less.works/less/framework/why-less.html&quot;&gt;Source: Why LeSS?&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;principles-what-is-it-based-on&quot;&gt;Principles (What is it based on?)&lt;/h2&gt;
+&lt;p&gt;See &lt;a href=&quot;/principle/PrinciplesOfLeSS&quot;&gt;LeSS Principles&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;practices-what-does-it-suggest-you-do&quot;&gt;Practices (What does it suggest you do?)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;/explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;tools-what-does-it-suggest-you-use&quot;&gt;Tools (What does it suggest you use?)&lt;/h2&gt;
+&lt;p&gt;LeSS does not explicitly recommend any &lt;a href=&quot;/tools.html&quot;&gt;Tools&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Generic List of Values</title>
-   <link href="http://spinemodel.github.io/value/GenericValues"/>
+   <link href="http://spine.wiki/value/GenericValues"/>
    <updated>2016-01-25T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/value/GenericValues</id>
+   <id>http://spine.wiki/value/GenericValues</id>
    <content type="html">
 &lt;ul&gt;
   &lt;li&gt;Abundance&lt;/li&gt;
@@ -710,9 +769,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Whole Team</title>
-   <link href="http://spinemodel.github.io/practice/WholeTeam"/>
+   <link href="http://spine.wiki/practice/WholeTeam"/>
    <updated>2015-11-22T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/practice/WholeTeam</id>
+   <id>http://spine.wiki/practice/WholeTeam</id>
    <content type="html">
 &lt;p&gt;All the contributors to an XP project sit together, members of one team. &lt;/p&gt;
 
@@ -728,9 +787,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Test Driven Development</title>
-   <link href="http://spinemodel.github.io/practice/TDD"/>
+   <link href="http://spine.wiki/practice/TDD"/>
    <updated>2015-11-22T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/practice/TDD</id>
+   <id>http://spine.wiki/practice/TDD</id>
    <content type="html">
 &lt;p&gt;Extreme Programming is obsessed with feedback, and in software development, good feedback requires good testing. Top XP teams practice “test-driven development”, working in very short cycles of adding a test, then making it work. Almost effortlessly, teams produce code with nearly 100 percent test coverage, which is a great step forward in most shops. (If your programmers are already doing even more sophisticated testing, more power to you. Keep it up, it can only help!)&lt;/p&gt;
 
@@ -744,9 +803,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Sustainable Pace</title>
-   <link href="http://spinemodel.github.io/practice/SustainablePace"/>
+   <link href="http://spine.wiki/practice/SustainablePace"/>
    <updated>2015-11-22T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/practice/SustainablePace</id>
+   <id>http://spine.wiki/practice/SustainablePace</id>
    <content type="html">
 &lt;p&gt;Extreme Programming teams are in it for the long term. They work hard, and at a pace that can be sustained indefinitely. This means that they work overtime when it is effective, and that they normally work in such a way as to maximize productivity week in and week out. It’s pretty well understood these days that death march projects are neither productive nor produce quality software. XP teams are in it to win, not to die.&lt;/p&gt;
 
@@ -758,9 +817,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Small Releases</title>
-   <link href="http://spinemodel.github.io/practice/SmallReleases"/>
+   <link href="http://spine.wiki/practice/SmallReleases"/>
    <updated>2015-11-22T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/practice/SmallReleases</id>
+   <id>http://spine.wiki/practice/SmallReleases</id>
    <content type="html">
 &lt;p&gt;XP teams practice small releases in two important ways:&lt;/p&gt;
 
@@ -778,9 +837,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Simple Design</title>
-   <link href="http://spinemodel.github.io/practice/SimpleDesign"/>
+   <link href="http://spine.wiki/practice/SimpleDesign"/>
    <updated>2015-11-22T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/practice/SimpleDesign</id>
+   <id>http://spine.wiki/practice/SimpleDesign</id>
    <content type="html">
 &lt;p&gt;XP teams build software to a simple but always adequate design. They start simple, and through &lt;a href=&quot;/practice/TDD&quot;&gt;programmer testing&lt;/a&gt; and &lt;a href=&quot;/practice/Refactoring&quot;&gt;design improvement&lt;/a&gt;, they keep it that way. An XP team keeps the design exactly suited for the current functionality of the system. There is no wasted motion, and the software is always ready for what’s next.&lt;/p&gt;
 
@@ -794,9 +853,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Design Improvement (Refactoring)</title>
-   <link href="http://spinemodel.github.io/practice/Refactoring"/>
+   <link href="http://spine.wiki/practice/Refactoring"/>
    <updated>2015-11-22T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/practice/Refactoring</id>
+   <id>http://spine.wiki/practice/Refactoring</id>
    <content type="html">
 &lt;p&gt;Extreme Programming focuses on delivering business value in every iteration. To accomplish this over the course of the whole project, the software must be well-designed. The alternative would be to slow down and ultimately get stuck. So XP uses a process of continuous design improvement called &lt;em&gt;Refactoring&lt;/em&gt;, from the title of Martin Fowler’s book, “&lt;a href=&quot;http://www.amazon.com/exec/obidos/ASIN/0201485672/armaties&quot;&gt;Refactoring: Improving the Design of Existing Code&lt;/a&gt;”.&lt;/p&gt;
 
@@ -812,9 +871,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Practices of Extreme Programming</title>
-   <link href="http://spinemodel.github.io/practice/PracticesOfXP"/>
+   <link href="http://spine.wiki/practice/PracticesOfXP"/>
    <updated>2015-11-22T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/practice/PracticesOfXP</id>
+   <id>http://spine.wiki/practice/PracticesOfXP</id>
    <content type="html">
 &lt;p&gt;XP’s philosophy on &lt;a href=&quot;/practices.html&quot;&gt;Practices&lt;/a&gt; is very non-prescriptive, and advises an explorative approach, based on the &lt;a href=&quot;/principle/PrinciplesOfXP&quot;&gt;XP Principles&lt;/a&gt; and &lt;a href=&quot;/value/ValuesOfXP&quot;&gt;XP Values&lt;/a&gt;.&lt;/p&gt;
 
@@ -881,9 +940,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Planning Game</title>
-   <link href="http://spinemodel.github.io/practice/PlanningGame"/>
+   <link href="http://spine.wiki/practice/PlanningGame"/>
    <updated>2015-11-22T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/practice/PlanningGame</id>
+   <id>http://spine.wiki/practice/PlanningGame</id>
    <content type="html">
 &lt;p&gt;XP planning addresses two key questions in software development: predicting what will be accomplished by the due date, and determining what to do next. The emphasis is on steering the project – which is quite straightforward – rather than on exact prediction of what will be needed and how long it will take – which is quite difficult. There are two key planning steps in XP, addressing these two questions:&lt;/p&gt;
 
@@ -901,9 +960,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Pair Programming</title>
-   <link href="http://spinemodel.github.io/practice/PairProgramming"/>
+   <link href="http://spine.wiki/practice/PairProgramming"/>
    <updated>2015-11-22T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/practice/PairProgramming</id>
+   <id>http://spine.wiki/practice/PairProgramming</id>
    <content type="html">
 &lt;p&gt;All production software in XP is built by two programmers, sitting side by side, at the same machine. This practice ensures that all production code is reviewed by at least one other programmer, and results in better design, better testing, and better code.&lt;/p&gt;
 
@@ -921,9 +980,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Metaphor</title>
-   <link href="http://spinemodel.github.io/practice/Metaphor"/>
+   <link href="http://spine.wiki/practice/Metaphor"/>
    <updated>2015-11-22T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/practice/Metaphor</id>
+   <id>http://spine.wiki/practice/Metaphor</id>
    <content type="html">
 &lt;p&gt;Extreme Programming teams develop a common vision of how the program works, which we call the “metaphor”. At its best, the metaphor is a simple evocative description of how the program works, such as “this program works like a hive of bees, going out for pollen and bringing it back to the hive” as a description for an agent-based information retrieval system.&lt;/p&gt;
 
@@ -937,9 +996,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Customer Tests</title>
-   <link href="http://spinemodel.github.io/practice/CustomerTests"/>
+   <link href="http://spine.wiki/practice/CustomerTests"/>
    <updated>2015-11-22T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/practice/CustomerTests</id>
+   <id>http://spine.wiki/practice/CustomerTests</id>
    <content type="html">
 &lt;p&gt;As part of presenting each desired feature, the XP Customer defines one or more automated acceptance tests to show that the feature is working. The team builds these tests and uses them to prove to themselves, and to the customer, that the feature is implemented correctly. Automation is important because in the press of time, manual tests are skipped. That’s like turning off your lights when the night gets darkest.&lt;/p&gt;
 
@@ -953,9 +1012,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Continuous Integration</title>
-   <link href="http://spinemodel.github.io/practice/ContinuousIntegration"/>
+   <link href="http://spine.wiki/practice/ContinuousIntegration"/>
    <updated>2015-11-22T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/practice/ContinuousIntegration</id>
+   <id>http://spine.wiki/practice/ContinuousIntegration</id>
    <content type="html">
 &lt;p&gt;Extreme Programming teams keep the system fully integrated at all times. We say that daily builds are for wimps: XP teams build multiple times per day. (One XP team of forty people builds at least eight or ten times per day!)&lt;/p&gt;
 
@@ -971,9 +1030,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Collective Code Ownership</title>
-   <link href="http://spinemodel.github.io/practice/CollectiveCodeOwnership"/>
+   <link href="http://spine.wiki/practice/CollectiveCodeOwnership"/>
    <updated>2015-11-22T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/practice/CollectiveCodeOwnership</id>
+   <id>http://spine.wiki/practice/CollectiveCodeOwnership</id>
    <content type="html">
 &lt;p&gt;On an Extreme Programming project, any pair of programmers can improve any code at any time. This means that all code gets the benefit of many people’s attention, which increases code quality and reduces defects. There is another important benefit as well: when code is owned by individuals, required features are often put in the wrong place, as one programmer discovers that he needs a feature somewhere in code that he does not own. The owner is too busy to do it, so the programmer puts the feature in his own code, where it does not belong. This leads to ugly, hard-to-maintain code, full of duplication and with low (bad) cohesion.&lt;/p&gt;
 
@@ -987,9 +1046,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Coding Standard</title>
-   <link href="http://spinemodel.github.io/practice/CodingStandard"/>
+   <link href="http://spine.wiki/practice/CodingStandard"/>
    <updated>2015-11-22T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/practice/CodingStandard</id>
+   <id>http://spine.wiki/practice/CodingStandard</id>
    <content type="html">
 &lt;p&gt;XP teams follow a common coding standard, so that all the code in the system looks as if it was written by a single – very competent – individual. The specifics of the standard are not important: what is important is that all the code looks familiar, in support of collective ownership.&lt;/p&gt;
 
@@ -1001,9 +1060,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Transparency</title>
-   <link href="http://spinemodel.github.io/value/Transparency"/>
+   <link href="http://spine.wiki/value/Transparency"/>
    <updated>2015-11-21T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/value/Transparency</id>
+   <id>http://spine.wiki/value/Transparency</id>
    <content type="html">
 &lt;p&gt;This is the third &lt;a href=&quot;/values.html&quot;&gt;Value&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
 
@@ -1013,9 +1072,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Tools for Visualising Work In Progress</title>
-   <link href="http://spinemodel.github.io/tool/ToolsForVisualisingWorkInProgress"/>
+   <link href="http://spine.wiki/tool/ToolsForVisualisingWorkInProgress"/>
    <updated>2015-11-21T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/tool/ToolsForVisualisingWorkInProgress</id>
+   <id>http://spine.wiki/tool/ToolsForVisualisingWorkInProgress</id>
    <content type="html">
 &lt;ul&gt;
   &lt;li&gt;Physical Board&lt;/li&gt;
@@ -1028,9 +1087,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Program Execution</title>
-   <link href="http://spinemodel.github.io/value/ProgramExecution"/>
+   <link href="http://spine.wiki/value/ProgramExecution"/>
    <updated>2015-11-21T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/value/ProgramExecution</id>
+   <id>http://spine.wiki/value/ProgramExecution</id>
    <content type="html">
 &lt;p&gt;This is the fourth &lt;a href=&quot;/values.html&quot;&gt;Value&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
 
@@ -1040,9 +1099,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Next Retro Topics List</title>
-   <link href="http://spinemodel.github.io/tool/NextRetroTopicsList"/>
+   <link href="http://spine.wiki/tool/NextRetroTopicsList"/>
    <updated>2015-11-21T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/tool/NextRetroTopicsList</id>
+   <id>http://spine.wiki/tool/NextRetroTopicsList</id>
    <content type="html">
 &lt;h2 id=&quot;what-is-it&quot;&gt;What is it?&lt;/h2&gt;
 &lt;p&gt;A visible list of all the things the team may want to dig deeper into during their next &lt;a href=&quot;/practice/TeamRetrospective/&quot;&gt;Retrospective&lt;/a&gt;.&lt;/p&gt;
@@ -1064,9 +1123,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Code Quality</title>
-   <link href="http://spinemodel.github.io/value/CodeQuality"/>
+   <link href="http://spine.wiki/value/CodeQuality"/>
    <updated>2015-11-21T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/value/CodeQuality</id>
+   <id>http://spine.wiki/value/CodeQuality</id>
    <content type="html">
 &lt;p&gt;This is the second &lt;a href=&quot;/values.html&quot;&gt;Value&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
 
@@ -1076,9 +1135,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Alignment</title>
-   <link href="http://spinemodel.github.io/value/Alignment"/>
+   <link href="http://spine.wiki/value/Alignment"/>
    <updated>2015-11-21T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/value/Alignment</id>
+   <id>http://spine.wiki/value/Alignment</id>
    <content type="html">
 &lt;p&gt;This is the first &lt;a href=&quot;/values.html&quot;&gt;Value&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
 
@@ -1088,9 +1147,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Values of Extreme Programming</title>
-   <link href="http://spinemodel.github.io/value/ValuesOfXP"/>
+   <link href="http://spine.wiki/value/ValuesOfXP"/>
    <updated>2015-11-17T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/value/ValuesOfXP</id>
+   <id>http://spine.wiki/value/ValuesOfXP</id>
    <content type="html">
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;/value/Simplicity&quot;&gt;Simplicity&lt;/a&gt;&lt;/li&gt;
@@ -1106,9 +1165,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Values of Scrum</title>
-   <link href="http://spinemodel.github.io/value/ValuesOfScrum"/>
+   <link href="http://spine.wiki/value/ValuesOfScrum"/>
    <updated>2015-11-17T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/value/ValuesOfScrum</id>
+   <id>http://spine.wiki/value/ValuesOfScrum</id>
    <content type="html">
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;/value/Focus&quot;&gt;Focus&lt;/a&gt;&lt;/li&gt;
@@ -1124,9 +1183,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Values of SAFe</title>
-   <link href="http://spinemodel.github.io/value/ValuesOfSAFe"/>
+   <link href="http://spine.wiki/value/ValuesOfSAFe"/>
    <updated>2015-11-17T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/value/ValuesOfSAFe</id>
+   <id>http://spine.wiki/value/ValuesOfSAFe</id>
    <content type="html">
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;/value/Alignment&quot;&gt;Alignment&lt;/a&gt;&lt;/li&gt;
@@ -1141,9 +1200,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Tools for Retrospectives</title>
-   <link href="http://spinemodel.github.io/tool/ToolsForRetrospectives"/>
+   <link href="http://spine.wiki/tool/ToolsForRetrospectives"/>
    <updated>2015-11-17T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/tool/ToolsForRetrospectives</id>
+   <id>http://spine.wiki/tool/ToolsForRetrospectives</id>
    <content type="html">
 &lt;p&gt;If you aren’t sure what a retrospective is, start &lt;a href=&quot;/practice/TeamRetrospective/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
@@ -1160,9 +1219,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Principles of Extreme Programming</title>
-   <link href="http://spinemodel.github.io/principle/PrinciplesOfXP"/>
+   <link href="http://spine.wiki/principle/PrinciplesOfXP"/>
    <updated>2015-11-17T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/principle/PrinciplesOfXP</id>
+   <id>http://spine.wiki/principle/PrinciplesOfXP</id>
    <content type="html">
 &lt;h1 id=&quot;fundamental-principles&quot;&gt;Fundamental Principles&lt;/h1&gt;
 
@@ -1197,9 +1256,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Principles of SAFe</title>
-   <link href="http://spinemodel.github.io/principle/PrinciplesOfSAFe"/>
+   <link href="http://spine.wiki/principle/PrinciplesOfSAFe"/>
    <updated>2015-11-17T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/principle/PrinciplesOfSAFe</id>
+   <id>http://spine.wiki/principle/PrinciplesOfSAFe</id>
    <content type="html">
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;/principle/TakeAnEconomicView&quot;&gt;Take an Economic View&lt;/a&gt;&lt;/li&gt;
@@ -1220,9 +1279,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Principles of Flow</title>
-   <link href="http://spinemodel.github.io/principle/PrinciplesOfFlow"/>
+   <link href="http://spine.wiki/principle/PrinciplesOfFlow"/>
    <updated>2015-11-17T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/principle/PrinciplesOfFlow</id>
+   <id>http://spine.wiki/principle/PrinciplesOfFlow</id>
    <content type="html">
 &lt;p&gt;The &lt;a href=&quot;http://lpd2.com/&quot;&gt;Lean Product Development&lt;/a&gt; book enumerates 175 principles in 8 categories: Economic, Queueing, Variability, Batch Size, WIP Constraint, Flow Control Fast Feedback and Decentralization…&lt;/p&gt;
 
@@ -1447,9 +1506,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Principles of Agile</title>
-   <link href="http://spinemodel.github.io/principle/PrinciplesOfAgile"/>
+   <link href="http://spine.wiki/principle/PrinciplesOfAgile"/>
    <updated>2015-11-17T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/principle/PrinciplesOfAgile</id>
+   <id>http://spine.wiki/principle/PrinciplesOfAgile</id>
    <content type="html">
 &lt;h1 id=&quot;primary-principles&quot;&gt;Primary Principles&lt;/h1&gt;
 &lt;p&gt;We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:&lt;/p&gt;
@@ -1488,9 +1547,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Spine Model - A systemic approach to effective leadership</title>
-   <link href="http://spinemodel.github.io/news/agile2015talk"/>
+   <link href="http://spine.wiki/news/agile2015talk"/>
    <updated>2015-10-14T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/news/agile2015talk</id>
+   <id>http://spine.wiki/news/agile2015talk</id>
    <content type="html">
 &lt;p&gt;&lt;a href=&quot;http://spinemodel.info/news/agile2015talk&quot;&gt;This page has moved.&lt;/a&gt;&lt;/p&gt;
 </content>
@@ -1498,9 +1557,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Responding to change over following a plan</title>
-   <link href="http://spinemodel.github.io/principle/RespondingToChangeOverFollowingAPlan"/>
+   <link href="http://spine.wiki/principle/RespondingToChangeOverFollowingAPlan"/>
    <updated>2015-07-19T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/principle/RespondingToChangeOverFollowingAPlan</id>
+   <id>http://spine.wiki/principle/RespondingToChangeOverFollowingAPlan</id>
    <content type="html">
 &lt;p&gt;This is the fourth &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of the &lt;a href=&quot;/archetype/AgileManifesto/&quot;&gt;Agile Manifesto&lt;/a&gt;.&lt;/p&gt;
 </content>
@@ -1508,9 +1567,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Customer collaboration over contract negotiation</title>
-   <link href="http://spinemodel.github.io/principle/CustomerCollaborationOverContractNegotiation"/>
+   <link href="http://spine.wiki/principle/CustomerCollaborationOverContractNegotiation"/>
    <updated>2015-07-19T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/principle/CustomerCollaborationOverContractNegotiation</id>
+   <id>http://spine.wiki/principle/CustomerCollaborationOverContractNegotiation</id>
    <content type="html">
 &lt;p&gt;This is the thirs &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of the &lt;a href=&quot;/archetype/AgileManifesto/&quot;&gt;Agile Manifesto&lt;/a&gt;.&lt;/p&gt;
 </content>
@@ -1518,9 +1577,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Working software over comprehensive documentation</title>
-   <link href="http://spinemodel.github.io/principle/WorkingSoftwareOverComprehensiveDocumentation"/>
+   <link href="http://spine.wiki/principle/WorkingSoftwareOverComprehensiveDocumentation"/>
    <updated>2015-07-18T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/principle/WorkingSoftwareOverComprehensiveDocumentation</id>
+   <id>http://spine.wiki/principle/WorkingSoftwareOverComprehensiveDocumentation</id>
    <content type="html">
 &lt;p&gt;This is the second &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of the &lt;a href=&quot;/archetype/AgileManifesto/&quot;&gt;Agile Manifesto&lt;/a&gt;.&lt;/p&gt;
 </content>
@@ -1528,9 +1587,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Individuals and interactions over processes and tools</title>
-   <link href="http://spinemodel.github.io/principle/IndividualsAndInteractionsOverProcessesAndTools"/>
+   <link href="http://spine.wiki/principle/IndividualsAndInteractionsOverProcessesAndTools"/>
    <updated>2015-07-18T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/principle/IndividualsAndInteractionsOverProcessesAndTools</id>
+   <id>http://spine.wiki/principle/IndividualsAndInteractionsOverProcessesAndTools</id>
    <content type="html">
 &lt;p&gt;This is the first &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of the &lt;a href=&quot;/prototype/AgileManifesto/&quot;&gt;Agile Manifesto&lt;/a&gt;.&lt;/p&gt;
 </content>
@@ -1538,9 +1597,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Agile Software Development, Manifesto for</title>
-   <link href="http://spinemodel.github.io/archetype/AgileManifesto"/>
+   <link href="http://spine.wiki/archetype/AgileManifesto"/>
    <updated>2015-07-18T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/archetype/AgileManifesto</id>
+   <id>http://spine.wiki/archetype/AgileManifesto</id>
    <content type="html">
 &lt;h2 id=&quot;origin&quot;&gt;Origin&lt;/h2&gt;
 &lt;p&gt;On February 11-13, 2001, at The Lodge at Snowbird ski resort in the Wasatch mountains of Utah, seventeen people met to talk, ski, relax, and try to find common ground and of course, to eat. What emerged was the Agile Software Development Manifesto. Representatives from &lt;a href=&quot;/archetype/XP/&quot;&gt;Extreme Programming&lt;/a&gt;, &lt;a href=&quot;/archetype/SCRUM/&quot;&gt;SCRUM&lt;/a&gt;, &lt;a href=&quot;/archetype/DSDM/&quot;&gt;DSDM&lt;/a&gt;, Adaptive Software Development, &lt;a href=&quot;/archetype/Crystal/&quot;&gt;Crystal&lt;/a&gt;, &lt;a href=&quot;/archetype/FDD/&quot;&gt;Feature-Driven Development&lt;/a&gt;, Pragmatic Programming, and others sympathetic to the need for an alternative to documentation driven, heavyweight software development processes convened.&lt;/p&gt;
@@ -1613,9 +1672,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Visualize and limit WIP, reduce batch sizes, and manage queue lengths</title>
-   <link href="http://spinemodel.github.io/principle/VisualizeAndLimitWIPReduceBatchSizesAndManageQueueLengths"/>
+   <link href="http://spine.wiki/principle/VisualizeAndLimitWIPReduceBatchSizesAndManageQueueLengths"/>
    <updated>2015-06-09T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/principle/VisualizeAndLimitWIPReduceBatchSizesAndManageQueueLengths</id>
+   <id>http://spine.wiki/principle/VisualizeAndLimitWIPReduceBatchSizesAndManageQueueLengths</id>
    <content type="html">
 &lt;p&gt;This is the sixth &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
 
@@ -1625,9 +1684,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Unlock the intrinsic motivation of knowledge workers</title>
-   <link href="http://spinemodel.github.io/principle/UnlockTheIntrinsicMotivationOfKnowledgeWorkers"/>
+   <link href="http://spine.wiki/principle/UnlockTheIntrinsicMotivationOfKnowledgeWorkers"/>
    <updated>2015-06-09T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/principle/UnlockTheIntrinsicMotivationOfKnowledgeWorkers</id>
+   <id>http://spine.wiki/principle/UnlockTheIntrinsicMotivationOfKnowledgeWorkers</id>
    <content type="html">
 &lt;p&gt;This is the eighth &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
 
@@ -1637,9 +1696,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Take an Economic View</title>
-   <link href="http://spinemodel.github.io/principle/TakeAnEconomicView"/>
+   <link href="http://spine.wiki/principle/TakeAnEconomicView"/>
    <updated>2015-06-09T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/principle/TakeAnEconomicView</id>
+   <id>http://spine.wiki/principle/TakeAnEconomicView</id>
    <content type="html">
 &lt;p&gt;This is the first &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
 
@@ -1650,9 +1709,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Decentralize decision-making</title>
-   <link href="http://spinemodel.github.io/principle/DecentralizeDecisionMaking"/>
+   <link href="http://spine.wiki/principle/DecentralizeDecisionMaking"/>
    <updated>2015-06-09T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/principle/DecentralizeDecisionMaking</id>
+   <id>http://spine.wiki/principle/DecentralizeDecisionMaking</id>
    <content type="html">
 &lt;p&gt;This is the ninth &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
 
@@ -1662,9 +1721,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Build Incrementally With Fast Integrated Learning Cycles</title>
-   <link href="http://spinemodel.github.io/principle/BuildIncrementallyWithFastIntegratedLearningCycles"/>
+   <link href="http://spine.wiki/principle/BuildIncrementallyWithFastIntegratedLearningCycles"/>
    <updated>2015-06-09T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/principle/BuildIncrementallyWithFastIntegratedLearningCycles</id>
+   <id>http://spine.wiki/principle/BuildIncrementallyWithFastIntegratedLearningCycles</id>
    <content type="html">
 &lt;p&gt;This is the fourth &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
 
@@ -1675,9 +1734,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Base Milestones On Objective Evaluation Of Working Systems</title>
-   <link href="http://spinemodel.github.io/principle/BaseMilestonesOnObjectiveEvaluationOfWorkingSystems"/>
+   <link href="http://spine.wiki/principle/BaseMilestonesOnObjectiveEvaluationOfWorkingSystems"/>
    <updated>2015-06-09T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/principle/BaseMilestonesOnObjectiveEvaluationOfWorkingSystems</id>
+   <id>http://spine.wiki/principle/BaseMilestonesOnObjectiveEvaluationOfWorkingSystems</id>
    <content type="html">
 &lt;p&gt;This is the fifth &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
 
@@ -1687,9 +1746,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Assume Variability; Preserve Options</title>
-   <link href="http://spinemodel.github.io/principle/AssumeVariabilityPreserveOptions"/>
+   <link href="http://spine.wiki/principle/AssumeVariabilityPreserveOptions"/>
    <updated>2015-06-09T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/principle/AssumeVariabilityPreserveOptions</id>
+   <id>http://spine.wiki/principle/AssumeVariabilityPreserveOptions</id>
    <content type="html">
 &lt;p&gt;This is the third &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
 
@@ -1700,9 +1759,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Apply Systems Thinking</title>
-   <link href="http://spinemodel.github.io/principle/ApplySystemsThinking"/>
+   <link href="http://spine.wiki/principle/ApplySystemsThinking"/>
    <updated>2015-06-09T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/principle/ApplySystemsThinking</id>
+   <id>http://spine.wiki/principle/ApplySystemsThinking</id>
    <content type="html">
 &lt;p&gt;This is the second &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
 
@@ -1713,9 +1772,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Apply cadence, synchronize with cross-domain planning</title>
-   <link href="http://spinemodel.github.io/principle/ApplyCadenceSynchronizeWithCrossDomainPlanning"/>
+   <link href="http://spine.wiki/principle/ApplyCadenceSynchronizeWithCrossDomainPlanning"/>
    <updated>2015-06-09T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/principle/ApplyCadenceSynchronizeWithCrossDomainPlanning</id>
+   <id>http://spine.wiki/principle/ApplyCadenceSynchronizeWithCrossDomainPlanning</id>
    <content type="html">
 &lt;p&gt;This is the seventh &lt;a href=&quot;/principles.html&quot;&gt;Principle&lt;/a&gt; of &lt;a href=&quot;/archetype/SAFe/&quot;&gt;SAFe&lt;/a&gt;.&lt;/p&gt;
 
@@ -1726,23 +1785,19 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Can I contribute to Spine Wiki?</title>
-   <link href="http://spinemodel.github.io/faq/Contribute"/>
+   <link href="http://spine.wiki/faq/Contribute"/>
    <updated>2015-06-01T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/faq/Contribute</id>
+   <id>http://spine.wiki/faq/Contribute</id>
    <content type="html">
-&lt;p&gt;We welcome contributions to the Spine Wiki. &lt;/p&gt;
-
-&lt;p&gt;If you would like to submit something, please contact Kevin at kevint@drivenalliance.com.&lt;/p&gt;
-
-&lt;p&gt;If you are comforable with git and markdown, you can go directly &lt;a href=&quot;https://github.com/SpineModel/spinemodel.github.io&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We welcome contributions to the Spine Wiki. Please take a look at &lt;a href=&quot;/explanation/Contribution&quot;&gt;the guidelines on how to contribute&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Team Retrospective</title>
-   <link href="http://spinemodel.github.io/practice/TeamRetrospective"/>
+   <link href="http://spine.wiki/practice/TeamRetrospective"/>
    <updated>2015-05-30T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/practice/TeamRetrospective</id>
+   <id>http://spine.wiki/practice/TeamRetrospective</id>
    <content type="html">
 &lt;h2 id=&quot;what-is-it&quot;&gt;What is it?&lt;/h2&gt;
 &lt;p&gt;One of the most important practices for teams that are applying the Principle of “Inspect and Adapt”.&lt;/p&gt;
@@ -1780,9 +1835,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Team Cognitive Load Tracker</title>
-   <link href="http://spinemodel.github.io/tool/CognitiveLoadTracker"/>
+   <link href="http://spine.wiki/tool/CognitiveLoadTracker"/>
    <updated>2015-05-30T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/tool/CognitiveLoadTracker</id>
+   <id>http://spine.wiki/tool/CognitiveLoadTracker</id>
    <content type="html">
 &lt;h2 id=&quot;what-is-it&quot;&gt;What is it?&lt;/h2&gt;
 &lt;p&gt;A way of gathering data on what work is interrupting people on a team and consuming their time and attention.&lt;/p&gt;
@@ -1811,9 +1866,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Human needs according to NVC</title>
-   <link href="http://spinemodel.github.io/need/NVCNeeds"/>
+   <link href="http://spine.wiki/need/NVCNeeds"/>
    <updated>2015-05-28T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/need/NVCNeeds</id>
+   <id>http://spine.wiki/need/NVCNeeds</id>
    <content type="html">
 &lt;p&gt;According to NVC, humans all have the following needs…&lt;/p&gt;
 
@@ -1924,9 +1979,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Pull Work Through the System</title>
-   <link href="http://spinemodel.github.io/principle/PullWorkThroughTheSystem"/>
+   <link href="http://spine.wiki/principle/PullWorkThroughTheSystem"/>
    <updated>2015-05-24T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/principle/PullWorkThroughTheSystem</id>
+   <id>http://spine.wiki/principle/PullWorkThroughTheSystem</id>
    <content type="html">
 &lt;p&gt;&lt;a href=&quot;/explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
 
@@ -1935,9 +1990,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Heuristics</title>
-   <link href="http://spinemodel.github.io/explanation/Heuristics"/>
+   <link href="http://spine.wiki/explanation/Heuristics"/>
    <updated>2015-05-24T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/explanation/Heuristics</id>
+   <id>http://spine.wiki/explanation/Heuristics</id>
    <content type="html">
 &lt;p&gt;&lt;a href=&quot;/faq/WhatIsASystem&quot;&gt;System&lt;/a&gt; boundaries can be put in place by providing heuristic rules to govern a particular principle.&lt;/p&gt;
 
@@ -1958,9 +2013,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Batch Size</title>
-   <link href="http://spinemodel.github.io/principle/BatchSize"/>
+   <link href="http://spine.wiki/principle/BatchSize"/>
    <updated>2015-05-24T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/principle/BatchSize</id>
+   <id>http://spine.wiki/principle/BatchSize</id>
    <content type="html">
 &lt;h2 id=&quot;optimum-batch-size&quot;&gt;Optimum batch size&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/images/optimum_batch_size.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
@@ -1979,9 +2034,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Kanban</title>
-   <link href="http://spinemodel.github.io/archetype/Kanban"/>
+   <link href="http://spine.wiki/archetype/Kanban"/>
    <updated>2015-05-23T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/archetype/Kanban</id>
+   <id>http://spine.wiki/archetype/Kanban</id>
    <content type="html">
 &lt;p&gt;&lt;a href=&quot;/explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
 </content>
@@ -1989,9 +2044,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Feature Driven Development (FDD)</title>
-   <link href="http://spinemodel.github.io/archetype/FDD"/>
+   <link href="http://spine.wiki/archetype/FDD"/>
    <updated>2015-05-23T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/archetype/FDD</id>
+   <id>http://spine.wiki/archetype/FDD</id>
    <content type="html">
 &lt;p&gt;&lt;a href=&quot;/explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
 </content>
@@ -1999,9 +2054,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Dynamic Systems Development Method (DSDM)</title>
-   <link href="http://spinemodel.github.io/archetype/DSDM"/>
+   <link href="http://spine.wiki/archetype/DSDM"/>
    <updated>2015-05-23T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/archetype/DSDM</id>
+   <id>http://spine.wiki/archetype/DSDM</id>
    <content type="html">
 &lt;p&gt;&lt;a href=&quot;/explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
 </content>
@@ -2009,9 +2064,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Disciplined Agile Delivery (DAD)</title>
-   <link href="http://spinemodel.github.io/archetype/DAD"/>
+   <link href="http://spine.wiki/archetype/DAD"/>
    <updated>2015-05-23T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/archetype/DAD</id>
+   <id>http://spine.wiki/archetype/DAD</id>
    <content type="html">
 &lt;h2 id=&quot;needs&quot;&gt;Needs&lt;/h2&gt;
 &lt;p&gt;“The Disciplined Agile Delivery (DAD) process decision framework  is a people-first, learning-oriented hybrid agile approach to IT solution delivery. It has a risk-value delivery lifecycle, is goal-driven, is enterprise aware, and is scalable.”&lt;/p&gt;
@@ -2024,9 +2079,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Crystal</title>
-   <link href="http://spinemodel.github.io/archetype/Crystal"/>
+   <link href="http://spine.wiki/archetype/Crystal"/>
    <updated>2015-05-23T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/archetype/Crystal</id>
+   <id>http://spine.wiki/archetype/Crystal</id>
    <content type="html">
 &lt;p&gt;&lt;a href=&quot;/explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
 </content>
@@ -2034,9 +2089,9 @@ A gentle introduction&lt;/a&gt; - Don Wells&lt;/li&gt;
  
  <entry>
    <title>Core Working Hours</title>
-   <link href="http://spinemodel.github.io/practice/CoreWorkingHours"/>
+   <link href="http://spine.wiki/practice/CoreWorkingHours"/>
    <updated>2015-05-23T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/practice/CoreWorkingHours</id>
+   <id>http://spine.wiki/practice/CoreWorkingHours</id>
    <content type="html">
 &lt;p&gt;Core working hours are the block of hours in which the members of the team agree to be working as a team every working day. It is useful to get upfront agreement on when these are to ensure that the team has productive working time together.&lt;/p&gt;
 
@@ -2054,9 +2109,9 @@ me sound like an extremely old man, but let me explain:&lt;/p&gt;
  
  <entry>
    <title>Openness</title>
-   <link href="http://spinemodel.github.io/value/Openness"/>
+   <link href="http://spine.wiki/value/Openness"/>
    <updated>2015-05-14T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/value/Openness</id>
+   <id>http://spine.wiki/value/Openness</id>
    <content type="html">
 &lt;h2 id=&quot;as-defined-in-scrumarchetypescrum&quot;&gt;As defined in &lt;a href=&quot;/archetype/SCRUM/&quot;&gt;SCRUM&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;As we work together, we express how we’re doing, what’s in our way, and our concerns so they can be addressed.&lt;/p&gt;
@@ -2067,9 +2122,9 @@ me sound like an extremely old man, but let me explain:&lt;/p&gt;
  
  <entry>
    <title>Focus</title>
-   <link href="http://spinemodel.github.io/value/Focus"/>
+   <link href="http://spine.wiki/value/Focus"/>
    <updated>2015-05-14T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/value/Focus</id>
+   <id>http://spine.wiki/value/Focus</id>
    <content type="html">
 &lt;h2 id=&quot;as-defined-in-scrumarchetypescrum&quot;&gt;As defined in &lt;a href=&quot;/archetype/SCRUM/&quot;&gt;SCRUM&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Because we focus on only a few things at a time, we work well together and produce excellent work. We deliver valuable items sooner.&lt;/p&gt;
@@ -2080,9 +2135,9 @@ me sound like an extremely old man, but let me explain:&lt;/p&gt;
  
  <entry>
    <title>Commitment</title>
-   <link href="http://spinemodel.github.io/value/Commitment"/>
+   <link href="http://spine.wiki/value/Commitment"/>
    <updated>2015-05-14T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/value/Commitment</id>
+   <id>http://spine.wiki/value/Commitment</id>
    <content type="html">
 &lt;h2 id=&quot;as-defined-in-scrumarchetypescrum&quot;&gt;As defined in &lt;a href=&quot;/archetype/SCRUM/&quot;&gt;SCRUM&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Because we have great control over our own destiny, we are more committed to success.&lt;/p&gt;
@@ -2093,9 +2148,9 @@ me sound like an extremely old man, but let me explain:&lt;/p&gt;
  
  <entry>
    <title>Simplicity</title>
-   <link href="http://spinemodel.github.io/value/Simplicity"/>
+   <link href="http://spine.wiki/value/Simplicity"/>
    <updated>2015-05-13T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/value/Simplicity</id>
+   <id>http://spine.wiki/value/Simplicity</id>
    <content type="html">
 &lt;h2 id=&quot;as-defined-in-extreme-programming-xparchetypexp&quot;&gt;As defined in &lt;a href=&quot;/archetype/XP/&quot;&gt;eXtreme Programming (XP)&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;We will do what is needed and asked for, but no more. This will maximize the value created for the investment made to date. We will take small simple steps to our goal and mitigate failures as they happen. We will create something we are proud of and maintain it long term for reasonable costs. &lt;/p&gt;
@@ -2106,9 +2161,9 @@ me sound like an extremely old man, but let me explain:&lt;/p&gt;
  
  <entry>
    <title>Respect</title>
-   <link href="http://spinemodel.github.io/value/Respect"/>
+   <link href="http://spine.wiki/value/Respect"/>
    <updated>2015-05-13T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/value/Respect</id>
+   <id>http://spine.wiki/value/Respect</id>
    <content type="html">
 &lt;h2 id=&quot;as-defined-in-extreme-programming-xparchetypexp&quot;&gt;As defined in &lt;a href=&quot;/archetype/XP/&quot;&gt;eXtreme Programming (XP)&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Everyone gives and feels the respect they deserve as a valued team member. Everyone contributes value even if it’s simply enthusiasm. Developers respect the expertise of the customers and vice versa. Management respects our right to accept responsibility and receive authority over our own work.&lt;/p&gt;
@@ -2124,9 +2179,9 @@ me sound like an extremely old man, but let me explain:&lt;/p&gt;
  
  <entry>
    <title>Feedback</title>
-   <link href="http://spinemodel.github.io/value/Feedback"/>
+   <link href="http://spine.wiki/value/Feedback"/>
    <updated>2015-05-13T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/value/Feedback</id>
+   <id>http://spine.wiki/value/Feedback</id>
    <content type="html">
 &lt;h2 id=&quot;as-defined-in-extreme-programming-xparchetypexp&quot;&gt;As defined in &lt;a href=&quot;/archetype/XP/&quot;&gt;eXtreme Programming (XP)&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;We will take every iteration commitment seriously by delivering working software. We demonstrate our software early and often then listen carefully and make any changes needed. We will talk about the project and adapt our process to it, not the other way around.&lt;/p&gt;
@@ -2137,9 +2192,9 @@ me sound like an extremely old man, but let me explain:&lt;/p&gt;
  
  <entry>
    <title>Courage</title>
-   <link href="http://spinemodel.github.io/value/Courage"/>
+   <link href="http://spine.wiki/value/Courage"/>
    <updated>2015-05-13T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/value/Courage</id>
+   <id>http://spine.wiki/value/Courage</id>
    <content type="html">
 &lt;h2 id=&quot;as-defined-in-extreme-programming-xparchetypexp&quot;&gt;As defined in &lt;a href=&quot;/archetype/XP/&quot;&gt;eXtreme Programming (XP)&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;We will tell the truth about progress and estimates. We don’t document excuses for failure because we plan to succeed. We don’t fear anything because no one ever works alone. We will adapt to changes when ever they happen.&lt;/p&gt;
@@ -2155,9 +2210,9 @@ me sound like an extremely old man, but let me explain:&lt;/p&gt;
  
  <entry>
    <title>Capacity of a work system</title>
-   <link href="http://spinemodel.github.io/principle/CapacityOfAWorkSystem"/>
+   <link href="http://spine.wiki/principle/CapacityOfAWorkSystem"/>
    <updated>2015-05-13T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/principle/CapacityOfAWorkSystem</id>
+   <id>http://spine.wiki/principle/CapacityOfAWorkSystem</id>
    <content type="html">
 &lt;p&gt;Counterintuitively, the way for more work to be completed in a &lt;a href=&quot;/faq/WhatIsASystem&quot;&gt;work system&lt;/a&gt; is not for everyone to work harder. You first need to understand the capacity of the system to move the work from start to finished…&lt;/p&gt;
 
@@ -2180,9 +2235,9 @@ me sound like an extremely old man, but let me explain:&lt;/p&gt;
  
  <entry>
    <title>Communication</title>
-   <link href="http://spinemodel.github.io/value/communication"/>
+   <link href="http://spine.wiki/value/communication"/>
    <updated>2015-05-12T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/value/communication</id>
+   <id>http://spine.wiki/value/communication</id>
    <content type="html">
 &lt;h2 id=&quot;as-defined-in-extreme-programming-xparchetypexp&quot;&gt;As defined in &lt;a href=&quot;/archetype/XP/&quot;&gt;eXtreme Programming (XP)&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Everyone is part of the team and we communicate face to face daily. We will work together on everything from requirements to code. We will create the best solution to our problem that we can together.&lt;/p&gt;
@@ -2193,9 +2248,9 @@ me sound like an extremely old man, but let me explain:&lt;/p&gt;
  
  <entry>
    <title>Scrum Product Owner</title>
-   <link href="http://spinemodel.github.io/practice/ScrumProductOwner"/>
+   <link href="http://spine.wiki/practice/ScrumProductOwner"/>
    <updated>2015-05-12T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/practice/ScrumProductOwner</id>
+   <id>http://spine.wiki/practice/ScrumProductOwner</id>
    <content type="html">
 &lt;p&gt;The Product Owner is responsible for maximizing the value of the product and the work of the Development Team. How this is done may vary widely across organizations, &lt;a href=&quot;/archetype/SCRUM/&quot;&gt;SCRUM&lt;/a&gt; Teams, and individuals.&lt;/p&gt;
 
@@ -2221,9 +2276,9 @@ me sound like an extremely old man, but let me explain:&lt;/p&gt;
  
  <entry>
    <title>Scrum Master</title>
-   <link href="http://spinemodel.github.io/practice/ScrumMaster"/>
+   <link href="http://spine.wiki/practice/ScrumMaster"/>
    <updated>2015-05-12T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/practice/ScrumMaster</id>
+   <id>http://spine.wiki/practice/ScrumMaster</id>
    <content type="html">
 &lt;p&gt;The Scrum Master is responsible for ensuring &lt;a href=&quot;/archetype/SCRUM/&quot;&gt;SCRUM&lt;/a&gt; is understood and enacted. Scrum Masters do this by ensuring that the Scrum Team adheres to Scrum theory, practices, and rules.&lt;/p&gt;
 
@@ -2269,9 +2324,9 @@ me sound like an extremely old man, but let me explain:&lt;/p&gt;
  
  <entry>
    <title>Resource vs Flow Optimisation</title>
-   <link href="http://spinemodel.github.io/principle/ResourceVsFlowOptimisation"/>
+   <link href="http://spine.wiki/principle/ResourceVsFlowOptimisation"/>
    <updated>2015-05-12T00:00:00+02:00</updated>
-   <id>http://spinemodel.github.io/principle/ResourceVsFlowOptimisation</id>
+   <id>http://spine.wiki/principle/ResourceVsFlowOptimisation</id>
    <content type="html">
 &lt;p&gt;&lt;a href=&quot;/explanation/TODO&quot;&gt;To Do&lt;/a&gt;&lt;/p&gt;
 </content>
