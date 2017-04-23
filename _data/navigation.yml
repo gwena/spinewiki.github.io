@@ -3,7 +3,7 @@
   href: "/"
   subcategories:
     - subtitle: "What is it?"
-      subhref: "http://spinemodel.info"
+      subhref: "/faq/Learn/"
     - subtitle: "FAQs"
       subhref: "/faq.html"
     - subtitle: "Tags"
